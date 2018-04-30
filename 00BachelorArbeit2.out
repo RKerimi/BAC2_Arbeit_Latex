@@ -1,0 +1,61 @@
+\BOOKMARK [0][-]{chapter*.6}{Abk\374rzungsverzeichnis}{}% 1
+\BOOKMARK [0][-]{chapter*.7}{Abbildungsverzeichnis}{}% 2
+\BOOKMARK [0][-]{chapter*.8}{Tabellenverzeichnis}{}% 3
+\BOOKMARK [0][-]{chapter*.9}{Listingverzeichnis}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Zielsetzung}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{OpenNES}{}% 8
+\BOOKMARK [1][-]{section.2.1}{OpenNES SmartOS}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Basisfunktionen}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Softwarekomponenten}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Sicherheitsmodul}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{Virtual Functional Bus}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.6}{Registrierung}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.7}{Connectivity Modul}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Basistechnologien}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Modbus Protokoll}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{Geschichte}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.2}{Grundlagen}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.3}{Protokollaufbau}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.4}{Modbus Datenmodell}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.5}{Funktionscodes}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.6}{ModBus TCP/IP}{section.3.1}% 23
+\BOOKMARK [1][-]{section.3.2}{SunSpec}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{\334bersicht}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.2}{SunSpec Informationsmodell}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.3}{SunSpec Datentypen}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.4}{Register Mapping}{section.3.2}% 28
+\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 29
+\BOOKMARK [1][-]{section.4.1}{\334bersicht Adapter Pattern}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Anforderungsanalyse}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Umsetzung}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{SunSpecDataType}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.4}{Status}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.5}{Remoteaddress}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.6}{Dataobject}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.7}{Result}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.8}{ModbusTCPAdapter}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.8.1}{Grundeinstellungen}{section.5.8}% 41
+\BOOKMARK [2][-]{subsection.5.8.2}{ConnectionParameter}{section.5.8}% 42
+\BOOKMARK [2][-]{subsection.5.8.3}{SplitString}{section.5.8}% 43
+\BOOKMARK [1][-]{section.5.9}{Push Funktion \(send\)}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.10}{Request-Response Funktion \(request\)}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.11}{Publish-Subscribe Funktion \(subscribe, unsubscribe\)}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.11.1}{Connectivity Modul}{section.5.11}% 47
+\BOOKMARK [2][-]{subsection.5.11.2}{Subscriber}{section.5.11}% 48
+\BOOKMARK [2][-]{subsection.5.11.3}{Observer}{section.5.11}% 49
+\BOOKMARK [2][-]{subsection.5.11.4}{Grabber}{section.5.11}% 50
+\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 51
+\BOOKMARK [1][-]{section.6.1}{Virtual Machine Management}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.2}{Ausgangsbedingungen und Abgrenzungen}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.2.1}{Modbus Server}{section.6.2}% 54
+\BOOKMARK [1][-]{section.6.3}{Push1-N \(send\)}{chapter.6}% 55
+\BOOKMARK [2][-]{subsection.6.3.1}{Ausgangssituation}{section.6.3}% 56
+\BOOKMARK [2][-]{subsection.6.3.2}{Test}{section.6.3}% 57
+\BOOKMARK [2][-]{subsection.6.3.3}{Testende}{section.6.3}% 58
+\BOOKMARK [1][-]{section.6.4}{Request-Response \(request\)}{chapter.6}% 59
+\BOOKMARK [2][-]{subsection.6.4.1}{Test}{section.6.4}% 60
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 61

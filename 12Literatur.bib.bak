@@ -1,0 +1,246 @@
+% Encoding: UTF-8
+
+@InProceedings{OpenNES,
+  author    = {F. Pröstl-Andrén and T. Strasser and O. Langthaler and A. Veichtlbauer and C. Kasberger and G. Fellbauer},
+  title     = {Open and interoperable ICT solution for integrating distributed energy resources into smart grids},
+  booktitle = {2016 IEEE 21st International Conference on Emerging Technologies and Factory Automation (ETFA)},
+  year      = {2016},
+  pages     = {1-4},
+  month     = {Sept},
+  file      = {Open and Interoperable ICT Solution for Integrating Distributed Energy Resources into Smart Grids:C\:\\Users\\Kerimi Refik\\Documents\\FH\\Projekt\\Unterlagen OpenNES PA\\OpenNES Paper 1.pdf:PDF},
+}
+
+@Unpublished{Fronius,
+  author = {F. Pröstl-Andrén and T. Strasser and C. Kasberger and G. Fellbauer and A. Veichtlbauer and O. Langthaler},
+  title  = {OpenNES Open and Interoperable ICT Solution for Integrating ReNewablES},
+  month  = {02},
+  year   = {2016},
+}
+
+@Misc{ModbusFAQ,
+  author       = {{Modbus Organization}},
+  title        = {{Modbus FAQ}},
+  howpublished = {\url{http://www.modbus.org/faq.php} (28.12.2016)},
+}
+
+@Misc{ModbusSpecification,
+  author       = {{Modbus Organization}},
+  title        = {{Modbus Application Protocol Specification V1.1b3}},
+  howpublished = {\url{http://www.modbus.org/specs.php} (28.12.2016)},
+}
+
+@Misc{ModbusTCPImplementation,
+  author       = {{Modbus Organization}},
+  title        = {{Modbus Messaging on TCP/IP Implementation Guide V1.0b}},
+  howpublished = {\url{http://www.modbus.org/specs.php} (28.12.2016)},
+}
+
+@Misc{ModbusTCPNutshell,
+  author       = {{Grid Connect, inc.}},
+  title        = {{Modbus in a Nutshell}},
+  howpublished = {\url{http://gridconnect.com/blog/tag/modbus-explained/} (29.12.2016)},
+}
+
+@Misc{ModbusRTUImplementation,
+  author       = {{Modbus Organization}},
+  title        = {{Modbus over Serial Line Specification and Implementation Guide V1.02}},
+  howpublished = {\url{http://www.modbus.org/specs.php} (29.12.2016)},
+}
+
+@Misc{SunspecOverview,
+  author       = {{SunSpec Alliance}},
+  title        = {{SunSpec Techonology Overview}},
+  howpublished = {\url{http://sunspec.org/download/} (29.12.2016)},
+}
+
+@Misc{SunspecInformationModelSpecification,
+  author       = {{SunSpec Alliance}},
+  title        = {{SunSpec Information Models}},
+  howpublished = {\url{http://sunspec.org/download/} (29.12.2016)},
+}
+
+@Misc{ModbusSunSpecFronius,
+  author       = {{Fronius}},
+  title        = {{Fronius Modbus TCP connection}},
+  howpublished = {\url{http://www.fronius.com/cps/rde/xchg/fronius_international/hs.xsl/83_33732_ENG_HTML.htm} (02.01.2017)},
+}
+
+@Misc{Modbus4j,
+  author       = {{Infinite Automation}},
+  title        = {{modbus4j}},
+  howpublished = {\url{https://github.com/infiniteautomation/modbus4j} (05.01.2017)},
+}
+
+@Book{Hohpe:2003:EIP:940308,
+  title     = {Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions},
+  publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+  year      = {2003},
+  author    = {Hohpe, Gregor and Woolf, Bobby},
+  address   = {Boston, MA, USA},
+  isbn      = {0321200683},
+}
+
+@InProceedings{Duan:2005:PVP:1251282.1251286,
+  author    = {Duan, Zhenhai and Gopalan, Kartik and Dong, Yingfei},
+  title     = {Push vs. Pull: Implications of Protocol Design on Controlling Unwanted Traffic},
+  booktitle = {Proceedings of the Steps to Reducing Unwanted Traffic on the Internet on Steps to Reducing Unwanted Traffic on the Internet Workshop},
+  year      = {2005},
+  series    = {SRUTI'05},
+  pages     = {4--4},
+  address   = {Berkeley, CA, USA},
+  publisher = {USENIX Association},
+  acmid     = {1251286},
+  location  = {Cambridge, MA},
+  numpages  = {1},
+}
+
+@Book{GOF,
+  title     = {Design Patterns -- Elements of Reusable Object-Oriented Software},
+  publisher = {Addison-Wesley Longman},
+  year      = {1995},
+  author    = {Gamma, Erich and Helm, Richard and Johnson, Ralph and Vlissides, John},
+  address   = {Amsterdam},
+  edition   = {1},
+  isbn      = {0201633612},
+  note      = {37. Reprint (2009)},
+  file      = {:/Users/rkerimi/Documents/FH/Projekt/BAC1/Unterlagen OpenNES PA/Massagingpattern/gof_Design_Pattern.pdf:PDF},
+  quality   = {5},
+}
+
+@Misc{SimplyModbus,
+  author       = {{Simply Modbus}},
+  title        = {{Modbus TCP/IP}},
+  howpublished = {\url{http://www.simplymodbus.ca/TCP.htm} (30.01.2017)},
+}
+
+@Book{clarke2004practical,
+  title     = {Practical Modern SCADA Protocols: DNP3, 60870.5 and Related Systems},
+  publisher = {Elsevier},
+  year      = {2004},
+  author    = {Clarke, G.R. and Reynders, D. and Wright, E.},
+  series    = {Engineering : instrumentation \& control},
+  isbn      = {9780750657990},
+  lccn      = {2005299232},
+}
+
+@Book{ullenboom2016java,
+  title     = {Java ist auch eine Insel: Einführung, Ausbildung, Praxis},
+  publisher = {Rheinwerk Verlag GmbH},
+  year      = {2016},
+  author    = {Ullenboom, C.},
+  address   = {Bonn},
+  edition   = {12},
+  isbn      = {9783836241199},
+}
+
+@Book{ekanayake2012smart,
+  title     = {Smart Grid: Technology and Applications},
+  publisher = {Wiley},
+  year      = {2012},
+  author    = {Ekanayake, J. and Jenkins, N. and Liyanage, K. and Wu, J. and Yokoyama, A.},
+  isbn      = {9781119968689},
+}
+
+@Book{Freeman,
+  title     = {Entwurfsmuster von Kopf bis Fuß},
+  publisher = {O' Reilly \& Associates, Inc.},
+  year      = {2006},
+  author    = {Freeman, Elisabeth and Freeman, Eric and Bates, Bert and Sierra, Kathy},
+  address   = {Köln},
+  edition   = {1},
+  isbn      = {9783897214217},
+}
+
+@Book{marshall2005industrial,
+  title     = {Industrial Ethernet: How to Plan, Install, and Maintain TCP/IP Ethernet Networks : the Basic Reference Guide for Automation and Process Control Engineers},
+  publisher = {ISA},
+  year      = {2005},
+  author    = {Marshall, P.S. and Rinaldi, J.S.},
+  isbn      = {9781556178924},
+  lccn      = {2004019923},
+}
+
+@Book{schleicher2005digitale,
+  title     = {Digitale Schnittstellen und Bussysteme: Grundlagen und praktische Hinweise zur Anbindung von Feldgeräten an Modbus, PROFIBUS-DP, ETHERNET, CANopen und HART},
+  publisher = {JUMO},
+  year      = {2005},
+  author    = {Schleicher, M.},
+  series    = {Messen - regeln - registrieren},
+  isbn      = {9783935742023},
+}
+
+@Book{wilamowski2011industrial,
+  title     = {The Industrial Electronics Handbook, Second Edition - Five Volume Set},
+  publisher = {Taylor \& Francis},
+  year      = {2011},
+  author    = {Wilamowski, B.M. and Irwin, J.D.},
+  editor    = {Mário de Sousa and Paulo Portugal},
+  series    = {Electrical Engineering Handbook},
+  address   = {Boca Raton},
+  isbn      = {9781439802816},
+}
+
+@InBook{AdaptPattern,
+  chapter   = {The Adapter Pattern},
+  pages     = {95-108},
+  title     = {Design Patterns Explained: A New Perspective on Object-Oriented Design},
+  publisher = {Pearson Education},
+  year      = {2004},
+  author    = {A. Shalloway and J. R. Trott},
+}
+
+@Article{DERs,
+  author   = {Y. Yan and Y. Qian and H. Sharif and D. Tipper},
+  title    = {A Survey on Smart Grid Communication Infrastructures: Motivations, Requirements and Challenges},
+  journal  = {IEEE Communications Surveys Tutorials},
+  year     = {2013},
+  volume   = {15},
+  number   = {1},
+  pages    = {5-20},
+  month    = {First},
+  issn     = {1553-877X},
+  doi      = {10.1109/SURV.2012.021312.00034},
+  keywords = {smart power grids;pervasive communication infrastructure;power quality;power reliability;scalable communication infrastructure;smart grid communication;Computer security;Control systems;Intelligent networks;Monitoring;Power system planning;Real time systems;Smart grids;Smart grid;communication infrastructure;cyber security;intelligent network;interconnected power system;monitoring;sensing},
+}
+
+@Article{SmartGrids,
+  author   = {V. C. Gungor and D. Sahin and T. Kocak and S. Ergut and C. Buccella and C. Cecati and G. P. Hancke},
+  title    = {A Survey on Smart Grid Potential Applications and Communication Requirements},
+  journal  = {IEEE Transactions on Industrial Informatics},
+  year     = {2013},
+  volume   = {9},
+  number   = {1},
+  pages    = {28-42},
+  month    = {Feb},
+  issn     = {1551-3203},
+  doi      = {10.1109/TII.2012.2218253},
+  keywords = {energy storage;investment;power distribution reliability;power generation reliability;smart power grids;substations;communication infrastructure;communication requirements;communication technology;distributed elements;energy storage systems;generators;investment return;management system;real time data exchange;reliability;smart grid;substations;tnformation technology;Communication networks;Monitoring;Reliability;Smart grids;Substations;Wide area networks;Advanced Metering Infrastructure (AMI);demand Response;smart Grid Communications},
+}
+
+@Misc{StatistikAustria,
+  author       = {{Statistik Austria}},
+  title        = {{Gesamtenergiebilanz Österreich 1970 bis 2015}},
+  howpublished = {\url{http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/energie_und_umwelt/energie/energiebilanzen/index.html} (07.02.2017)},
+}
+
+@InProceedings{securityByDesign,
+  author    = {A. Veichtlbauer and O. Langthaler and D. Engel and C. Kasberger and F. Pröstl Andrén and T. Strasser},
+  title     = {Towards applied Security-by-Design for DER units},
+  booktitle = {2016 IEEE 21st International Conference on Emerging Technologies and Factory Automation (ETFA)},
+  year      = {2016},
+  pages     = {1-4},
+  month     = {Sept},
+  doi       = {10.1109/ETFA.2016.7733681},
+  keywords  = {Internet;distributed power generation;power engineering computing;power system security;smart power grids;DER units;Internet;SbD;communication architectures;distributed energy resources;electricity supply;malicious attackers;photovoltaic-battery systems;private households;security risks;security subsystem;security-by-design;smart grid information;Computer architecture;Density estimation robust algorithm;Encryption;Internet;Smart grids;Software},
+}
+
+@InProceedings{fovino2009design,
+  author       = {Fovino, Igor Nai and Carcano, Andrea and Masera, Marcelo and Trombetta, Alberto},
+  title        = {Design and implementation of a secure modbus protocol},
+  booktitle    = {International Conference on Critical Infrastructure Protection},
+  year         = {2009},
+  pages        = {83--96},
+  organization = {Springer},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
