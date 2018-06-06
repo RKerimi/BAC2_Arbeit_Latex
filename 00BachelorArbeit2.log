@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.4)  30 APR 2018 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.4)  31 MAY 2018 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1238,6 +1238,13 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 Package acronym Info: Label `acro:AIT' newly defined as it shall be overridden
 although it is yet undefined on input line 27.
+
+
+Package acronym Warning: Acronym `AIT' is not defined on input line 27.
+
+
+Package acronym Warning: Acronym `AIT' is not defined on input line 27.
+
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 39.
@@ -1468,45 +1475,93 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
 Package natbib Warning: Citation `StatistikAustria' on page 1 undefined on inpu
-t line 7.
+t line 14.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 20.
 
-Package natbib Warning: Citation `DERs' on page 1 undefined on input line 14.
+Package acronym Warning: Acronym `DER' is not defined on input line 21.
+
+
+Package acronym Warning: Acronym `DER' is not defined on input line 21.
+
+
+Package natbib Warning: Citation `DERs' on page 1 undefined on input line 21.
 
 
 Package natbib Warning: Citation `SmartGrids' on page 1 undefined on input line
- 14.
+ 21.
+
+
+Package acronym Warning: Acronym `DER' is not defined on input line 22.
+
+
+Package acronym Warning: Acronym `AIT' is not defined on input line 24.
+
+
+Package acronym Warning: Acronym `AIT' is not defined on input line 24.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 \newpage
-              [1
+l.26 
+      [1
 
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \newpage
+              [2]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 29.
+
+
+Package acronym Warning: Acronym `PA' is not defined on input line 30.
+
 Package acronym Info: Label `acro:IED' newly defined as it shall be overridden
-although it is yet undefined on input line 24.
+although it is yet undefined on input line 31.
+
+Package acronym Warning: Acronym `IED' is not defined on input line 31.
+
+
+Package acronym Warning: Acronym `IED' is not defined on input line 31.
+
 Package acronym Info: Label `acro:SED' newly defined as it shall be overridden
-although it is yet undefined on input line 24.
+although it is yet undefined on input line 31.
+
+Package acronym Warning: Acronym `SED' is not defined on input line 31.
+
+
+Package acronym Warning: Acronym `SED' is not defined on input line 31.
+
+
+Package acronym Warning: Acronym `PA' is not defined on input line 32.
+
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 65.
@@ -1516,12 +1571,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 65.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.65 \include{11Einleitung}
-                            [2]
+                            [3]
 \openout2 = `11Grundlagen.aux'.
 
  (./11Grundlagen.tex
@@ -1531,214 +1586,295 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
-Package natbib Warning: Citation `DERs' on page 3 undefined on input line 7.
+Package natbib Warning: Citation `DERs' on page 4 undefined on input line 7.
+
+
+Package acronym Warning: Acronym `DER' is not defined on input line 13.
+
+
+Package natbib Warning: Citation `DERs' on page 4 undefined on input line 13.
 
 Package acronym Info: Label `acro:SGSY' newly defined as it shall be overridden
 
-although it is yet undefined on input line 8.
+although it is yet undefined on input line 14.
 
-Package natbib Warning: Citation `Fronius' on page 3 undefined on input line 10
+Package acronym Warning: Acronym `SGSY' is not defined on input line 14.
+
+
+Package acronym Warning: Acronym `SGSY' is not defined on input line 14.
+
+
+Package acronym Warning: Acronym `IKT' is not defined on input line 15.
+
+
+Package natbib Warning: Citation `Fronius' on page 4 undefined on input line 16
 .
 
 
-Package natbib Warning: Citation `SmartGrids' on page 3 undefined on input line
- 10.
+Package acronym Warning: Acronym `IKT' is not defined on input line 16.
 
-<BilderAllgemein/OpenNES_architecture.jpg, id=507, 497.60907pt x 365.11406pt>
+
+Package acronym Warning: Acronym `SGSY' is not defined on input line 16.
+
+
+Package natbib Warning: Citation `SmartGrids' on page 4 undefined on input line
+ 16.
+
+
+Package acronym Warning: Acronym `DER' is not defined on input line 16.
+
+
+Package acronym Warning: Acronym `DER' is not defined on input line 17.
+
+
+Package acronym Warning: Acronym `SGSY' is not defined on input line 18.
+
+<BilderAllgemein/OpenNES_architecture.jpg, id=487, 497.60907pt x 365.11406pt>
 File: BilderAllgemein/OpenNES_architecture.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/OpenNES_architecture.jpg>
 Package pdftex.def Info: BilderAllgemein/OpenNES_architecture.jpg used on input
- line 18.
+ line 24.
 (pdftex.def)             Requested size: 398.33858pt x 292.28105pt.
 
 
-Package natbib Warning: Citation `OpenNES' on page 3 undefined on input line 19
+Package natbib Warning: Citation `OpenNES' on page 4 undefined on input line 25
 .
 
 
-Package natbib Warning: Citation `OpenNES' on page 3 undefined on input line 19
+Package natbib Warning: Citation `OpenNES' on page 4 undefined on input line 25
 .
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
 
-Package natbib Warning: Citation `Fronius' on page 3 undefined on input line 25
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 30.
+
+Package natbib Warning: Citation `Fronius' on page 4 undefined on input line 31
 .
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 \begin{itemize}
-                     [3
 
+Package acronym Warning: Acronym `DER' is not defined on input line 32.
 
-
- <./BilderAllgemein/OpenNES_architecture.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 29.
-
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 35.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 35.
 Package acronym Info: Label `acro:SWK' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
+although it is yet undefined on input line 36.
 
-<BilderAllgemein/ON_Smart_OS.jpg, id=517, 907.89188pt x 518.6878pt>
+
+Package acronym Warning: Acronym `SWK' is not defined on input line 36.
+
+
+Package acronym Warning: Acronym `SWK' is not defined on input line 36.
+
+
+Package acronym Warning: Acronym `SWK' is not defined on input line 37.
+
+<BilderAllgemein/ON_Smart_OS.jpg, id=489, 907.89188pt x 518.6878pt>
 File: BilderAllgemein/ON_Smart_OS.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/ON_Smart_OS.jpg>
-Package pdftex.def Info: BilderAllgemein/ON_Smart_OS.jpg used on input line 39.
+Package pdftex.def Info: BilderAllgemein/ON_Smart_OS.jpg used on input line 45.
 
 (pdftex.def)             Requested size: 398.33858pt x 227.57434pt.
 
 
-Package natbib Warning: Citation `OpenNES' on page 4 undefined on input line 40
+Package natbib Warning: Citation `OpenNES' on page 4 undefined on input line 46
 .
 
 
-Package natbib Warning: Citation `OpenNES' on page 4 undefined on input line 40
+Package natbib Warning: Citation `OpenNES' on page 4 undefined on input line 46
 .
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \newpage
-              [4 <./BilderAllgemein/ON_Smart_OS.jpg>]
+l.51 \newpage
+              [4
+
+
+
+]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 
 
-Package natbib Warning: Citation `OpenNES' on page 5 undefined on input line 47
+Package acronym Warning: Acronym `DER' is not defined on input line 53.
+
+
+Package natbib Warning: Citation `OpenNES' on page 5 undefined on input line 53
 .
 
 Package acronym Info: Label `acro:AGF' newly defined as it shall be overridden
-although it is yet undefined on input line 51.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 53.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 53.
-Package acronym Info: Label `acro:VFB' newly defined as it shall be overridden
 although it is yet undefined on input line 57.
-<BilderAllgemein/SWK.png, id=532, 430.60875pt x 293.095pt>
-File: BilderAllgemein/SWK.png Graphic file (type png)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 59.
 
-<use BilderAllgemein/SWK.png>
-Package pdftex.def Info: BilderAllgemein/SWK.png used on input line 63.
-(pdftex.def)             Requested size: 227.62204pt x 154.93262pt.
-
-
-Package natbib Warning: Citation `Fronius' on page 5 undefined on input line 64
-.
+Package acronym Warning: Acronym `SWK' is not defined on input line 60.
 
 
-Package natbib Warning: Citation `Fronius' on page 5 undefined on input line 64
-.
+Package acronym Warning: Acronym `SWK' is not defined on input line 62.
+
+
+Package acronym Warning: Acronym `SWK' is not defined on input line 63.
+
+Package acronym Info: Label `acro:VFB' newly defined as it shall be overridden
+although it is yet undefined on input line 63.
+
+Package acronym Warning: Acronym `VFB' is not defined on input line 63.
+
+
+Package acronym Warning: Acronym `VFB' is not defined on input line 63.
+
+
+Package acronym Warning: Acronym `DER' is not defined on input line 64.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 65.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 
-      [5]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 68.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 68.
+l.65 
+      [5 <./BilderAllgemein/OpenNES_architecture.jpg>]
+<BilderAllgemein/SWK.png, id=505, 430.60875pt x 293.095pt>
+File: BilderAllgemein/SWK.png Graphic file (type png)
+
+<use BilderAllgemein/SWK.png>
+Package pdftex.def Info: BilderAllgemein/SWK.png used on input line 69.
+(pdftex.def)             Requested size: 227.62204pt x 154.93262pt.
 
 
-Package natbib Warning: Citation `OpenNES' on page 6 undefined on input line 69
+Package natbib Warning: Citation `Fronius' on page 6 undefined on input line 70
 .
 
 
-Package natbib Warning: Citation `securityByDesign' on page 6 undefined on inpu
-t line 69.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
-
-Package natbib Warning: Citation `OpenNES' on page 6 undefined on input line 74
+Package natbib Warning: Citation `Fronius' on page 6 undefined on input line 70
 .
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
-
-Package natbib Warning: Citation `OpenNES' on page 6 undefined on input line 77
-.
-
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 73.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \newpage
-              [6 <./BilderAllgemein/SWK.png>]
+l.73 
+      [6 <./BilderAllgemein/ON_Smart_OS.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 74.
 
-<BilderAllgemein/CN_Module.jpg, id=546, 819.8128pt x 450.9347pt>
+
+Package acronym Warning: Acronym `VFB' is not defined on input line 75.
+
+
+Package natbib Warning: Citation `OpenNES' on page 7 undefined on input line 75
+.
+
+
+Package natbib Warning: Citation `securityByDesign' on page 7 undefined on inpu
+t line 75.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 77.
+
+Package acronym Warning: Acronym `VFB' is not defined on input line 78.
+
+
+Package natbib Warning: Citation `OpenNES' on page 7 undefined on input line 80
+.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 82.
+
+Package acronym Warning: Acronym `IED' is not defined on input line 83.
+
+
+Package natbib Warning: Citation `OpenNES' on page 7 undefined on input line 83
+.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+[7 <./BilderAllgemein/SWK.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 86.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 86.
+
+<BilderAllgemein/CN_Module.jpg, id=516, 819.8128pt x 450.9347pt>
 File: BilderAllgemein/CN_Module.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/CN_Module.jpg>
-Package pdftex.def Info: BilderAllgemein/CN_Module.jpg used on input line 84.
+Package pdftex.def Info: BilderAllgemein/CN_Module.jpg used on input line 90.
 (pdftex.def)             Requested size: 398.33858pt x 219.10902pt.
 
 
-Package natbib Warning: Citation `OpenNES' on page 7 undefined on input line 85
+Package natbib Warning: Citation `OpenNES' on page 8 undefined on input line 91
 .
 
 
-Package natbib Warning: Citation `OpenNES' on page 7 undefined on input line 85
+Package natbib Warning: Citation `OpenNES' on page 8 undefined on input line 91
 .
 
 Package acronym Info: Label `acro:CM' newly defined as it shall be overridden
-although it is yet undefined on input line 89.
+although it is yet undefined on input line 95.
 
-Package natbib Warning: Citation `OpenNES' on page 7 undefined on input line 89
+Package acronym Warning: Acronym `CM' is not defined on input line 95.
+
+
+Package acronym Warning: Acronym `CM' is not defined on input line 95.
+
+
+Package acronym Warning: Acronym `VFB' is not defined on input line 95.
+
+
+Package natbib Warning: Citation `OpenNES' on page 8 undefined on input line 95
 .
 
 )
@@ -1750,7 +1886,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 66.
- [7 <./BilderAllgemein/CN_Module.jpg>]
+ [8 <./BilderAllgemein/CN_Module.jpg>]
 \openout2 = `11BasisTechnologien.aux'.
 
  (./11BasisTechnologien.tex
@@ -1768,7 +1904,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 12.
 
-Package natbib Warning: Citation `ModbusFAQ' on page 8 undefined on input line 
+Package natbib Warning: Citation `ModbusFAQ' on page 9 undefined on input line 
 14.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -1776,10 +1912,10 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 17.
 
-Package natbib Warning: Citation `ModbusSpecification' on page 8 undefined on i
+Package natbib Warning: Citation `ModbusSpecification' on page 9 undefined on i
 nput line 19.
 
-<BilderAllgemein/ModBusUebersicht.jpg, id=555, 633.86812pt x 313.9228pt>
+<BilderAllgemein/ModBusUebersicht.jpg, id=524, 633.86812pt x 313.9228pt>
 File: BilderAllgemein/ModBusUebersicht.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/ModBusUebersicht.jpg>
@@ -1788,11 +1924,11 @@ e 23.
 (pdftex.def)             Requested size: 398.33858pt x 197.28381pt.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 8 undefined on i
+Package natbib Warning: Citation `ModbusSpecification' on page 9 undefined on i
 nput line 24.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 8 undefined on i
+Package natbib Warning: Citation `ModbusSpecification' on page 9 undefined on i
 nput line 24.
 
 
@@ -1804,12 +1940,24 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 41.
 Package acronym Info: Label `acro:PDU' newly defined as it shall be overridden
 although it is yet undefined on input line 43.
+
+Package acronym Warning: Acronym `PDU' is not defined on input line 43.
+
+
+Package acronym Warning: Acronym `PDU' is not defined on input line 43.
+
 Package acronym Info: Label `acro:ADU' newly defined as it shall be overridden
 although it is yet undefined on input line 43.
 Package acronym Info: Label `acro:CRC' newly defined as it shall be overridden
 although it is yet undefined on input line 43.
 
-Package natbib Warning: Citation `wilamowski2011industrial' on page 8 undefined
+Package acronym Warning: Acronym `CRC' is not defined on input line 43.
+
+
+Package acronym Warning: Acronym `CRC' is not defined on input line 43.
+
+
+Package natbib Warning: Citation `wilamowski2011industrial' on page 9 undefined
  on input line 43.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -1820,11 +1968,11 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 44.
-[8
+[9
 
 
 
-] <BilderAllgemein/ModbusFrame.png, id=566, 225.84375pt x 54.2025pt>
+] <BilderAllgemein/ModbusFrame.png, id=532, 225.84375pt x 54.2025pt>
 File: BilderAllgemein/ModbusFrame.png Graphic file (type png)
 
 <use BilderAllgemein/ModbusFrame.png>
@@ -1833,12 +1981,12 @@ Package pdftex.def Info: BilderAllgemein/ModbusFrame.png used on input line 47.
 (pdftex.def)             Requested size: 284.52756pt x 68.2955pt.
 
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 9 undefined 
-on input line 48.
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 10 undefined
+ on input line 48.
 
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 9 undefined 
-on input line 48.
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 10 undefined
+ on input line 48.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 51.
@@ -1848,13 +1996,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 51.
-[9 <./BilderAllgemein/ModBusUebersicht.jpg> <./BilderAllgemein/ModbusFrame.png>
-]
+[10 <./BilderAllgemein/ModBusUebersicht.jpg> <./BilderAllgemein/ModbusFrame.png
+>]
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 64.
 
-<BilderAllgemein/ClientServerNormal.jpg, id=575, 895.09406pt x 325.215pt>
+<BilderAllgemein/ClientServerNormal.jpg, id=541, 895.09406pt x 325.215pt>
 File: BilderAllgemein/ClientServerNormal.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/ClientServerNormal.jpg>
@@ -1863,19 +2011,19 @@ ine 68.
 (pdftex.def)             Requested size: 398.33858pt x 144.73262pt.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 69.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 69.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 73.
 
 
-<BilderAllgemein/ClientServerException.jpg, id=577, 938.00438pt x 334.24875pt>
+<BilderAllgemein/ClientServerException.jpg, id=543, 938.00438pt x 334.24875pt>
 File: BilderAllgemein/ClientServerException.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/ClientServerException.jpg>
@@ -1884,11 +2032,11 @@ t line 77.
 (pdftex.def)             Requested size: 398.33858pt x 141.94417pt.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 78.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 78.
 
 
@@ -1899,11 +2047,11 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 83.
 
-Package natbib Warning: Citation `ModbusSpecification' on page 10 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
 input line 85.
 
 
-Package natbib Warning: Citation `wilamowski2011industrial' on page 10 undefine
+Package natbib Warning: Citation `wilamowski2011industrial' on page 11 undefine
 d on input line 85.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -1914,31 +2062,31 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 86.
-[10
+[11
 
  <./BilderAllgemein/ClientServerNormal.jpg>]
 
-Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 12 undefined on 
 input line 97.
 
-
-Package natbib Warning: Citation `ModbusSpecification' on page 11 undefined on 
-input line 97.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 100.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 100.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 100.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 100.
-[11 <./BilderAllgemein/ClientServerException.jpg>]
 
 Package natbib Warning: Citation `ModbusSpecification' on page 12 undefined on 
+input line 97.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 100.
+[12 <./BilderAllgemein/ClientServerException.jpg>]
+
+Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
 input line 102.
 
-<BilderAllgemein/ModbusAddressModel.jpg, id=588, 492.33937pt x 392.21532pt>
+<BilderAllgemein/ModbusAddressModel.jpg, id=554, 492.33937pt x 392.21532pt>
 File: BilderAllgemein/ModbusAddressModel.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/ModbusAddressModel.jpg>
@@ -1947,11 +2095,11 @@ ine 106.
 (pdftex.def)             Requested size: 398.33858pt x 317.34555pt.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 12 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
 input line 107.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 12 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
 input line 107.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -1962,7 +2110,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
-[12
+[13
 
  <./BilderAllgemein/ModbusAddressModel.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
@@ -1972,34 +2120,34 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 13 undefined on input line 114.
+ 14 undefined on input line 114.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 118.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 129.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 129.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 140.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 140.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 150.
 
 
-Package natbib Warning: Citation `ModbusSpecification' on page 13 undefined on 
+Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
 input line 150.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2010,69 +2158,78 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 153.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 153.
-[13
-
-]
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 157.
-
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 169.
-
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 169.
-
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 180.
-
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 180.
-
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 190.
-
-
-Package natbib Warning: Citation `ModbusSpecification' on page 14 undefined on 
-input line 190.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
 [14
 
 ]
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 157.
+
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 169.
+
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 169.
+
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 180.
+
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 180.
+
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 190.
+
+
+Package natbib Warning: Citation `ModbusSpecification' on page 15 undefined on 
+input line 190.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 193.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 193.
+[15
+
+]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 195.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 195.
+
+
+Package acronym Warning: Acronym `CRC' is not defined on input line 197.
+
 Package acronym Info: Label `acro:MBAP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 197.
 
+Package acronym Warning: Acronym `MBAP' is not defined on input line 197.
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 15 undefined
+
+Package acronym Warning: Acronym `MBAP' is not defined on input line 197.
+
+
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 16 undefined
  on input line 197.
 
 
-Package natbib Warning: Citation `ModbusRTUImplementation' on page 15 undefined
+Package natbib Warning: Citation `ModbusRTUImplementation' on page 16 undefined
  on input line 197.
 
 
-Package natbib Warning: Citation `marshall2005industrial' on page 15 undefined 
+Package natbib Warning: Citation `marshall2005industrial' on page 16 undefined 
 on input line 197.
 
-<BilderAllgemein/ModbusAduPdu.png, id=618, 389.20406pt x 74.52844pt>
+<BilderAllgemein/ModbusAduPdu.png, id=581, 389.20406pt x 74.52844pt>
 File: BilderAllgemein/ModbusAduPdu.png Graphic file (type png)
 
 <use BilderAllgemein/ModbusAduPdu.png>
@@ -2081,11 +2238,11 @@ Package pdftex.def Info: BilderAllgemein/ModbusAduPdu.png used on input line 20
 (pdftex.def)             Requested size: 398.33858pt x 76.27954pt.
 
 
-Package natbib Warning: Citation `SimplyModbus' on page 15 undefined on input l
+Package natbib Warning: Citation `SimplyModbus' on page 16 undefined on input l
 ine 202.
 
 
-Package natbib Warning: Citation `SimplyModbus' on page 15 undefined on input l
+Package natbib Warning: Citation `SimplyModbus' on page 16 undefined on input l
 ine 202.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2096,14 +2253,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 205.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 205.
-[15
+[16
 
  <./BilderAllgemein/ModbusAduPdu.png>]
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 16 undefined
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 17 undefined
  on input line 207.
 
-<BilderAllgemein/ModbusEncapsulation.png, id=626, 440.39531pt x 379.4175pt>
+<BilderAllgemein/ModbusEncapsulation.png, id=589, 440.39531pt x 379.4175pt>
 File: BilderAllgemein/ModbusEncapsulation.png Graphic file (type png)
 
 <use BilderAllgemein/ModbusEncapsulation.png>
@@ -2112,11 +2269,11 @@ line 211.
 (pdftex.def)             Requested size: 398.33858pt x 343.19783pt.
 
 
-Package natbib Warning: Citation `SimplyModbus' on page 16 undefined on input l
+Package natbib Warning: Citation `SimplyModbus' on page 17 undefined on input l
 ine 212.
 
 
-Package natbib Warning: Citation `SimplyModbus' on page 16 undefined on input l
+Package natbib Warning: Citation `SimplyModbus' on page 17 undefined on input l
 ine 212.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2127,17 +2284,17 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 216.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 216.
-[16 <./BilderAllgemein/ModbusEncapsulation.png>]
+[17 <./BilderAllgemein/ModbusEncapsulation.png>]
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 17 undefined
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 18 undefined
  on input line 217.
 
 
-Package natbib Warning: Citation `wilamowski2011industrial' on page 17 undefine
+Package natbib Warning: Citation `wilamowski2011industrial' on page 18 undefine
 d on input line 217.
 
 
-<BilderAllgemein/ModbusTCPArchitecture.jpg, id=634, 576.65437pt x 268.75406pt>
+<BilderAllgemein/ModbusTCPArchitecture.jpg, id=598, 576.65437pt x 268.75406pt>
 File: BilderAllgemein/ModbusTCPArchitecture.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/ModbusTCPArchitecture.jpg>
@@ -2146,11 +2303,11 @@ t line 221.
 (pdftex.def)             Requested size: 398.33858pt x 185.65375pt.
 
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 17 undefined
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 18 undefined
  on input line 222.
 
 
-Package natbib Warning: Citation `ModbusTCPImplementation' on page 17 undefined
+Package natbib Warning: Citation `ModbusTCPImplementation' on page 18 undefined
  on input line 222.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2161,7 +2318,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 226.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 226.
-[17 <./BilderAllgemein/ModbusTCPArchitecture.jpg>]
+[18 <./BilderAllgemein/ModbusTCPArchitecture.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 228.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2172,7 +2329,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 230.
 
 
-Package natbib Warning: Citation `SunspecOverview' on page 18 undefined on inpu
+Package natbib Warning: Citation `SunspecOverview' on page 19 undefined on inpu
 t line 231.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2181,7 +2338,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 233.
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 18 undefined on input line 245.
+ 19 undefined on input line 245.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 247.
@@ -2195,16 +2352,16 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 249.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 249.
-[18
+[19
 
 ]
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 19 undefined on input line 276.
+ 20 undefined on input line 276.
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 19 undefined on input line 276.
+ 20 undefined on input line 276.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 280.
@@ -2214,30 +2371,30 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 280.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 280.
-[19]
+[20]
 Overfull \hbox (17.67221pt too wide) in paragraph at lines 286--292
  [][] 
  []
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 20 undefined on input line 292.
+ 21 undefined on input line 292.
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 20 undefined on input line 292.
+ 21 undefined on input line 292.
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 20 undefined on input line 308.
+ 21 undefined on input line 308.
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 20 undefined on input line 308.
+ 21 undefined on input line 308.
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 20 undefined on input line 313.
+ 21 undefined on input line 313.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 316.
@@ -2247,7 +2404,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 316.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 316.
-[20
+[21
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -2257,7 +2414,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 Package natbib Warning: Citation `SunspecInformationModelSpecification' on page
- 21 undefined on input line 320.
+ 22 undefined on input line 320.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 329.
@@ -2267,7 +2424,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 329.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 329.
-[21
+[22
 
 ])
 \openout2 = `11ProtokollAdapter.aux'.
@@ -2278,17 +2435,20 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
+
+Package acronym Warning: Acronym `PA' is not defined on input line 7.
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 11.
 
-Package natbib Warning: Citation `GOF' on page 22 undefined on input line 12.
+Package natbib Warning: Citation `GOF' on page 23 undefined on input line 12.
 
 
-Package natbib Warning: Citation `GOF' on page 22 undefined on input line 14.
+Package natbib Warning: Citation `GOF' on page 23 undefined on input line 14.
 
-<BilderAllgemein/O_K_Adapter.png, id=661, 654.445pt x 583.17876pt>
+<BilderAllgemein/O_K_Adapter.png, id=625, 654.445pt x 583.17876pt>
 File: BilderAllgemein/O_K_Adapter.png Graphic file (type png)
 
 <use BilderAllgemein/O_K_Adapter.png>
@@ -2297,17 +2457,17 @@ Package pdftex.def Info: BilderAllgemein/O_K_Adapter.png used on input line 20.
 (pdftex.def)             Requested size: 398.33858pt x 354.96434pt.
 
 
-Package natbib Warning: Citation `GOF' on page 22 undefined on input line 21.
+Package natbib Warning: Citation `GOF' on page 23 undefined on input line 21.
 
 
-Package natbib Warning: Citation `GOF' on page 22 undefined on input line 21.
+Package natbib Warning: Citation `GOF' on page 23 undefined on input line 21.
 
 
-Package natbib Warning: Citation `AdaptPattern' on page 22 undefined on input l
+Package natbib Warning: Citation `AdaptPattern' on page 23 undefined on input l
 ine 27.
 
 
-Package natbib Warning: Citation `GOF' on page 22 undefined on input line 27.
+Package natbib Warning: Citation `GOF' on page 23 undefined on input line 27.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 28.
@@ -2317,14 +2477,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 28.
-[22
+[23
 
 
 
 
  <./BilderAllgemein/O_K_Adapter.png>]
 
-Package natbib Warning: Citation `GOF' on page 23 undefined on input line 30.
+Package natbib Warning: Citation `GOF' on page 24 undefined on input line 30.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 40.
@@ -2332,6 +2492,33 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 40.
 Package acronym Info: Label `acro:PA' newly defined as it shall be overridden
 although it is yet undefined on input line 41.
+
+Package acronym Warning: Acronym `PA' is not defined on input line 41.
+
+
+Package acronym Warning: Acronym `PA' is not defined on input line 41.
+
+
+Package acronym Warning: Acronym `PA' is not defined on input line 42.
+
+
+Package acronym Warning: Acronym `PA' is not defined on input line 43.
+
+
+Package acronym Warning: Acronym `IED' is not defined on input line 43.
+
+
+Package acronym Warning: Acronym `IED' is not defined on input line 43.
+
+
+Package acronym Warning: Acronym `SED' is not defined on input line 43.
+
+
+Package acronym Warning: Acronym `IED' is not defined on input line 44.
+
+
+Package acronym Warning: Acronym `SED' is not defined on input line 44.
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2340,7 +2527,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 56.
-[23] <BilderAllgemein/SyntaxAMapping.png, id=686, 1988.42876pt x 130.4875pt>
+[24] <BilderAllgemein/SyntaxAMapping.png, id=643, 1988.42876pt x 130.4875pt>
 File: BilderAllgemein/SyntaxAMapping.png Graphic file (type png)
 
 <use BilderAllgemein/SyntaxAMapping.png>
@@ -2352,6 +2539,18 @@ Overfull \hbox (14.22636pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
+
+Package acronym Warning: Acronym `IED' is not defined on input line 79.
+
+
+Package acronym Warning: Acronym `SED' is not defined on input line 79.
+
+
+Package acronym Warning: Acronym `SED' is not defined on input line 80.
+
+
+Package acronym Warning: Acronym `CM' is not defined on input line 80.
+
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 68.
@@ -2361,7 +2560,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 68.
- [24 <./BilderAllgemein/SyntaxAMapping.png>]
+ [25 <./BilderAllgemein/SyntaxAMapping.png>]
 \openout2 = `11Implementierung.aux'.
 
  (./11Implementierung.tex
@@ -2408,7 +2607,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
- [25
+ [26
 
 
 
@@ -2426,7 +2625,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 62.
 
-[26]
+[27]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 92.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2435,33 +2634,33 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 92.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 92.
- [27
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
  [28
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 130.
+ [29
+
+]
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 131.
@@ -2481,20 +2680,11 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 154.
- [29]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 166.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 166.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 166.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 166.
  [30]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 166.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2505,6 +2695,15 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 166.
  [31]
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 166.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 166.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 166.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 166.
+ [32]
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 168.
@@ -2516,7 +2715,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 178.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 178.
- [32
+ [33
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -2525,11 +2724,11 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 180.
 
 
-Package natbib Warning: Citation `Freeman' on page 33 undefined on input line 1
+Package natbib Warning: Citation `Freeman' on page 34 undefined on input line 1
 83.
 
 
-Package natbib Warning: Citation `Hohpe:2003:EIP:940308' on page 33 undefined o
+Package natbib Warning: Citation `Hohpe:2003:EIP:940308' on page 34 undefined o
 n input line 183.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2537,7 +2736,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 196.
 
-Package natbib Warning: Citation `ullenboom2016java' on page 33 undefined on in
+Package natbib Warning: Citation `ullenboom2016java' on page 34 undefined on in
 put line 197.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2548,7 +2747,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 198.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 198.
-[33
+[34
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -2572,16 +2771,16 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 69.
- [34]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
  [35]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
+ [36]
 \openout2 = `11Test.aux'.
 
  (./11Test.tex
@@ -2594,7 +2793,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 6.
-<BilderAllgemein/Netzwerkuebersicht.jpg, id=820, 613.54219pt x 437.38406pt>
+
+Package acronym Warning: Acronym `VM' is not defined on input line 8.
+
+
+Package acronym Warning: Acronym `VM' is not defined on input line 8.
+
+<BilderAllgemein/Netzwerkuebersicht.jpg, id=771, 613.54219pt x 437.38406pt>
 File: BilderAllgemein/Netzwerkuebersicht.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/Netzwerkuebersicht.jpg>
@@ -2613,7 +2818,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 35.
- [36
+ [37
 
 
 
@@ -2624,7 +2829,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 37.
 
 
-Package natbib Warning: Citation `ModbusSunSpecFronius' on page 37 undefined on
+Package natbib Warning: Citation `ModbusSunSpecFronius' on page 38 undefined on
  input line 38.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2635,7 +2840,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 39.
-[37]
+[38]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2644,7 +2849,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 46.
- <BilderAllgemein/pushServer1Ausgang.jpg, id=835, 415.5525pt x 47.42719pt>
+ <BilderAllgemein/pushServer1Ausgang.jpg, id=788, 415.5525pt x 47.42719pt>
 File: BilderAllgemein/pushServer1Ausgang.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/pushServer1Ausgang.jpg>
@@ -2652,7 +2857,7 @@ Package pdftex.def Info: BilderAllgemein/pushServer1Ausgang.jpg used on input l
 ine 52.
 (pdftex.def)             Requested size: 398.33858pt x 45.46443pt.
 
-<BilderAllgemein/pushServer2Ausgang.jpg, id=837, 421.575pt x 59.47218pt>
+<BilderAllgemein/pushServer2Ausgang.jpg, id=790, 421.575pt x 59.47218pt>
 File: BilderAllgemein/pushServer2Ausgang.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/pushServer2Ausgang.jpg>
@@ -2671,7 +2876,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 70.
- [38
+ [39
 
  <./BilderAllgemein/pushServer1Ausgang.jpg> <./BilderAllgemein/pushServer2Ausga
 ng.jpg>]
@@ -2683,21 +2888,21 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 107.
- [39
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 141.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 141.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 141.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 141.
  [40
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 141.
+ [41
+
+]
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 169.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 169.
@@ -2705,7 +2910,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 169.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 169.
- [41
+ [42
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -2713,7 +2918,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 196.
 
-<BilderAllgemein/pushServer1Ende.jpg, id=899, 411.03563pt x 45.92157pt>
+<BilderAllgemein/pushServer1Ende.jpg, id=850, 411.03563pt x 45.92157pt>
 File: BilderAllgemein/pushServer1Ende.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/pushServer1Ende.jpg>
@@ -2721,7 +2926,7 @@ Package pdftex.def Info: BilderAllgemein/pushServer1Ende.jpg used on input line
  201.
 (pdftex.def)             Requested size: 398.33858pt x 44.5032pt.
 
-<BilderAllgemein/pushServer2Ende.jpg, id=900, 410.2828pt x 57.21375pt>
+<BilderAllgemein/pushServer2Ende.jpg, id=851, 410.2828pt x 57.21375pt>
 File: BilderAllgemein/pushServer2Ende.jpg Graphic file (type jpg)
 
 <use BilderAllgemein/pushServer2Ende.jpg>
@@ -2736,7 +2941,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 212.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 212.
- [42
+ [43
 
  <./BilderAllgemein/pushServer1Ende.jpg> <./BilderAllgemein/pushServer2Ende.jpg
 >]
@@ -2756,21 +2961,21 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 246.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 246.
- [43
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 275.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 275.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 275.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 275.
  [44
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 275.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 275.
+ [45
+
+]
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 304.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 304.
@@ -2778,7 +2983,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 304.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 304.
- [45
+ [46
 
 ])
 Package babel Info: Redefining ngerman shorthand "|
@@ -2789,7 +2994,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 70.
- [46
+ [47
 
 ]
 \openout2 = `11Fazit.aux'.
@@ -2802,13 +3007,22 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
+Package acronym Warning: Acronym `PA' is not defined on input line 7.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
  []
 
 
-Package natbib Warning: Citation `fovino2009design' on page 47 undefined on inp
+Package natbib Warning: Citation `fovino2009design' on page 48 undefined on inp
 ut line 13.
+
+
+Package acronym Warning: Acronym `PA' is not defined on input line 14.
+
+
+Package acronym Warning: Acronym `IKT' is not defined on input line 14.
 
 )
 Package babel Info: Redefining ngerman shorthand "|
@@ -2819,7 +3033,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 71.
- [47
+ [48
 
 
 
@@ -2843,13 +3057,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `00BachelorArbeit2.out' has not changed.
-(rerunfilecheck)             Checksum: 8A72BE2130578511159359A8C4CE7403;3905.
+(rerunfilecheck)             Checksum: ED6CCC8BD7ED8C8FC3CD72249DF8E5E2;3925.
  ) 
 Here is how much of TeX's memory you used:
- 16540 strings out of 493014
- 253583 string characters out of 6133352
+ 16449 strings out of 493014
+ 252916 string characters out of 6133352
  442914 words of memory out of 5000000
- 19318 multiletter control sequences out of 15000+600000
+ 19237 multiletter control sequences out of 15000+600000
  92041 words of font info for 82 fonts, out of 8000000 for 9000
  1157 hyphenation exceptions out of 8191
  49i,16n,51p,2075b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2865,10 +3079,10 @@ texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016
 fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/cour
 ier/ucrr8a.pfb>
-Output written on 00BachelorArbeit2.pdf (58 pages, 1505167 bytes).
+Output written on 00BachelorArbeit2.pdf (59 pages, 1517018 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
- 952 compressed objects within 10 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 1006 PDF objects out of 1200 (max. 8388607)
+ 900 compressed objects within 9 object streams
+ 280 named destinations out of 1000 (max. 500000)
  594 words of extra memory for PDF output out of 10000 (max. 10000000)
 
