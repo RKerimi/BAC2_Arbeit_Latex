@@ -1,65 +1,65 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{i}{chapter*.6}
 \contentsline {chapter}{Abbildungsverzeichnis}{ii}{chapter*.7}
 \contentsline {chapter}{Tabellenverzeichnis}{iii}{chapter*.8}
 \contentsline {chapter}{Listingverzeichnis}{iv}{chapter*.9}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Zielsetzung}{3}{section.1.2}
-\contentsline {chapter}{\numberline {2}Progressive Web Application}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}OpenNES SmartOS}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Basisfunktionen}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Softwarekomponenten}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Sicherheitsmodul}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Virtual Functional Bus}{7}{section.2.5}
-\contentsline {section}{\numberline {2.6}Registrierung}{7}{section.2.6}
-\contentsline {section}{\numberline {2.7}Connectivity Modul}{8}{section.2.7}
-\contentsline {chapter}{\numberline {3}Basistechnologien}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Modbus Protokoll}{9}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Geschichte}{9}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Grundlagen}{9}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Protokollaufbau}{10}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Modbus Datenmodell}{12}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Funktionscodes}{14}{subsection.3.1.5}
-\contentsline {subsubsection}{Lese Holding Registers}{14}{subsubsection*.30}
-\contentsline {subsubsection}{Schreibe Multiple Registers}{15}{subsubsection*.34}
-\contentsline {subsection}{\numberline {3.1.6}ModBus TCP/IP}{16}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}SunSpec}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\IeC {\"U}bersicht}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}SunSpec Informationsmodell}{19}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}SunSpec Datentypen}{20}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Register Mapping}{22}{subsection.3.2.4}
-\contentsline {chapter}{\numberline {4}Entwurf}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}\IeC {\"U}bersicht Adapter Pattern}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Anforderungsanalyse}{24}{section.4.2}
-\contentsline {chapter}{\numberline {5}Implementierung}{26}{chapter.5}
-\contentsline {section}{\numberline {5.1}Umsetzung}{26}{section.5.1}
-\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{26}{section.5.2}
-\contentsline {section}{\numberline {5.3}SunSpecDataType}{26}{section.5.3}
-\contentsline {section}{\numberline {5.4}Status}{27}{section.5.4}
-\contentsline {section}{\numberline {5.5}Remoteaddress}{27}{section.5.5}
-\contentsline {section}{\numberline {5.6}Dataobject}{29}{section.5.6}
-\contentsline {section}{\numberline {5.7}Result}{29}{section.5.7}
-\contentsline {section}{\numberline {5.8}ModbusTCPAdapter}{30}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Grundeinstellungen}{30}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}ConnectionParameter}{30}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}SplitString}{31}{subsection.5.8.3}
-\contentsline {section}{\numberline {5.9}Push Funktion (send)}{31}{section.5.9}
-\contentsline {section}{\numberline {5.10}Request-Response Funktion (request)}{33}{section.5.10}
-\contentsline {section}{\numberline {5.11}Publish-Subscribe Funktion (subscribe, unsubscribe)}{34}{section.5.11}
-\contentsline {subsection}{\numberline {5.11.1}Connectivity Modul}{34}{subsection.5.11.1}
-\contentsline {subsection}{\numberline {5.11.2}Subscriber}{35}{subsection.5.11.2}
-\contentsline {subsection}{\numberline {5.11.3}Observer}{35}{subsection.5.11.3}
-\contentsline {subsection}{\numberline {5.11.4}Grabber}{35}{subsection.5.11.4}
-\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Virtual Machine Management}{37}{section.6.1}
-\contentsline {section}{\numberline {6.2}Ausgangsbedingungen und Abgrenzungen}{38}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Modbus Server}{38}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Push1-N (send)}{39}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Ausgangssituation}{39}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Test}{39}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Testende}{43}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Request-Response (request)}{44}{section.6.4}
-\contentsline {subsubsection}{Ausgangssituation}{44}{subsubsection*.59}
-\contentsline {subsection}{\numberline {6.4.1}Test}{44}{subsection.6.4.1}
-\contentsline {chapter}{\numberline {7}Fazit}{48}{chapter.7}
+\contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Entiwcklung der Web Applikation von Anfang bis heute}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Basisfunktionen}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Softwarekomponenten}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Sicherheitsmodul}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Virtual Functional Bus}{4}{section.2.5}
+\contentsline {section}{\numberline {2.6}Registrierung}{4}{section.2.6}
+\contentsline {section}{\numberline {2.7}Connectivity Modul}{5}{section.2.7}
+\contentsline {chapter}{\numberline {3}Basistechnologien}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Manifest}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Grundlagen}{6}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Protokollaufbau}{6}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Modbus Datenmodell}{6}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Funktionscodes}{6}{subsection.3.1.5}
+\contentsline {subsubsection}{Lese Holding Registers}{6}{subsubsection*.12}
+\contentsline {subsubsection}{Schreibe Multiple Registers}{6}{subsubsection*.13}
+\contentsline {subsection}{\numberline {3.1.6}ModBus TCP/IP}{6}{subsection.3.1.6}
+\contentsline {section}{\numberline {3.2}SunSpec}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\IeC {\"U}bersicht}{6}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}SunSpec Informationsmodell}{6}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}SunSpec Datentypen}{6}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Register Mapping}{6}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Entwurf}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}\IeC {\"U}bersicht Adapter Pattern}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Anforderungsanalyse}{8}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{10}{chapter.5}
+\contentsline {section}{\numberline {5.1}Umsetzung}{10}{section.5.1}
+\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{10}{section.5.2}
+\contentsline {section}{\numberline {5.3}SunSpecDataType}{10}{section.5.3}
+\contentsline {section}{\numberline {5.4}Status}{11}{section.5.4}
+\contentsline {section}{\numberline {5.5}Remoteaddress}{11}{section.5.5}
+\contentsline {section}{\numberline {5.6}Dataobject}{13}{section.5.6}
+\contentsline {section}{\numberline {5.7}Result}{13}{section.5.7}
+\contentsline {section}{\numberline {5.8}ModbusTCPAdapter}{14}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Grundeinstellungen}{14}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}ConnectionParameter}{14}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}SplitString}{15}{subsection.5.8.3}
+\contentsline {section}{\numberline {5.9}Push Funktion (send)}{15}{section.5.9}
+\contentsline {section}{\numberline {5.10}Request-Response Funktion (request)}{17}{section.5.10}
+\contentsline {section}{\numberline {5.11}Publish-Subscribe Funktion (subscribe, unsubscribe)}{18}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Connectivity Modul}{18}{subsection.5.11.1}
+\contentsline {subsection}{\numberline {5.11.2}Subscriber}{19}{subsection.5.11.2}
+\contentsline {subsection}{\numberline {5.11.3}Observer}{19}{subsection.5.11.3}
+\contentsline {subsection}{\numberline {5.11.4}Grabber}{19}{subsection.5.11.4}
+\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Virtual Machine Management}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Ausgangsbedingungen und Abgrenzungen}{22}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Modbus Server}{22}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Push1-N (send)}{23}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Ausgangssituation}{23}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Test}{23}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Testende}{27}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Request-Response (request)}{28}{section.6.4}
+\contentsline {subsubsection}{Ausgangssituation}{28}{subsubsection*.30}
+\contentsline {subsection}{\numberline {6.4.1}Test}{28}{subsection.6.4.1}
+\contentsline {chapter}{\numberline {7}Fazit}{32}{chapter.7}

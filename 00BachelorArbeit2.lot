@@ -1,27 +1,17 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Modbus Datenmodell \cite {ModbusSpecification}\relax }}{12}{table.caption.28}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Anforderung Lese Holding Registers \cite {ModbusSpecification}\relax }}{14}{table.caption.31}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Antwort Lese Holding Registers wenn erfolgreich \cite {ModbusSpecification}\relax }}{14}{table.caption.32}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Antwort Lese Holding Registers wenn Fehler \cite {ModbusSpecification}\relax }}{14}{table.caption.33}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Anforderung Schreibe Multiple Registers \cite {ModbusSpecification}\relax }}{15}{table.caption.35}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Antwort Schreibe Multiple Registers wenn erfolgreich \cite {ModbusSpecification}\relax }}{15}{table.caption.36}
-\contentsline {table}{\numberline {3.7}{\ignorespaces Antwort Schreibe Multiple Registers wenn Fehler \cite {ModbusSpecification}\relax }}{15}{table.caption.37}
-\contentsline {table}{\numberline {3.8}{\ignorespaces 16 bit Integer \cite [S.14]{SunspecInformationModelSpecification}\relax }}{20}{table.caption.42}
-\contentsline {table}{\numberline {3.9}{\ignorespaces String \cite [S.15]{SunspecInformationModelSpecification}\relax }}{21}{table.caption.43}
-\contentsline {table}{\numberline {3.10}{\ignorespaces Float \cite [S.16]{SunspecInformationModelSpecification}\relax }}{21}{table.caption.44}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Komponenten der Remoteaddress\relax }}{27}{table.caption.48}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Grundeinstellungen Modbus TCP Adapter\relax }}{30}{table.caption.49}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Komponenten der Remoteaddress\relax }}{11}{table.caption.19}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Grundeinstellungen Modbus TCP Adapter\relax }}{14}{table.caption.20}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces \IeC {\"U}bersicht VMs\relax }}{37}{table.caption.51}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Modbus Request der Push Funktion\relax }}{41}{table.caption.54}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Modbus Response der Push Funktion\relax }}{42}{table.caption.55}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Fehlerhafte Modbus Response der Push Funktion\relax }}{43}{table.caption.56}
-\contentsline {table}{\numberline {6.5}{\ignorespaces Modbus Request der Request-Response Funktion\relax }}{45}{table.caption.60}
-\contentsline {table}{\numberline {6.6}{\ignorespaces Modbus Response der Request-Response Funktion\relax }}{46}{table.caption.61}
-\contentsline {table}{\numberline {6.7}{\ignorespaces Fehlerhafte Modbus Response der Request-Response Funktion\relax }}{47}{table.caption.62}
+\contentsline {table}{\numberline {6.1}{\ignorespaces \IeC {\"U}bersicht VMs\relax }}{21}{table.caption.22}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Modbus Request der Push Funktion\relax }}{25}{table.caption.25}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Modbus Response der Push Funktion\relax }}{26}{table.caption.26}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Fehlerhafte Modbus Response der Push Funktion\relax }}{27}{table.caption.27}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Modbus Request der Request-Response Funktion\relax }}{29}{table.caption.31}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Modbus Response der Request-Response Funktion\relax }}{30}{table.caption.32}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Fehlerhafte Modbus Response der Request-Response Funktion\relax }}{31}{table.caption.33}
 \addvspace {10\p@ }
