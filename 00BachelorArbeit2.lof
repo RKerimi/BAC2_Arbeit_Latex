@@ -1,16 +1,9 @@
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\"U}bersicht des OpenNES Konzepts \cite {OpenNES}\relax }}{3}{figure.caption.10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Bildtext \cite {Quelle}\relax }}{3}{figure.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces UML Diagramm des Objekt- bzw. Klassenadapters \upshape \cite [ S.159]{GOF}\relax }}{6}{figure.caption.14}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Adressmapping OpenNES zu Adapter\relax }}{8}{figure.caption.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Netzwerk\IeC {\"u}bersicht\relax }}{20}{figure.caption.21}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Modbus Server VM1 vor dem Test\relax }}{22}{figure.caption.23}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Modbus Server VM2 vor dem Test\relax }}{22}{figure.caption.24}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Modbus Server VM1 nach dem Test\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Modbus Server VM2 nach dem Test\relax }}{26}{figure.caption.29}
 \addvspace {10\p@ }

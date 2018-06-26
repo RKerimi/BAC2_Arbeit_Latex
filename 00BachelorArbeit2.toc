@@ -1,8 +1,8 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{i}{chapter*.6}
-\contentsline {chapter}{Abbildungsverzeichnis}{ii}{chapter*.7}
-\contentsline {chapter}{Tabellenverzeichnis}{iii}{chapter*.8}
-\contentsline {chapter}{Listingverzeichnis}{iv}{chapter*.9}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{i}{chapter*.5}
+\contentsline {chapter}{Abbildungsverzeichnis}{ii}{chapter*.6}
+\contentsline {chapter}{Tabellenverzeichnis}{iii}{chapter*.7}
+\contentsline {chapter}{Listingverzeichnis}{iv}{chapter*.8}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}
@@ -14,51 +14,49 @@
 \contentsline {subsection}{\numberline {2.2.3}Progressive Web Apps}{4}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Unterschiede zwischen Web Apps PWA und Native Apps}{4}{subsection.2.2.4}
 \contentsline {chapter}{\numberline {3}Basistechnologien}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Manifest}{5}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}}{5}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Grundlagen}{5}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Protokollaufbau}{5}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Modbus Datenmodell}{5}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Funktionscodes}{5}{subsection.3.1.5}
-\contentsline {subsubsection}{Lese Holding Registers}{5}{subsubsection*.12}
-\contentsline {subsubsection}{Schreibe Multiple Registers}{5}{subsubsection*.13}
-\contentsline {subsection}{\numberline {3.1.6}ModBus TCP/IP}{5}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}SunSpec}{5}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\IeC {\"U}bersicht}{5}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}SunSpec Informationsmodell}{5}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}SunSpec Datentypen}{5}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Register Mapping}{5}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.1}PWA vs.Native}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Vorteile/ Nachteile}{5}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Aufbau PWA}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Web App Manifest}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Service Worker}{5}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Push Notifikation}{5}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Cache API}{5}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Geolocation}{5}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Camera API}{5}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Browser}{5}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Browser}{5}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Datenbank}{5}{subsection.3.2.9}
 \contentsline {chapter}{\numberline {4}Entwurf}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}\IeC {\"U}bersicht Adapter Pattern}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}Anforderungsanalyse}{7}{section.4.2}
-\contentsline {chapter}{\numberline {5}Implementierung}{9}{chapter.5}
-\contentsline {section}{\numberline {5.1}Umsetzung}{9}{section.5.1}
-\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{9}{section.5.2}
-\contentsline {section}{\numberline {5.3}SunSpecDataType}{9}{section.5.3}
-\contentsline {section}{\numberline {5.4}Status}{10}{section.5.4}
-\contentsline {section}{\numberline {5.5}Remoteaddress}{10}{section.5.5}
-\contentsline {section}{\numberline {5.6}Dataobject}{12}{section.5.6}
-\contentsline {section}{\numberline {5.7}Result}{12}{section.5.7}
-\contentsline {section}{\numberline {5.8}ModbusTCPAdapter}{13}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Grundeinstellungen}{13}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}ConnectionParameter}{13}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}SplitString}{14}{subsection.5.8.3}
-\contentsline {section}{\numberline {5.9}Push Funktion (send)}{14}{section.5.9}
-\contentsline {section}{\numberline {5.10}Request-Response Funktion (request)}{16}{section.5.10}
-\contentsline {section}{\numberline {5.11}Publish-Subscribe Funktion (subscribe, unsubscribe)}{17}{section.5.11}
-\contentsline {subsection}{\numberline {5.11.1}Connectivity Modul}{17}{subsection.5.11.1}
-\contentsline {subsection}{\numberline {5.11.2}Subscriber}{18}{subsection.5.11.2}
-\contentsline {subsection}{\numberline {5.11.3}Observer}{18}{subsection.5.11.3}
-\contentsline {subsection}{\numberline {5.11.4}Grabber}{18}{subsection.5.11.4}
-\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Virtual Machine Management}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}Ausgangsbedingungen und Abgrenzungen}{21}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Modbus Server}{21}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Push1-N (send)}{22}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Ausgangssituation}{22}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Test}{22}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Testende}{26}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Request-Response (request)}{27}{section.6.4}
-\contentsline {subsubsection}{Ausgangssituation}{27}{subsubsection*.30}
-\contentsline {subsection}{\numberline {6.4.1}Test}{27}{subsection.6.4.1}
-\contentsline {chapter}{\numberline {7}Fazit}{31}{chapter.7}
+\contentsline {section}{\numberline {4.1}Model Native}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Model PWA}{6}{section.4.2}
+\contentsline {section}{\numberline {4.3}Anforderungsanalyse}{6}{section.4.3}
+\contentsline {chapter}{\numberline {5}Implementierung}{7}{chapter.5}
+\contentsline {section}{\numberline {5.1}Umsetzung der Anforderungen}{7}{section.5.1}
+\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{7}{section.5.2}
+\contentsline {section}{\numberline {5.3}Manifest}{7}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Aufbau}{7}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Implementierung}{7}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Aufbau Service Worker}{7}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Aufbau}{7}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Implementierung}{7}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Zugriff Cache API}{7}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Aufbau}{7}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Implementierung}{7}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Zugriff Device API}{7}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Aufbau}{7}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Implementierung}{7}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Fetch API}{7}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Aufbau}{7}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Implementierung}{7}{subsection.5.7.2}
+\contentsline {section}{\numberline {5.8}IndexDB}{7}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Aufbau}{7}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Implementierung}{7}{subsection.5.8.2}
+\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{8}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{8}{section.6.1}
+\contentsline {section}{\numberline {6.2}Komponententest}{8}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Add to Homescreen}{8}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Funktion Service Worker}{8}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Cache}{8}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Kamera}{8}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Geolocation}{8}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Fazit}{9}{chapter.7}

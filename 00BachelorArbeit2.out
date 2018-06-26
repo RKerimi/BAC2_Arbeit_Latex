@@ -1,7 +1,7 @@
-\BOOKMARK [0][-]{chapter*.6}{Abk\374rzungsverzeichnis}{}% 1
-\BOOKMARK [0][-]{chapter*.7}{Abbildungsverzeichnis}{}% 2
-\BOOKMARK [0][-]{chapter*.8}{Tabellenverzeichnis}{}% 3
-\BOOKMARK [0][-]{chapter*.9}{Listingverzeichnis}{}% 4
+\BOOKMARK [0][-]{chapter*.5}{Abk\374rzungsverzeichnis}{}% 1
+\BOOKMARK [0][-]{chapter*.6}{Abbildungsverzeichnis}{}% 2
+\BOOKMARK [0][-]{chapter*.7}{Tabellenverzeichnis}{}% 3
+\BOOKMARK [0][-]{chapter*.8}{Listingverzeichnis}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 5
 \BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{Zielsetzung}{chapter.1}% 7
@@ -13,48 +13,49 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Progressive Web Apps}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.4}{Unterschiede zwischen Web Apps PWA und Native Apps}{section.2.2}% 14
 \BOOKMARK [0][-]{chapter.3}{Basistechnologien}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Manifest}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.1.1}{}{section.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.1.2}{Grundlagen}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.3}{Protokollaufbau}{section.3.1}% 19
-\BOOKMARK [2][-]{subsection.3.1.4}{Modbus Datenmodell}{section.3.1}% 20
-\BOOKMARK [2][-]{subsection.3.1.5}{Funktionscodes}{section.3.1}% 21
-\BOOKMARK [2][-]{subsection.3.1.6}{ModBus TCP/IP}{section.3.1}% 22
-\BOOKMARK [1][-]{section.3.2}{SunSpec}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{\334bersicht}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.2}{SunSpec Informationsmodell}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.3}{SunSpec Datentypen}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.4}{Register Mapping}{section.3.2}% 27
+\BOOKMARK [1][-]{section.3.1}{PWA vs.Native}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Vorteile/ Nachteile}{section.3.1}% 17
+\BOOKMARK [1][-]{section.3.2}{Aufbau PWA}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{Web App Manifest}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{Service Worker}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{Push Notifikation}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.4}{Cache API}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.5}{Geolocation}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.6}{Camera API}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.7}{Browser}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.8}{Browser}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.9}{Datenbank}{section.3.2}% 27
 \BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 28
-\BOOKMARK [1][-]{section.4.1}{\334bersicht Adapter Pattern}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.2}{Anforderungsanalyse}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Umsetzung}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{SunSpecDataType}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.4}{Status}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.5}{Remoteaddress}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.6}{Dataobject}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.7}{Result}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.8}{ModbusTCPAdapter}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.8.1}{Grundeinstellungen}{section.5.8}% 40
-\BOOKMARK [2][-]{subsection.5.8.2}{ConnectionParameter}{section.5.8}% 41
-\BOOKMARK [2][-]{subsection.5.8.3}{SplitString}{section.5.8}% 42
-\BOOKMARK [1][-]{section.5.9}{Push Funktion \(send\)}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.10}{Request-Response Funktion \(request\)}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.11}{Publish-Subscribe Funktion \(subscribe, unsubscribe\)}{chapter.5}% 45
-\BOOKMARK [2][-]{subsection.5.11.1}{Connectivity Modul}{section.5.11}% 46
-\BOOKMARK [2][-]{subsection.5.11.2}{Subscriber}{section.5.11}% 47
-\BOOKMARK [2][-]{subsection.5.11.3}{Observer}{section.5.11}% 48
-\BOOKMARK [2][-]{subsection.5.11.4}{Grabber}{section.5.11}% 49
-\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 50
-\BOOKMARK [1][-]{section.6.1}{Virtual Machine Management}{chapter.6}% 51
-\BOOKMARK [1][-]{section.6.2}{Ausgangsbedingungen und Abgrenzungen}{chapter.6}% 52
-\BOOKMARK [2][-]{subsection.6.2.1}{Modbus Server}{section.6.2}% 53
-\BOOKMARK [1][-]{section.6.3}{Push1-N \(send\)}{chapter.6}% 54
-\BOOKMARK [2][-]{subsection.6.3.1}{Ausgangssituation}{section.6.3}% 55
-\BOOKMARK [2][-]{subsection.6.3.2}{Test}{section.6.3}% 56
-\BOOKMARK [2][-]{subsection.6.3.3}{Testende}{section.6.3}% 57
-\BOOKMARK [1][-]{section.6.4}{Request-Response \(request\)}{chapter.6}% 58
-\BOOKMARK [2][-]{subsection.6.4.1}{Test}{section.6.4}% 59
-\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 60
+\BOOKMARK [1][-]{section.4.1}{Model Native}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{Model PWA}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{Anforderungsanalyse}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 37
+\BOOKMARK [1][-]{section.5.4}{Aufbau Service Worker}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 39
+\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 40
+\BOOKMARK [1][-]{section.5.5}{Zugriff Cache API}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 42
+\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 43
+\BOOKMARK [1][-]{section.5.6}{Zugriff Device API}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 45
+\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 46
+\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 48
+\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 49
+\BOOKMARK [1][-]{section.5.8}{IndexDB}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.8.1}{Aufbau}{section.5.8}% 51
+\BOOKMARK [2][-]{subsection.5.8.2}{Implementierung}{section.5.8}% 52
+\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 53
+\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.2}{Komponententest}{chapter.6}% 55
+\BOOKMARK [2][-]{subsection.6.2.1}{Add to Homescreen}{section.6.2}% 56
+\BOOKMARK [1][-]{section.6.3}{Funktion Service Worker}{chapter.6}% 57
+\BOOKMARK [2][-]{subsection.6.3.1}{Cache}{section.6.3}% 58
+\BOOKMARK [2][-]{subsection.6.3.2}{Kamera}{section.6.3}% 59
+\BOOKMARK [2][-]{subsection.6.3.3}{Geolocation}{section.6.3}% 60
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 61
