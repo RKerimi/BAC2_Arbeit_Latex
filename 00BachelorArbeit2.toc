@@ -24,8 +24,7 @@
 \contentsline {subsection}{\numberline {3.2.5}Geolocation}{5}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Camera API}{5}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Browser}{5}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Browser}{5}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Datenbank}{5}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.8}Datenbank}{5}{subsection.3.2.8}
 \contentsline {chapter}{\numberline {4}Entwurf}{6}{chapter.4}
 \contentsline {section}{\numberline {4.1}Model Native}{6}{section.4.1}
 \contentsline {section}{\numberline {4.2}Model PWA}{6}{section.4.2}
@@ -55,8 +54,8 @@
 \contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{8}{section.6.1}
 \contentsline {section}{\numberline {6.2}Komponententest}{8}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Add to Homescreen}{8}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Funktion Service Worker}{8}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Cache}{8}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Kamera}{8}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Geolocation}{8}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.2.2}Funktion Service Worker}{8}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Cache}{8}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Kamera}{8}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Geolocation}{8}{subsection.6.2.5}
 \contentsline {chapter}{\numberline {7}Fazit}{9}{chapter.7}
