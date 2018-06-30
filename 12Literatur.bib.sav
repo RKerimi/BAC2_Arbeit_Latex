@@ -68,7 +68,7 @@
 @Book{WasistSoftware,
   title     = {Lehrbuch der Softwaretechnik: Softwaremanagement},
   publisher = {Springer Spektrum},
-  year      = {2008},
+  year      = {200},
   author    = {Balzert, Helmut},
   address   = {Heidelberg, Neckar},
   edition   = {2., Aufl.},

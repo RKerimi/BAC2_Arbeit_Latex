@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  30 JUN 2018 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  30 JUN 2018 14:59
 entering extended mode
 **./00BachelorArbeit2.tex
 (00BachelorArbeit2.tex
@@ -1098,21 +1098,21 @@ babelbib: Set bibliography fall-back language to ngerman
 (11ProgressiveWebApp.aux) (11Implementierung.aux) (11Test.aux) (11Fazit.aux))
 \openout1 = `00BachelorArbeit2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 41.
 
 ("C:\Users\rkeri\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1191,10 +1191,10 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count157
-Package hyperref Info: Link coloring OFF on input line 40.
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (00BachelorArbeit2.out) (00BachelorArbeit2.out)
 \@outlinefile=\write5
 \openout5 = `00BachelorArbeit2.out'.
@@ -1215,7 +1215,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 \openout2 = `01Titelblatt.aux'.
 
 (01Titelblatt.tex
-<BilderAllgemein/Logo.jpg, id=243, 273.06015pt x 102.3825pt>
+<BilderAllgemein/Logo.jpg, id=254, 273.06015pt x 102.3825pt>
 File: BilderAllgemein/Logo.jpg Graphic file (type jpg)
 <use BilderAllgemein/Logo.jpg>
 Package pdftex.def Info: BilderAllgemein/Logo.jpg  used on input line 25.
@@ -1273,7 +1273,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 ("C:\Users\rkeri\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<BilderAllgemein/unterschriftRef.jpg, id=251, 655.44875pt x 212.795pt>
+<BilderAllgemein/unterschriftRef.jpg, id=262, 655.44875pt x 212.795pt>
 File: BilderAllgemein/unterschriftRef.jpg Graphic file (type jpg)
 <use BilderAllgemein/unterschriftRef.jpg>
 Package pdftex.def Info: BilderAllgemein/unterschriftRef.jpg  used on input lin
@@ -1285,23 +1285,23 @@ Overfull \hbox (130.51395pt too wide) in paragraph at lines 16--16
  []
 
 )
-Overfull \hbox (0.72449pt too wide) in paragraph at lines 12--43
+Overfull \hbox (0.72449pt too wide) in paragraph at lines 12--44
 [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \include{02EidesstattlicheErklaerung}
+l.44 \include{02EidesstattlicheErklaerung}
                                            [1
 
 
@@ -1328,25 +1328,25 @@ Package babel Info: Redefining ngerman shorthand "~
 
 ])
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
  [3]
 \openout2 = `04Danksagung.aux'.
 
  (04Danksagung.tex)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
  [4
 
 
@@ -1368,13 +1368,13 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout6 = `00BachelorArbeit2.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
  [6]
 \openout2 = `05Abkuerzungsverzeichnis.aux'.
 
@@ -1386,57 +1386,53 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
  [1
 
 
 
-] (00BachelorArbeit2.lof
-
-Package natbib Warning: Citation `Quelle' on page ii undefined on input line 4.
-
-
-)
+] (00BachelorArbeit2.lof)
 \tf@lof=\write7
 \openout7 = `00BachelorArbeit2.lof'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 61.
  [2
 
 
-] (00BachelorArbeit2.lot)
+]
+(00BachelorArbeit2.lot)
 \tf@lot=\write8
 \openout8 = `00BachelorArbeit2.lot'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 64.
  [3
 
 ] (00BachelorArbeit2.lol)
@@ -1444,17 +1440,17 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout9 = `00BachelorArbeit2.lol'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
  [4
 
 ]
@@ -1494,18 +1490,18 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 31.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \include{11Einleitung}
+l.71 \include{11Einleitung}
                             [2]
 \openout2 = `11Grundlagen.aux'.
 
@@ -1515,82 +1511,106 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<BilderAllgemein/Platzhalter.png, id=379, 460.72125pt x 188.20313pt>
-File: BilderAllgemein/Platzhalter.png Graphic file (type png)
-<use BilderAllgemein/Platzhalter.png>
-Package pdftex.def Info: BilderAllgemein/Platzhalter.png  used on input line 16
-.
-(pdftex.def)             Requested size: 398.33858pt x 162.71878pt.
+<BilderAllgemein/Internetnutzung.jpg, id=402, 625.73775pt x 490.83376pt>
+File: BilderAllgemein/Internetnutzung.jpg Graphic file (type jpg)
+<use BilderAllgemein/Internetnutzung.jpg>
+Package pdftex.def Info: BilderAllgemein/Internetnutzung.jpg  used on input lin
+e 15.
+(pdftex.def)             Requested size: 398.33858pt x 312.46236pt.
+<BilderAllgemein/SmartPhoneNutzung.jpg, id=405, 866.0355pt x 312.56775pt>
+File: BilderAllgemein/SmartPhoneNutzung.jpg Graphic file (type jpg)
+<use BilderAllgemein/SmartPhoneNutzung.jpg>
+Package pdftex.def Info: BilderAllgemein/SmartPhoneNutzung.jpg  used on input l
+ine 22.
+(pdftex.def)             Requested size: 398.33858pt x 143.76382pt.
 
-Package natbib Warning: Citation `Quelle' on page 3 undefined on input line 17.
-
-
-
-Package natbib Warning: Citation `Quelle' on page 3 undefined on input line 17.
-
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 26.
-("C:\Users\rkeri\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 26.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \newpage
-              [3
+l.36 \subsection{Was ist Software}
+                                   [3
 
 
 
- <./BilderAllgemein/Platzhalter.png>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 33.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 33.
+ <./BilderAllgemein/Internetnutzung.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 36.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 51.
+
+("C:\Users\rkeri\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 51.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 50.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 57.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \newpage
-              [4])
+l.57 \newpage
+              [4 <./BilderAllgemein/SmartPhoneNutzung.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 61.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 61.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 65.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 74.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 77.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 79.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \newpage
+              [5])
 \openout2 = `11BasisTechnologien.aux'.
 
  (11BasisTechnologien.tex
@@ -1651,12 +1671,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 41.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 \newpage
-              [5
+              [6
 
 
 
@@ -1683,19 +1703,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 73.
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.73 \include{11ProgressiveWebApp}
-                                   [6
+(babel)             in language  on input line 74.
+ [7
 
 
 
@@ -1790,14 +1805,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 54.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
- [7
+(babel)             in language  on input line 75.
+ [8
 
 
 
@@ -1840,14 +1855,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 75.
- [8
+(babel)             in language  on input line 76.
+ [9
 
 
 
@@ -1862,57 +1877,67 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
- [9
+(babel)             in language  on input line 77.
+ [10
 
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 88.
+ (00BachelorArbeit2.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 105.
+ [11
 
-No file 00BachelorArbeit2.bbl.
 
-Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
-(00BachelorArbeit2.aux (01Titelblatt.aux) (02EidesstattlicheErklaerung.aux)
-(03InfosAbstract.aux) (04Danksagung.aux) (05Abkuerzungsverzeichnis.aux)
-(11Einleitung.aux) (11Grundlagen.aux) (11BasisTechnologien.aux)
-(11ProgressiveWebApp.aux) (11Implementierung.aux) (11Test.aux) (11Fazit.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+ (00BachelorArbeit2.aux (01Titelblatt.aux)
+(02EidesstattlicheErklaerung.aux) (03InfosAbstract.aux) (04Danksagung.aux)
+(05Abkuerzungsverzeichnis.aux) (11Einleitung.aux) (11Grundlagen.aux)
+(11BasisTechnologien.aux) (11ProgressiveWebApp.aux) (11Implementierung.aux)
+(11Test.aux) (11Fazit.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `00BachelorArbeit2.out' has not changed.
-(rerunfilecheck)             Checksum: 56806F56A83E030A084D4BC643585D94;3856.
+(rerunfilecheck)             Checksum: E19E3DFBCDA3830D7A44BA0B301D52FC;4029.
  ) 
 Here is how much of TeX's memory you used:
- 15530 strings out of 493305
- 243886 string characters out of 3129802
- 370410 words of memory out of 3000000
- 18561 multiletter control sequences out of 15000+200000
- 54745 words of font info for 50 fonts, out of 3000000 for 9000
+ 15572 strings out of 493305
+ 244736 string characters out of 3129802
+ 371410 words of memory out of 3000000
+ 18591 multiletter control sequences out of 15000+200000
+ 56012 words of font info for 50 fonts, out of 3000000 for 9000
  1157 hyphenation exceptions out of 8191
- 49i,14n,49p,882b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,14n,51p,882b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}{C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-e
 c.enc}<C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
-mbx10.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmbx12.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmr10.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/lm/lmr12.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+mbx12.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+lm/lmr10.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr12.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmri12.pfb><C:/Users/rkeri/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmsy10.pfb>
-Output written on 00BachelorArbeit2.pdf (20 pages, 391038 bytes).
+Output written on 00BachelorArbeit2.pdf (22 pages, 498144 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 

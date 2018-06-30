@@ -6,55 +6,58 @@
 \BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{Zielsetzung}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Geschichte Applikationsentwicklung}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Mobile APP}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.1}{Native Apps}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.2}{Webapplikationen}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.3}{Progressive Web Apps}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.4}{Unterschiede zwischen Web Apps PWA und Native Apps}{section.2.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Basistechnologien}{}% 15
-\BOOKMARK [1][-]{section.3.1}{PWA vs.Native}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.1.1}{Vorteile/ Nachteile}{section.3.1}% 17
-\BOOKMARK [1][-]{section.3.2}{Aufbau PWA}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{Web App Manifest}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{Service Worker}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.3}{Push Notifikation}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.4}{Cache API}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.5}{Geolocation}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.6}{Camera API}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.7}{Browser}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.8}{Datenbank}{section.3.2}% 26
-\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 27
-\BOOKMARK [1][-]{section.4.1}{Model Native}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.2}{Model PWA}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.3}{Anforderungsanalyse}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 34
-\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 35
-\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 36
-\BOOKMARK [1][-]{section.5.4}{Aufbau Service Worker}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 38
-\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 39
-\BOOKMARK [1][-]{section.5.5}{Zugriff Cache API}{chapter.5}% 40
-\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 41
-\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 42
-\BOOKMARK [1][-]{section.5.6}{Zugriff Device API}{chapter.5}% 43
-\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 44
-\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 45
-\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 46
-\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 47
-\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 48
-\BOOKMARK [1][-]{section.5.8}{IndexDB}{chapter.5}% 49
-\BOOKMARK [2][-]{subsection.5.8.1}{Aufbau}{section.5.8}% 50
-\BOOKMARK [2][-]{subsection.5.8.2}{Implementierung}{section.5.8}% 51
-\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 52
-\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 53
-\BOOKMARK [1][-]{section.6.2}{Komponententest}{chapter.6}% 54
-\BOOKMARK [2][-]{subsection.6.2.1}{Add to Homescreen}{section.6.2}% 55
-\BOOKMARK [2][-]{subsection.6.2.2}{Funktion Service Worker}{section.6.2}% 56
-\BOOKMARK [2][-]{subsection.6.2.3}{Cache}{section.6.2}% 57
-\BOOKMARK [2][-]{subsection.6.2.4}{Kamera}{section.6.2}% 58
-\BOOKMARK [2][-]{subsection.6.2.5}{Geolocation}{section.6.2}% 59
-\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 60
+\BOOKMARK [1][-]{section.2.1}{Geschichte Softwareentwicklung}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Was ist Software}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Desktop APP}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Mobile APP}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Native Apps}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Webapplikationen}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.3}{Progressive Web Apps}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.4}{Unterschiede zwischen Web Apps PWA und Native Apps}{section.2.3}% 16
+\BOOKMARK [0][-]{chapter.3}{Basistechnologien}{}% 17
+\BOOKMARK [1][-]{section.3.1}{PWA vs. Native}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.1.1}{Vorteile/ Nachteile}{section.3.1}% 19
+\BOOKMARK [1][-]{section.3.2}{Aufbau PWA}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.2.1}{Web App Manifest}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.2}{Service Worker}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.3}{Push Notifikation}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.4}{Cache API}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.5}{Geolocation}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.6}{Camera API}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.7}{Browser}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.8}{Datenbank}{section.3.2}% 28
+\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Model Native}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Model PWA}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.3}{Anforderungsanalyse}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 33
+\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 38
+\BOOKMARK [1][-]{section.5.4}{Aufbau Service Worker}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 40
+\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 41
+\BOOKMARK [1][-]{section.5.5}{Zugriff Cache API}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 43
+\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 44
+\BOOKMARK [1][-]{section.5.6}{Zugriff Device API}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 46
+\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 47
+\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 48
+\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 49
+\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 50
+\BOOKMARK [1][-]{section.5.8}{IndexDB}{chapter.5}% 51
+\BOOKMARK [2][-]{subsection.5.8.1}{Aufbau}{section.5.8}% 52
+\BOOKMARK [2][-]{subsection.5.8.2}{Implementierung}{section.5.8}% 53
+\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 54
+\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.2}{Komponententest}{chapter.6}% 56
+\BOOKMARK [2][-]{subsection.6.2.1}{Add to Homescreen}{section.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.2.2}{Funktion Service Worker}{section.6.2}% 58
+\BOOKMARK [2][-]{subsection.6.2.3}{Cache}{section.6.2}% 59
+\BOOKMARK [2][-]{subsection.6.2.4}{Kamera}{section.6.2}% 60
+\BOOKMARK [2][-]{subsection.6.2.5}{Geolocation}{section.6.2}% 61
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 62
+\BOOKMARK [0][-]{chapter.7}{Literatur}{}% 63
