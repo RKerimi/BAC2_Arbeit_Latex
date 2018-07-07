@@ -68,7 +68,7 @@
 @Book{WasistSoftware,
   title     = {Lehrbuch der Softwaretechnik: Softwaremanagement},
   publisher = {Springer Spektrum},
-  year      = {200},
+  year      = {2008},
   author    = {Balzert, Helmut},
   address   = {Heidelberg, Neckar},
   edition   = {2., Aufl.},
@@ -78,6 +78,79 @@
   keywords  = {UBMA},
   pages     = {17 - 18},
   timestamp = {2009-09-29T14:55:28.000+0200},
+}
+
+@INPROCEEDINGS{PWAvsNative, 
+author={D. Fortunato and J. Bernardino}, 
+booktitle={2018 13th Iberian Conference on Information Systems and Technologies (CISTI)}, 
+title={Progressive web apps: An alternative to the native mobile Apps}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={1-6}, 
+keywords={Androids;Browsers;Global Positioning System;Google;Humanoid robots;Internet;Smart phones;Android;Mobile Native Apps;Progressive Web Apps;Web Apps;Windows;iOS}, 
+doi={10.23919/CISTI.2018.8399228}, 
+ISSN={}, 
+month={June},}
+
+@Misc{NativeAppHistory,
+  author       = {{Mindshare}},
+  title        = {{Software - Geschichte der Software}},
+  howpublished = {\url{http://www.wave3software.com/} (2018)},
+}
+
+@Misc{Microsoft,
+  author       = {{Microsoft Corporation}},
+  title        = {{Microsoft Fast Facts}},
+  howpublished = {\url{https://news.microsoft.com/de-de/fast-facts/} (2018)},
+}
+
+@Misc{SAP,
+  author       = {{SAP SE}},
+  title        = {{SAP: 46 Jahre Innovation}},
+  howpublished = {\url{https://www.sap.com/corporate/de/company/history.html} (2018)},
+}
+
+@Misc{NativeApp,
+  author       = {{App Entwickler Verzeichnis}},
+  title        = {{Native Apps vs. Web Apps - Unterschiede und Vorteile}},
+  howpublished = {\url{https://app-entwickler-verzeichnis.de/faq-app-entwicklung/11-definitionen/586-unterschiede-und-vergleich-native-apps-vs-web-apps-2} (2018)},
+}
+
+@Misc{Hochsprachen,
+  author       = {{Margaret Rouse, Alexander Gillis}},
+  title        = {{DEFINITION native App}},
+  howpublished = {\url{https://searchsoftwarequality.techtarget.com/definition/native-application-native-app} (2013)},
+}
+
+@Misc{WebApps,
+  author       = {{ Stephan Augsten}},
+  title        = {{Defintion „Webanwendung“ Was ist eine Web App?}},
+  howpublished = {\url{https://www.dev-insider.de/was-ist-eine-web-app-a-596814/} (20.04.2017)},
+}
+
+@Misc{WebAppsVsHybridApps,
+  author       = {{ Admin}},
+  title        = {{Progressive Web vs Hybrid vs Native Apps: What Are They and Which Should I Choose?}},
+  howpublished = {{\urlhttp://igniva.digital/progressive-web-hybrid-native-apps/} (20.04.2017)},
+}
+
+@Misc{HybridApps,
+  author       = {{Beratung FLYACTS}},
+  title        = {{Hybrid-Apps – Definition, Eigenschaften, Einsatzorte, Vorteile und Beispiele}},
+  howpublished = {{https://www.flyacts.com/hybrid-apps-definition-eigenschaften-einsatzorte-vorteile-und-beispiele} (03.12.2013)},
+}
+
+@Misc{CSS,
+  author       = {{Anton Shaleynikov}},
+  title        = {{Top 5 Most Popular CSS Frameworks that You Should Pay Attention to in 2017}},
+  howpublished = {\url{https://hackernoon.com/top-5-most-popular-css-frameworks-that-you-should-pay-attention-to-in-2017-344a8b67fba1} (2018)},
+}
+
+@Misc{PWAAdjectives,
+  author       = {{Google Developers}},
+  title        = {{Your First Progressive Web App}},
+  howpublished = {\url{https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#0} (2018)},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

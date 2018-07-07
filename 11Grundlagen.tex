@@ -55,28 +55,42 @@ Wir organisieren unser Leben damit und steuern unsere Haushaltsgerät, unser Gar
 Die Apps werden im allgemeinen in 3 Kategorien aufgeteilt
 Native-, Web- und Hybridapps. 
 
-\subsection{Native Apps}
-Native Apps (deutsch; angepasste Anwendung) ist speziell für eine Plattform angepasste Anwendung. 
+\subsection{Native Apps}\label{chap:Native Apps}
+\acl{NA}s (NA) (deutsch; angepasste Anwendung) ist speziell für eine Plattform angepasste Anwendung. 
 Diese werden speziell für ein bestimmtes Betriebssystem konzipiert und haben in der Regel zugriff auf alle Ressourcen eines Gerätes \cite{NativeApp}.
 Hauptsächlich werden zur Programmierung für Mobile Geräte die Hochsprachen Java (Android) und Swift(IOS) verwendet. Native Apps können in App Stores heruntergeladen  werden, die bekanntesten sind Apple Store und Google Play \cite{Hochsprachen}.
 
-\subsection{Webapplikationen}
-Bei den Webapplikationen handelt es sich um Plattformübergreifende Anwendungen. 
-Im Grunde sind sie speziell Programmierte Webseiten \cite{Hochsprachen} 
+\subsection{Webapplikationen}\label{chap:Webapplikationen}
+Im Gegensatz zu den \acs{NA}s sind \acl{WA} (\acs{WA}) speziell Programmierte Webseiten \cite{Hochsprachen}.
+\acs{WA} funktionieren nach dem Server-Client Prinzip und werden vom Browser aufgerufen. In der Regel werden \acs{WA}s auf der Basis von \acs{JS}, \acs{CSS} und \acs{HTML5} entwickelt. Die Verarbeitung erfolgt auf dem Webserver oder auf der Cloud. 
+Client seitig werden die Ergebnisse der Datenverarbeitung angezeigt. Der größte Vorteil ist sicherlich der unkomplizierte Zugang im Gegensatz zu den \acs{NA}s \cite{WebApps}.
+Durch die Einführung von Responsive Frameworks wie z.B.: Bootstrap, SemantikUI oder Foundation um nur die bekanntesten zu nennen, wurde die Webentwicklung vielseitiger in der Verwendung. Durch diese Technologien können viele Gerätegrößen mit wenig Aufwand abgedeckt werden \cite{CSS}. 
 
 \subsection{Hybridapplikationen}
-
+\acl{HyApp}s (\acs{HyApp}) verbinden die Eigenschaften den in Kapitel \ref{chap:Native Apps} und \ref{chap:Webapplikationen} genannten Technologien. Zum einen verwenden Sie die Webbasierende Client-Server Technologie zum anderen kann man mit einer \acs{HyApp} auf Gerätefunktioonen wie Kamera und Kalender zugreifen \cite{HybridApps}. 
 
 \subsection{Progressive Web Apps}
+\acl{PWA} sind im Grunde eine Weiterentwicklung von \acs{WA}s. Diese Technologie der Webentwicklung wird durch das immer schneller Wachsende Welt der Webapplikationen immer wichtiger. 
+Dem User wird das Gefühl gegeben er arbeitet mit einer \acs{NA}. Das Herausragende dabei ist es, dass jede bestehende \acs{WA} in eine \acs{PWA} umgebaut werden kann.
+Durch hinzufügen eines Manifest Files und eines \acl{SW} (\acs{SW}) werden Features hinzugefügt, die es ermöglichen Offline zu arbeiten oder das Icon der App auf den Desktop oder Home-Bilödschirm zu speichern \cite{PWA}.
+Google definiert die \acs{PWA} wie folgt:
 
-
-\subsection{Unterschiede zwischen Web Apps, PWA und Native Apps}
-
-\newpage
 
 \begin{itemize}
-    \item 
-	\item 
-	\item 
-\end{itemize}
+    \item  \textbf{Progressive} - Funktioniert für alle User unabhängig vom Browser
+	\item  \textbf{Responsive} - Passt sich jedem Gerät an	
+	\item  \textbf{Verbindungsunabhängig} - funktioniert auch bei schlechtem oder gar keinem Internetzugang
+	\item  \textbf{App-like} - fühlt sich an wie eine \acs{NA}
+	\item  \textbf{Akteull} - Durch die Wartung des \acs{SW} immer auf dem aktuellsten Stand
+	\item  \textbf{Sicher} - wird nur über HTTPS bereitgestellt
+	\item  \textbf{Erkennbar} - erkennbar dank das W3C Manifest durch Suchmaschinen
+	\item  \textbf{Wiedereinschaltbar} - wird durch die Funktion Push Notfication
+	\item  \textbf{Installierbar} - Ermöglicht das hinzufügen auf dem Startbildschirm
+	\item  \textbf{Verteilbar } - Einfache Freigabe über URL \cite{PWAAdjectives}
+\end{itemize}. 
+
+
+
+
+\newpage
 
