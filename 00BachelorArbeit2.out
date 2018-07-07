@@ -7,12 +7,12 @@
 \BOOKMARK [1][-]{section.1.2}{Zielsetzung}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Geschichte Softwareentwicklung}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Geschichte Smartphone}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Mobile Applikationen}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.1}{Native Apps}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.2}{Webapplikationen}{section.2.2}% 12
 \BOOKMARK [2][-]{subsection.2.2.3}{Hybridapplikationen}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.4}{Progressive Web Apps}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.5}{Unterschiede zwischen Web Apps PWA und Native Apps}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.5}{Unterschiede zwischen Web Apps, PWA und Native Apps}{section.2.2}% 15
 \BOOKMARK [0][-]{chapter.3}{Basistechnologien}{}% 16
 \BOOKMARK [1][-]{section.3.1}{PWA vs. Native}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.1.1}{Vorteile/ Nachteile}{section.3.1}% 18

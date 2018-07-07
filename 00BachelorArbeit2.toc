@@ -8,12 +8,12 @@
 \contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Geschichte Softwareentwicklung}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Geschichte Smartphone}{5}{section.2.2}
+\contentsline {section}{\numberline {2.2}Mobile Applikationen}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Native Apps}{5}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Webapplikationen}{5}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Hybridapplikationen}{5}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Progressive Web Apps}{5}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Unterschiede zwischen Web Apps PWA und Native Apps}{5}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Unterschiede zwischen Web Apps, PWA und Native Apps}{5}{subsection.2.2.5}
 \contentsline {chapter}{\numberline {3}Basistechnologien}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}PWA vs. Native}{7}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Vorteile/ Nachteile}{7}{subsection.3.1.1}

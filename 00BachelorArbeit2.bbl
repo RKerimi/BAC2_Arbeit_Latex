@@ -37,9 +37,20 @@ H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
   Spektrum, 2008.
 
 \bibitem{Microsoft}
-{Microsoft Corporation}.
+{Microsoft Corporation}, \emph{{Microsoft Fast Facts}},
+  \url{https://news.microsoft.com/de-de/fast-facts/} (2018).
 
 \bibitem{SAP}
-{SAP SE}.
+{SAP SE}, \emph{{SAP: 46 Jahre Innovation}},
+  \url{https://www.sap.com/corporate/de/company/history.html} (2018).
+
+\bibitem{NativeApp}
+{Mindshare}, \emph{{Software - Geschichte der Software}},
+  \url{http://www.wave3software.com/} (2018).
+
+\bibitem{Hochsprachen}
+{Margaret Rouse, Alexander Gillis}, \emph{{DEFINITION native App}},
+  \url{https://searchsoftwarequality.techtarget.com/definition/native-application-native-app}
+  (2013).
 
 \end{thebibliography}
