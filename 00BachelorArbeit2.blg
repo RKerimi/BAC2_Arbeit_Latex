@@ -13,8 +13,11 @@ A level-1 auxiliary file: 11Implementierung.aux
 A level-1 auxiliary file: 11Test.aux
 A level-1 auxiliary file: 11Fazit.aux
 Database file #1: 12Literatur.bib
+Warning--I didn't find a database entry for "ModbusSpecification"
+Warning--I didn't find a database entry for "lifecycleSW"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
+(There were 2 warnings)

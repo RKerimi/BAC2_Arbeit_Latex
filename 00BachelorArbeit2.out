@@ -13,17 +13,17 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Hybridapplikationen}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.4}{Progressive Web Apps}{section.2.2}% 14
 \BOOKMARK [0][-]{chapter.3}{Basistechnologien}{}% 15
-\BOOKMARK [1][-]{section.3.1}{PWA vs. Native}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.1.1}{Vorteile/ Nachteile}{section.3.1}% 17
-\BOOKMARK [1][-]{section.3.2}{Aufbau PWA}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{Web App Manifest}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{Service Worker}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.3}{Push Notifikation}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.4}{Cache API}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.5}{Geolocation}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.6}{Camera API}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.7}{Browser}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.8}{Datenbank}{section.3.2}% 26
+\BOOKMARK [1][-]{section.3.1}{Aufbau PWA}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Tabelle}{section.3.1}% 17
+\BOOKMARK [1][-]{section.3.2}{Web App Manifest}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{Verwendung}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{Service Worker}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{Verwendung}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{Push Notifikation}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.3}{Cache API}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.4}{Geolocation}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.5}{Camera API}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.6}{Browser}{section.3.3}% 26
 \BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 27
 \BOOKMARK [1][-]{section.4.1}{Model Native}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.2}{Model PWA}{chapter.4}% 29

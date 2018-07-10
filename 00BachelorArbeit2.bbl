@@ -77,4 +77,19 @@ H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
   \url{https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#0}
   (2018).
 
+\bibitem{Worker}
+{Dennis Sterzenbach}, \emph{{Service Worker API}},
+  \url{https://developer.mozilla.org/de/docs/Web/API/Worker} (21.12.2017).
+
+\bibitem{ServiceWorker}
+{Bitbruder, TobiDo, Heniz}, \emph{{Service Worker API}},
+  \url{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
+  (30.01.2018).
+
+\bibitem{PushNotifikation}
+{Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
+  und Benachrichtigungen}},
+  \url{https://support.google.com/partners/answer/7336533?hl=de&ref_topic=7327985}
+  (2018).
+
 \end{thebibliography}
