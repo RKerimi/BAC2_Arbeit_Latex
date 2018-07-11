@@ -78,23 +78,13 @@ H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
   (2018).
 
 \bibitem{Worker}
-{Dennis Sterzenbach}, \emph{{Worker}},
+{Dennis Sterzenbach}, \emph{{Service Worker API}},
   \url{https://developer.mozilla.org/de/docs/Web/API/Worker} (21.12.2017).
 
 \bibitem{ServiceWorker}
 {Bitbruder, TobiDo, Heniz}, \emph{{Service Worker API}},
   \url{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
   (30.01.2018).
-
-\bibitem{ServiceWorkerArchitecture}
-{David Guan}, \emph{{Using Service Workers}},
-  \url{https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers}
-  (3.7.2018).
-
-\bibitem{ServiceWorkerRegistration}
-{Google Developers}, \emph{{Your First Progressive Web App}},
-  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
-  (2018).
 
 \bibitem{PushNotifikation}
 {Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
