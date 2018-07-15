@@ -8,58 +8,58 @@
 \contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Geschichte Softwareentwicklung}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Mobile Applikationen}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Native Apps}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Webapplikationen}{5}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Hybridapplikationen}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Progressive Web Apps}{6}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.2}Mobile Applikationen}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Native Apps}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Web Applikationen}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Hybrid Applikationen}{5}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Progressive Webapplikationen}{5}{subsection.2.2.4}
 \contentsline {chapter}{\numberline {3}Basistechnologien}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Aufbau PWA}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}PWA vs. Native APP vs Wep APP}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Web App Manifest}{8}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Bereitstellung des Web App Manifest}{8}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.2}PWA vs. Native Applikation vs Web Applikation}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Web App Manifest}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Bereitstellung des Web App Manifests}{9}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Zum Startbildschirm hinzuf\IeC {\"u}gen}{11}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Service Worker}{12}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Basis Architektur}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Registrierung Service Worker}{13}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Cache API}{14}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Push Notifikation}{16}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Registrierung Push Notifikation}{16}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Geolocation}{17}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Camera API}{17}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Browser}{17}{subsection.3.5.4}
-\contentsline {chapter}{\numberline {4}Entwurf}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Model Native}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}Model PWA}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}Anforderungsanalyse}{18}{section.4.3}
-\contentsline {chapter}{\numberline {5}Implementierung}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Umsetzung der Anforderungen}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Manifest}{19}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Aufbau}{19}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Implementierung}{19}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Aufbau Service Worker}{19}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Aufbau}{19}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Implementierung}{19}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Zugriff Cache API}{19}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Aufbau}{19}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Implementierung}{19}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Zugriff Device API}{19}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Aufbau}{19}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Implementierung}{19}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Fetch API}{19}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Aufbau}{19}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Implementierung}{19}{subsection.5.7.2}
-\contentsline {section}{\numberline {5.8}IndexDB}{19}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Aufbau}{19}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Implementierung}{19}{subsection.5.8.2}
-\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}Komponententest}{20}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Add to Homescreen}{20}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Funktion Service Worker}{20}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Cache}{20}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Kamera}{20}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Geolocation}{20}{subsection.6.2.5}
-\contentsline {chapter}{\numberline {7}Fazit}{21}{chapter.7}
-\contentsline {chapter}{Literatur}{22}{chapter.7}
+\contentsline {section}{\numberline {3.4}Service Worker}{13}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Basis Architektur}{13}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Registrierung Service Worker}{15}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Cache API}{16}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Push Notifikation}{17}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Registrierung Push Notifikation}{17}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Geolocation}{18}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Camera API}{18}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Browser}{18}{subsection.3.5.4}
+\contentsline {chapter}{\numberline {4}Entwurf}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Model Native}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Model PWA}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}Anforderungsanalyse}{19}{section.4.3}
+\contentsline {chapter}{\numberline {5}Implementierung}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Umsetzung der Anforderungen}{20}{section.5.1}
+\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{20}{section.5.2}
+\contentsline {section}{\numberline {5.3}Manifest}{20}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Aufbau}{20}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Implementierung}{20}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Aufbau Service Worker}{20}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Aufbau}{20}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Implementierung}{20}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Zugriff Cache API}{20}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Aufbau}{20}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Implementierung}{20}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Zugriff Device API}{20}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Aufbau}{20}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Implementierung}{20}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Fetch API}{20}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Aufbau}{20}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Implementierung}{20}{subsection.5.7.2}
+\contentsline {section}{\numberline {5.8}IndexDB}{20}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Aufbau}{20}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Implementierung}{20}{subsection.5.8.2}
+\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Komponententest}{21}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Add to Homescreen}{21}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Funktion Service Worker}{21}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Cache}{21}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Kamera}{21}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Geolocation}{21}{subsection.6.2.5}
+\contentsline {chapter}{\numberline {7}Fazit}{22}{chapter.7}
+\contentsline {chapter}{Literatur}{23}{chapter.7}

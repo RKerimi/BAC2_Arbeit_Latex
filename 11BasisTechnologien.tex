@@ -5,7 +5,7 @@
 \lfoot{\small Refik Kerimi}
 
 \section{Aufbau PWA}
-In diesem Kapitel werden die Komponenten der \acl{PWA} (\cite{PWA}) allgemein erklärt. Weiter werden durch die Tabelle \ref{tab:PwaNvaWa} die wichtigsten Punkte gegenübergestellt.  
+In diesem Kapitel werden die Komponenten der \acl{PWA} (\acs{PWA}) allgemein erklärt. Weiter werden durch die Tabelle \ref{tab:PwaNvaWa} die wichtigsten Punkte gegenübergestellt.  
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderAllgemein/PWA_Features}\medskip
@@ -13,8 +13,8 @@ In diesem Kapitel werden die Komponenten der \acl{PWA} (\cite{PWA}) allgemein er
 	\label{fig:Komponenten}
 \end{figure}
 
-\section{PWA vs. Native APP vs Wep APP}
-Folgende Punkte werden gegenübergestellt:
+\section{PWA vs. Native Applikation vs Web Applikation}
+Folgende Punkte werden verglichen:
 \begin{itemize}
     \item  \textbf{Veröffentlichung und Installation}
 	\item  \textbf{Zugriff}
@@ -31,7 +31,7 @@ Veröffentlichung & Es werden verschiedene Entwicklerkonten benötigt Play Store
 
 Installation & App muss aus einem der App-Stores downgeloaded werden  & Wird mit einem Klick auf dem Startbildschirm hinzugefügt & keine Funktion\\ \hline
 
-Updates &  über App-Store & Sofortige Updates & Sofortige Updates\\ \hline
+Updates &  über App-Store & Serverseitig & Serverseitig\\ \hline
 
 
    				  						 
@@ -50,12 +50,12 @@ Updates &  über App-Store & Sofortige Updates & Sofortige Updates\\ \hline
  										&PWA  & Native & Web App	\\ \hline
 Offline-Zugriff & Verfügbar & Man muss die App einmal online nutzen, dann sollten die Inhalte im Cache offline verfügbar sein. & nicht möglich\\ \hline
 
-starten im Vollbildmodus & möglich  & möglich & nicht möglich\\ \hline
+Starten im Vollbildmodus & möglich  & möglich & nicht möglich\\ \hline
 
-Kundenbindung &  sehr Hoch, Kunden verbringen viel Zeit & App ist wie ein Tap, dass macht es für den Kunden leichter zu Wechseln & wie \acs{PWA}\\ \hline
+Kundenbindung &  sehr hoch, Kunden verbringen viel Zeit & App ist wie ein Tap, das macht es für den Kunden leichter zu wechseln & wie \acs{PWA}\\ \hline
 
 
-   				  						 
+Kommentar: Tabelle für Funktionen fehlt noch! 				  						 
 				
 \end{tabular}    
 \caption{Zugriff \cite{PwaNvaWa}}
@@ -65,24 +65,23 @@ Kundenbindung &  sehr Hoch, Kunden verbringen viel Zeit & App ist wie ein Tap, d
 %Tabelle verwenden
 %https://apptooltester.com/de/progressive-web-%apps/
 
- \newpage
-
+\newpage
+\clearpage
 
 
 \section{Web App Manifest}
-Das App Manifest ist ein JSON File verrät dem Browser wie sich die \acs{WA}, bei der Installation auf dem Startbildschirm, verhält. Im Manifest wird der Name,der Kurzname, die Größe, Aussehen der Icons und weitere Eigenschaften definiert diese im Kapitel \ref{chap:Entwurf} näher erklärt werden.
+Das App Manifest ist eine JSON Datei die dem Browser verrät wie sich die \acs{WA} bei der Installation auf dem Startbildschirm verhält. Im Manifest wird der Name, der Kurzname, die Größe, das Aussehen der Icons und weitere Eigenschaften definiert.
 
 
-\subsection{Bereitstellung des Web App Manifest}
-das App Manifest.json file wird in die gleiche Ebene wie die Index.html Datei in das Projekt eingepflegt und und übre den folgenden Link-Tag in der Index Datei bereitgestellt:
-
+\subsection{Bereitstellung des Web App Manifests}
+Die App Manifest.json Datei wird in die gleiche Ebene wie die Index.html Datei in das Projekt eingepflegt und und über den folgenden Link-Tag in der Index Datei bereitgestellt:
 
 \begin{lstlisting}[language=HTML, caption={Manifest.json},label=lst:Manifest.json, xleftmargin=50pt]
 <link rel="manifest" href="/<Dateinname>">
 \end{lstlisting}
 
 \newpage
-Der Aufbau der Manifest ist wie in Listening (Nr) gezeigt aufgebaut:
+Der Aufbau des Manifests ist wie in Listing \ref{} gezeigt aufgebaut:
 \begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren},label=lst:Manifest.json, xleftmargin=50pt]
 {
   "name": "HackerWeb",
@@ -126,24 +125,26 @@ Der Aufbau der Manifest ist wie in Listening (Nr) gezeigt aufgebaut:
 \end{lstlisting}\cite{Manifest}
 
 \subsection{Zum Startbildschirm hinzufügen}
-Um den Banner am Mobilen Gerät anzuzeigen müssen folgende Kriterien erfüllt werden:
+Um den Banner am mobilen Gerät anzuzeigen müssen folgende Kriterien erfüllt werden:
 
 
 \begin{itemize}
     \item  die App ist noch nicht installiert
-	\item  min 30 Sekunden lang mit der Domäne interagiert
+	\item  muss min 30 Sekunden lang mit der Domäne interagieren
 	\item  beinhaltet ein Web App Manifest mit folgenden Werten:
 		 \begin{itemize}
          \item Kurzname oder Name
          \item icons - muss ein 192px und ein 512px großes Icon enthalten
          \item Startadresse
-         \item Anzeige muss eines der folgenden sein: fullscreen, standalone oder minimal-ui
+         \item Anzeige muss eines der folgenden sein: fullscreen, standalone oder \\ minimal-ui
       	\end{itemize}
     \item 	darf nur über HTTPS aufrufbar sein
     \item beinhaltet einen \acl{SW} mit einem Fetch-Event-Handler
 \end{itemize}
 
-Wenn diese Punkte erfüllt sind startet Chrome ein beforinstallprompomt wie in Listen(refereiniziern):
+\newpage
+Wenn diese Punkte erfüllt sind startet Chrome ein beforinstallpromt wie in Listen(referenzieren):
+
 
 \begin{lstlisting}[language=JavaScript, caption={beforinstallprompt},label=lst:beforinstallprompt, xleftmargin=50pt]
 let deferredPrompt;
@@ -157,21 +158,21 @@ window.addEventListener('beforeinstallprompt', (e) => {
 \end{lstlisting}
 
 
-
+\newpage
 \section{Service Worker}
 %\label{sec:Service Worker} zuweisung zu anderen Sektor
-Der \acl{SW} (\acs{SW}) ist ein Script das der Browser im Hintergrund ausführt \cite{ServiceWorkerRegistration}. Mit der Hilfe des \acs{SW} ist es möglich die \acs{WA} offline zu betreiben, Push Notifikation zu erhalten, gecachte Daten abzurufen. \acs{SW} verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und den Netzwerk sitzen. 
+Der \acl{SW} (\acs{SW}) ist ein Script das der Browser im Hintergrund ausführt \cite{ServiceWorkerRegistration}. Mit der Hilfe des \acs{SW} ist es möglich die \acs{WA} offline zu betreiben, Push Notifikationen zu erhalten und gecachte Daten abzurufen. \acs{SW} verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und dem Netzwerk sitzen. 
 Ein \acs{SW} wird von einem Worker-Kontext \cite{Worker} ausgeführt, hat keinen DOM Zugriff und wird als Haupt-Java Script Thread verwendet \cite{ServiceWorker}.
 
 \subsection{Basis Architektur}
-Der Cyclus eines \acs{SW}s ist von der Webseite getrennt.
-In der Installationsphase werden benötigte statische Datein zwischengespeichert erst danach ist der \acs{SW} installiert. Die Installation erfolgt über die JavaScript-Funktion:
+Der Zyklus eines \acs{SW}s ist von der Webseite getrennt.
+In der Installationsphase werden benötigte statische Dateien zwischengespeichert und erst danach ist der \acs{SW} installiert. Die Installation erfolgt über die JavaScript-Funktion:
 
 \begin{lstlisting}[language=JavaScript, caption={Service Worker Navigator},label=lst:ServiceWorkerNavigator, xleftmargin=50pt]
 navigator.serviceWorker.register
 \end{lstlisting}
 
-Danach folgt die Aktivierungsphase, in dieser Phase werden alte Cache-Inhalte verwaltet und Aktualisiert.
+Danach folgt die Aktivierungsphase. In dieser Phase werden alte Cache-Inhalte verwaltet und aktualisiert.
 
 
 \begin{figure}[h]
@@ -180,6 +181,8 @@ Danach folgt die Aktivierungsphase, in dieser Phase werden alte Cache-Inhalte ve
 	\caption{Basis Architektur \acl{SW}}
 	\label{fig:Erstinstallation}\cite{ServiceWorkerArchitecture}
 \end{figure}
+
+
 Um die neuen Seiten zu steuern muss der \acs{SW} erneut geladen werden.
 In der Abbildung \ref{fig:Erstinstallation} ist eine vereinfachte Erstinstallation zu sehen:
 
@@ -216,7 +219,7 @@ Der \acs{SW} kann nach der Übernahme der Steuerung zwei Zustände übernehmen, 
 
 
 \subsection{Cache API}
-Die \acs{SW} API stellt ein Cache-Schnittstelle zum speichern von Daten auf dem Browser über IndexDB \cite{IndexDB} gespeichert und können auch wieder bei bedarf aufgerufen werden. Die API wurde ursprünglich für den \acs{SW} entwickelt, diese kann aber von jedem Script verwendet werden. 
+Die \acs{SW} API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, die über IndexDB \cite{IndexDB} gespeichert und bei Bedarf aufgerufen werden können. Die API wurde ursprünglich für den \acs{SW} entwickelt, diese kann aber von jedem Script verwendet werden. 
 Wie die API gestaltet wird, hängt ganz von den Anforderungen der Applikation ab.
 Der Einstiegspunkt ist 'cache' wie man im folgenden Codebeispiel sehr gut erkennen kann.
 
@@ -238,13 +241,13 @@ self.addEventListener('install', function(event) {
 });
 \end{lstlisting}
 
-Im Listening \ref{list:cache} zu sehen werden statische HTML, CSS und JS Dateien gecacht bevor der intall event des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
-Um den Event Aufzurufen werden Promises für Asynchrone Aufrufe verwendet \cite{Promises}.
+Wie imm Listing \ref{list:cache} zu sehen werden statische HTML, CSS und JS Dateien gecacht bevor der intall event des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
+Um den Event aufzurufen werden Promises für Asynchrone Aufrufe verwendet \cite{Promises}.
 Es gibt wie in \cite{CacheAPI} beschrieben noch andere Möglichkeiten um die Cache API nützlich in ein Projekt einzubauen.
 \newpage
 
 \section{Push Notifikation}
-Um dem User bei einer \acs{PWA} das Gefühl einer Native App aufkommen zu lassen ist die Push Funktion unablässig. Erst durch diese Funktion in Kombination mit dem \acs{SW} gibt der \acl{WA} die persönliche Nähe zum User \cite{PushNotifikation}.
+Um dem User bei einer \acs{PWA} das Gefühl einer \acl{NA} aufkommen zu lassen ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem \acs{SW} gibt den \acl{WA} die persönliche Nähe zum User \cite{PushNotifikation}.
 
 
 
@@ -270,14 +273,14 @@ if ('serviceWorker' in navigator && 'PushManager' in window) {
 }
 \end{lstlisting}
 
-Hier wird der Support der Pushfunktionen durch den Browser überprüft wie in \\ Kapitel \ref{chap:RegistrierungServiceWorker} die Browserunterstützung vom \acs{SW} und die Push Benachrichtigung. Bei fehlerlosen Durchlauf wird die \acs{SW}.js Datei registriert \cite{PushNotifikation}.
+Hier wird wie in \\ Kapitel \ref{chap:RegistrierungServiceWorker} die Browserunterstützung vom \acs{SW} und den Push Benachrichtigungen überprüft. Bei fehlerlosem Durchlauf wird die \acs{SW}.js Datei registriert \cite{PushNotifikation}.
 
 \newpage
 
 
 
 \subsection{Geolocation}
-https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
+%https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
 
 
 \subsection{Camera API}
