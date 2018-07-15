@@ -27,6 +27,11 @@
   \url{https://de-statista-com.ezproxy.fh-salzburg.ac.at/statistik/daten/studie/742449/umfrage/umfrage-zur-internetnutzung-nach-geraetetyp-in-oesterreich-nach-alter/}
   (2018).
 
+\bibitem{PwaNvaWa}
+{Robert}, \emph{{Progressive Web Apps (PWA) – Was ist das überhaupt und wie
+  nutzt man sie?}}, \url{https://apptooltester.com/de/progressive-web-apps/}
+  (12.03.2018).
+
 \bibitem{PWA}
 {Google Developers}, \emph{{Progressive Web Apps}},
   \url{https://developers.google.com/web/progressive-web-apps/} (28.06.2018).
@@ -77,14 +82,42 @@ H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
   \url{https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#0}
   (2018).
 
+\bibitem{Manifest}
+{Lion Ralfs}, \emph{{Bereitstellung eines Manifests}},
+  \url{https://developer.mozilla.org/de/docs/Web/Manifest} (27.02.2018).
+
+\bibitem{ServiceWorkerRegistration}
+{Google Developers}, \emph{{Your First Progressive Web App}},
+  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
+  (2018).
+
 \bibitem{Worker}
-{Dennis Sterzenbach}, \emph{{Service Worker API}},
+{Dennis Sterzenbach}, \emph{{Worker}},
   \url{https://developer.mozilla.org/de/docs/Web/API/Worker} (21.12.2017).
 
 \bibitem{ServiceWorker}
 {Bitbruder, TobiDo, Heniz}, \emph{{Service Worker API}},
   \url{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
   (30.01.2018).
+
+\bibitem{ServiceWorkerArchitecture}
+{David Guan}, \emph{{Using Service Workers}},
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers}
+  (03.07.2018).
+
+\bibitem{IndexDB}
+{J Doose}, \emph{{IndexedDB}},
+  \url{https://developer.mozilla.org/de/docs/IndexedDB} (26.01.2018).
+
+\bibitem{CacheAPI}
+{Google Developers}, \emph{{Caching Files with Service Worker}},
+  \url{https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker}
+  (09.04.2018).
+
+\bibitem{Promises}
+{J Nnkm}, \emph{{Promise}},
+  \url{https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise}
+  (09.05.2018).
 
 \bibitem{PushNotifikation}
 {Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
