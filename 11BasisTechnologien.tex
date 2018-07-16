@@ -55,7 +55,7 @@ Starten im Vollbildmodus & möglich  & möglich & nicht möglich\\ \hline
 Kundenbindung &  sehr hoch, Kunden verbringen viel Zeit & App ist wie ein Tap, das macht es für den Kunden leichter zu wechseln & wie \acs{PWA}\\ \hline
 
 
-Kommentar: Tabelle für Funktionen fehlt noch! 				  						 
+				  						 
 				
 \end{tabular}    
 \caption{Zugriff \cite{PwaNvaWa}}
@@ -64,7 +64,7 @@ Kommentar: Tabelle für Funktionen fehlt noch!
 
 %Tabelle verwenden
 %https://apptooltester.com/de/progressive-web-%apps/
-
+Kommentar: Tabelle für Funktionen fehlt noch! 
 \newpage
 \clearpage
 
@@ -143,7 +143,7 @@ Um den Banner am mobilen Gerät anzuzeigen müssen folgende Kriterien erfüllt w
 \end{itemize}
 
 \newpage
-Wenn diese Punkte erfüllt sind startet Chrome ein beforinstallpromt wie in Listen(referenzieren):
+Wenn diese Punkte erfüllt sind startet Chrome ein beforinstallpromt wie in Listing \ref{lst:beforinstallprompt}
 
 
 \begin{lstlisting}[language=JavaScript, caption={beforinstallprompt},label=lst:beforinstallprompt, xleftmargin=50pt]
@@ -241,7 +241,7 @@ self.addEventListener('install', function(event) {
 });
 \end{lstlisting}
 
-Wie imm Listing \ref{list:cache} zu sehen werden statische HTML, CSS und JS Dateien gecacht bevor der intall event des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
+Wie imm Listing \ref{lst:ServiceWorkerCache} zu sehen werden statische HTML, CSS und JS Dateien gecacht bevor der intall event des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
 Um den Event aufzurufen werden Promises für Asynchrone Aufrufe verwendet \cite{Promises}.
 Es gibt wie in \cite{CacheAPI} beschrieben noch andere Möglichkeiten um die Cache API nützlich in ein Projekt einzubauen.
 \newpage
@@ -279,8 +279,37 @@ Hier wird wie in \\ Kapitel \ref{chap:RegistrierungServiceWorker} die Browserunt
 
 
 
-\subsection{Geolocation}
+\subsection{Geolocation API}
 %https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
+Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. Diese Funktion kann verwendet werden um  den Benutzer zusätzlichen Nutzen zu bringen, wie z.B.: Optimierung von Benutzeranfragen, bestimmen des Standortes und Backendaufnahmen von Standortdaten für Datensammlung.
+
+\subsection{Registrierung Geolocation API}
+Als erstes wird im Listing \ref{lst:GeolocationSupport}  der Support des Browsers überprüft werden.
+
+
+\begin{lstlisting}[language=JavaScript, caption={Geolocation Support},label=lst:GeolocationSupport, xleftmargin=50pt]
+// check for Geolocation support
+if (navigator.geolocation) {
+  console.log('Geolocation is supported!');
+}
+else {
+  console.log('Geolocation is not supported for this Browser/OS.');
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=JavaScript, caption={Geolocation API},label=lst:GeolocationAPI, xleftmargin=50pt]
+window.onload = function() {
+  var startPos;
+  var geoSuccess = function(position) {
+    startPos = position;
+    document.getElementById('startLat').innerHTML = startPos.coords.latitude;
+    document.getElementById('startLon').innerHTML = startPos.coords.longitude;
+  };
+  navigator.geolocation.getCurrentPosition(geoSuccess);
+};
+\end{lstlisting}
+
+Wenn keine Errormeldung erscheint, wird die genaue Position im Listing \ref{lst:GeolocationAPI} über die Methode \texttt{getCurrentPosition()}  aufgerufen \cite{UserLocation}.  
 
 
 \subsection{Camera API}
