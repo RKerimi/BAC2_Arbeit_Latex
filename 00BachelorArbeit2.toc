@@ -27,40 +27,38 @@
 \contentsline {subsection}{\numberline {3.5.1}Registrierung Push Notifikation}{17}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Geolocation API}{18}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Registrierung Geolocation API}{18}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Camera API}{18}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Browser}{18}{subsection.3.5.5}
 \contentsline {chapter}{\numberline {4}Entwurf}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Model Native}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Model PWA}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Anforderungsanalyse}{19}{section.4.3}
-\contentsline {chapter}{\numberline {5}Implementierung}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Umsetzung der Anforderungen}{20}{section.5.1}
-\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{20}{section.5.2}
-\contentsline {section}{\numberline {5.3}Manifest}{20}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Aufbau}{20}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Implementierung}{20}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Aufbau Service Worker}{20}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Aufbau}{20}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Implementierung}{20}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Zugriff Cache API}{20}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Aufbau}{20}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Implementierung}{20}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Zugriff Device API}{20}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Aufbau}{20}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Implementierung}{20}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Fetch API}{20}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Aufbau}{20}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Implementierung}{20}{subsection.5.7.2}
-\contentsline {section}{\numberline {5.8}IndexDB}{20}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Aufbau}{20}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Implementierung}{20}{subsection.5.8.2}
-\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{21}{section.6.1}
-\contentsline {section}{\numberline {6.2}Komponententest}{21}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Add to Homescreen}{21}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Funktion Service Worker}{21}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Cache}{21}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Kamera}{21}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Geolocation}{21}{subsection.6.2.5}
-\contentsline {chapter}{\numberline {7}Fazit}{22}{chapter.7}
-\contentsline {chapter}{Literatur}{23}{chapter.7}
+\contentsline {section}{\numberline {4.1}\IeC {\"U}bersicht PWA}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Anforderungsanalyse}{20}{section.4.2}
+\contentsline {chapter}{\numberline {5}Implementierung}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Umsetzung der Anforderungen}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Ausgew\IeC {\"a}hlte Programmiersprache und IDE}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Manifest}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Aufbau}{22}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Implementierung}{22}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Aufbau Service Worker}{22}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Aufbau}{22}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Implementierung}{22}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Zugriff Cache API}{22}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Aufbau}{22}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Implementierung}{22}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Zugriff Geolocation API}{22}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Aufbau}{22}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Implementierung}{22}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Fetch API}{22}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Aufbau}{22}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Implementierung}{22}{subsection.5.7.2}
+\contentsline {section}{\numberline {5.8}IndexDB}{22}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Aufbau}{22}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Implementierung}{22}{subsection.5.8.2}
+\contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Testen auf Mobilen Ger\IeC {\"a}t}{23}{section.6.2}
+\contentsline {section}{\numberline {6.3}Lighthouse}{23}{section.6.3}
+\contentsline {section}{\numberline {6.4}Komponententest}{23}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Add to Homescreen}{23}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Funktion Service Worker}{23}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Cache}{23}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Geolocation}{23}{subsection.6.4.4}
+\contentsline {chapter}{\numberline {7}Fazit}{24}{chapter.7}
+\contentsline {chapter}{Literatur}{25}{chapter.7}

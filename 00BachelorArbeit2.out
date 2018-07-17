@@ -26,40 +26,38 @@
 \BOOKMARK [2][-]{subsection.3.5.1}{Registrierung Push Notifikation}{section.3.5}% 26
 \BOOKMARK [2][-]{subsection.3.5.2}{Geolocation API}{section.3.5}% 27
 \BOOKMARK [2][-]{subsection.3.5.3}{Registrierung Geolocation API}{section.3.5}% 28
-\BOOKMARK [2][-]{subsection.3.5.4}{Camera API}{section.3.5}% 29
-\BOOKMARK [2][-]{subsection.3.5.5}{Browser}{section.3.5}% 30
-\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 31
-\BOOKMARK [1][-]{section.4.1}{Model Native}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{Model PWA}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.3}{Anforderungsanalyse}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 35
-\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 38
-\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 39
-\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 40
-\BOOKMARK [1][-]{section.5.4}{Aufbau Service Worker}{chapter.5}% 41
-\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 42
-\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 43
-\BOOKMARK [1][-]{section.5.5}{Zugriff Cache API}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 45
-\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 46
-\BOOKMARK [1][-]{section.5.6}{Zugriff Device API}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 48
-\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 49
-\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 51
-\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 52
-\BOOKMARK [1][-]{section.5.8}{IndexDB}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.8.1}{Aufbau}{section.5.8}% 54
-\BOOKMARK [2][-]{subsection.5.8.2}{Implementierung}{section.5.8}% 55
-\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 56
-\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.2}{Komponententest}{chapter.6}% 58
-\BOOKMARK [2][-]{subsection.6.2.1}{Add to Homescreen}{section.6.2}% 59
-\BOOKMARK [2][-]{subsection.6.2.2}{Funktion Service Worker}{section.6.2}% 60
-\BOOKMARK [2][-]{subsection.6.2.3}{Cache}{section.6.2}% 61
-\BOOKMARK [2][-]{subsection.6.2.4}{Kamera}{section.6.2}% 62
-\BOOKMARK [2][-]{subsection.6.2.5}{Geolocation}{section.6.2}% 63
-\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 64
-\BOOKMARK [0][-]{chapter.7}{Literatur}{}% 65
+\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 29
+\BOOKMARK [1][-]{section.4.1}{\334bersicht PWA}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Anforderungsanalyse}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 37
+\BOOKMARK [1][-]{section.5.4}{Aufbau Service Worker}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 39
+\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 40
+\BOOKMARK [1][-]{section.5.5}{Zugriff Cache API}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 42
+\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 43
+\BOOKMARK [1][-]{section.5.6}{Zugriff Geolocation API}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 45
+\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 46
+\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 48
+\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 49
+\BOOKMARK [1][-]{section.5.8}{IndexDB}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.8.1}{Aufbau}{section.5.8}% 51
+\BOOKMARK [2][-]{subsection.5.8.2}{Implementierung}{section.5.8}% 52
+\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 53
+\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.2}{Testen auf Mobilen Ger\344t}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.3}{Lighthouse}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.4}{Komponententest}{chapter.6}% 57
+\BOOKMARK [2][-]{subsection.6.4.1}{Add to Homescreen}{section.6.4}% 58
+\BOOKMARK [2][-]{subsection.6.4.2}{Funktion Service Worker}{section.6.4}% 59
+\BOOKMARK [2][-]{subsection.6.4.3}{Cache}{section.6.4}% 60
+\BOOKMARK [2][-]{subsection.6.4.4}{Geolocation}{section.6.4}% 61
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 62
+\BOOKMARK [0][-]{chapter.7}{Literatur}{}% 63

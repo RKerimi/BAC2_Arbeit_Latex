@@ -4,15 +4,26 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \lfoot{\small Refik Kerimi}
 
-In diesem Kapitel wird das Muster im Allgemeinen und die Anforderungen bzw. die Umsetzung der \aclp{PWA} betrachtet.
+In diesem Kapitel wird das Muster im Allgemeinen und die Anforderungen bzw. die Umsetzung der \aclp{PWA} im Allgemeinen betrachtet.
 
 
+\section{Übersicht PWA}\label{sub:Übersicht PWA}
+%https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures
+% Die Architektur soll beschrieben weden
+Im Gegensatz zur \acl{NA} (\acs{NA}) ist die \acl{PWA} (\acs{PWA}) eine \acl{SC} (\acs{SC}) Architektur, diese wird somit nicht auf dem Client gespeichert sondern es wird über den Browser und das HTTPS-Protokoll zwischen Client und Server kommuniziert. Im Unterschied zu HTTP sind wie in Abbildung \ref{fig:HTTP_HTTPS} zu sehen die verschlüsselte Verbindung zwischen Server und Client.
 
-\section{Model Native}\label{sub:Model Native}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=6cm]{BilderAllgemein/HTTP_HTTPS}\medskip
+	\caption{Unterschied HTTP/HTTPS}
+	\label{fig:HTTP_HTTPS}\cite{HTTPS}
+\end{figure}
 
+Dies hat den Vorteil das die Applikation sowie die Updates wie schon in Kapitel \ref{chap:PWAvs.NativeApplikationvsWeb Applikation} erwähnt nicht downloaden muss und installiert werden müssen, das wird alles Server seitig erledigt. 
 
-\section{Model PWA}\label{sub:Model PWA}
+\newpage
 
 \section{Anforderungsanalyse}\label{sub:Anforderungsanalyse}
+Die zu entwickelnde Smart Home Applikation muss das verhalten einer \acs{PWA} aufweisen. Das heißt es müssen die Attribute aus Kapitel \ref{chap:ProgressiveWebapplikationen} eingebaut werden und danach im Kapitel \ref{chap:Funktionstest} getestet werden. Außerdem sollen auch APIs entwickelt \\werden die es möglich machen mit Services von Drittanbietern die Temperatur zu regeln, mit Hilfe von Geolocation API soll der Standort ermittelt werden um das Garagentor automatisch öffnen zu können und natürlich soll auch die Steuerung der Beleuchtung möglich sein. Diese Applikation soll auch Offline so weit es geht Verwendbar sein. Die Anwendung muss Plattformunabhängig sein und Responsive.
 
 
