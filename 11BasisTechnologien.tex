@@ -78,56 +78,38 @@ Das App Manifest ist eine JSON Datei die dem Browser verrät wie sich die \acs{W
 \subsection{Bereitstellung des Web App Manifests}
 Die App Manifest.json Datei wird in die gleiche Ebene wie die Index.html Datei in das Projekt eingepflegt und und über den folgenden Link-Tag in der Index Datei bereitgestellt:
 
-\begin{lstlisting}[language=HTML, caption={Manifest.json},label=lst:Manifest.json, xleftmargin=50pt]
+\begin{lstlisting}[language=HTML, caption={Manifest.json} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
 <link rel="manifest" href="/<Dateinname>">
 \end{lstlisting}
 
 \newpage
-Der Aufbau des Manifests ist wie in Listing \ref{} gezeigt aufgebaut:
-\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren},label=lst:Manifest.json, xleftmargin=50pt]
+Das Manifest ist wie in Listing \ref{lst:Manifest.json} gezeigt aufgebaut:
+\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
 {
-  "name": "HackerWeb",
-  "short_name": "HackerWeb",
-  "start_url": ".",
+  "short_name": "Maps",
+  "name": "Google Maps",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/maps/?source=pwa",
+  "background_color": "#3367D6",
   "display": "standalone",
-  "background_color" : "#fff" ,
-  "description": "Eine einfach lesbare Hacker News App.",
-  "Icons": [{
-    "src": "images/touch/homescreen48.png",
-    "sizes": "48x48",
-    "type": "image/png"
-  }, {
-    "src": "images/touch/homescreen72.png",
-    "sizes": "72x72",
-    "type": "image/png"
-  }, {
-    "src": "images/touch/homescreen96.png",
-    "sizes": "96x96",
-    "type": "image/png"
-  }, {
-    "src": "images/touch/homescreen144.png",
-    "sizes": "144x144",
-    "type": "image/png"
-  }, {
-    "src": "images/touch/homescreen168.png",
-    "sizes": "168x168",
-    "type": "image/png"
-  }, {
-    "src": "images/touch/homescreen192.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "Web"
-  }, {
-    "platform": "play",
-    "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
-  }]
+  "scope": "/maps/",
+  "theme_color": "#3367D6"
 }
-\end{lstlisting}\cite{Manifest}
+\end{lstlisting}
 
 \subsection{Zum Startbildschirm hinzufügen}
-Um den Banner am mobilen Gerät anzuzeigen müssen folgende Kriterien erfüllt werden:
+Um den Banner am mobilen Gerät anzuzeigen müssen folgende Kriterien wie unter \cite{AddToHomescreen} beschrieben erfüllt werden:
 
 
 \begin{itemize}
@@ -148,7 +130,7 @@ Um den Banner am mobilen Gerät anzuzeigen müssen folgende Kriterien erfüllt w
 Wenn diese Punkte erfüllt sind startet Chrome ein beforinstallpromt wie in Listing \ref{lst:beforinstallprompt}
 
 
-\begin{lstlisting}[language=JavaScript, caption={beforinstallprompt},label=lst:beforinstallprompt, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={beforinstallprompt} {\cite{AddToHomescreen}},label=lst:beforinstallprompt, xleftmargin=50pt]
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
@@ -159,6 +141,13 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 \end{lstlisting}
 
+\subsection{Browser Kompatibilität}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/BrowserManifest}\medskip
+	\caption{Kompabilität Manifest.json \cite{BrowserSupport}}
+	\label{fig:BrowserManifest}
+\end{figure}
 
 \newpage
 \section{Service Worker}
@@ -170,7 +159,7 @@ Ein \acs{SW} wird von einem Worker-Kontext \cite{Worker} ausgeführt, hat keinen
 Der Zyklus eines \acs{SW}s ist von der Webseite getrennt.
 In der Installationsphase werden benötigte statische Dateien zwischengespeichert und erst danach ist der \acs{SW} installiert. Die Installation erfolgt über die JavaScript-Funktion:
 
-\begin{lstlisting}[language=JavaScript, caption={Service Worker Navigator},label=lst:ServiceWorkerNavigator, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={Service Worker Navigator} {\cite{ServiceWorkerRegistrationGoogle}},label=lst:ServiceWorkerNavigator, xleftmargin=50pt]
 navigator.serviceWorker.register
 \end{lstlisting}
 
@@ -180,8 +169,8 @@ Danach folgt die Aktivierungsphase. In dieser Phase werden alte Cache-Inhalte ve
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=6cm]{BilderAllgemein/swLifecycle}\medskip
-	\caption{Basis Architektur \acl{SW}}
-	\label{fig:Erstinstallation}\cite{ServiceWorkerArchitecture}
+	\caption{Basis Architektur \acl{SW} \cite{ServiceWorkerArchitecture}}
+	\label{fig:Erstinstallation}
 \end{figure}
 
 
@@ -192,7 +181,7 @@ In der Abbildung \ref{fig:Erstinstallation} ist eine vereinfachte Erstinstallati
 \subsection{Registrierung Service Worker}\label{chap:RegistrierungServiceWorker}
 
 Um den \acs{SW} zu registrieren muss folgender \acs{JS}-Code in das Projekt im (genauen Pfad rausfinden) integriert werden.
-\begin{lstlisting}[language=JavaScript, caption={Service Worker Register},label=lst:ServiceWorkerRegister, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={Service Worker Register} {\cite{ServiceWorkerRegistration}},label=lst:ServiceWorkerRegister, xleftmargin=50pt]
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/sw.js').then(function(registration) {
@@ -212,20 +201,22 @@ Hier wird die Unterstützung durch den Browser geprüft.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=8cm]{BilderAllgemein/InstallSW}\medskip
-	\caption{Erstinstallation Service Worker}
-	\label{fig:Erstinstallation}\cite{ServiceWorkerRegistration}
+	\caption{Erstinstallation Service Worker \cite{ServiceWorkerRegistration}}
+	\label{fig:Erstinstallation}
 \end{figure}
 
 Der \acs{SW} kann nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder dieser wird beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
 
+\subsection{Install Service Worker}
+Nach der Registrierung des \acs{SW} wird der install Event aufgerufen. Dieser Vorgang wird im 
+Kapitel \ref{chap:CacheAPI} genauer erklärt.
 
-
-\subsection{Cache API}
-Die \acs{SW} API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, die über IndexDB \cite{IndexDB} gespeichert und bei Bedarf aufgerufen werden können. Die API wurde ursprünglich für den \acs{SW} entwickelt, diese kann aber von jedem Script verwendet werden. 
+\subsection{Cache API}\label{chap:CacheAPI}
+Die \acs{SW} API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, die über IndexedDB \cite{IndexDB} gespeichert und bei Bedarf aufgerufen werden können. Die API wurde ursprünglich für den \acs{SW} entwickelt, diese kann aber von jedem Script verwendet werden. 
 Wie die API gestaltet wird, hängt ganz von den Anforderungen der Applikation ab.
 Der Einstiegspunkt ist 'cache' wie man im folgenden Codebeispiel sehr gut erkennen kann.
 
-\begin{lstlisting}[language=JavaScript, caption={Service Worker Cache},label=lst:ServiceWorkerCache, xleftmargin=50pt, label=cache]
+\begin{lstlisting}[language=JavaScript, caption={Service Worker Cache} {\cite{CacheAPI}},label=lst:InstallCache, xleftmargin=50pt]
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(cacheName).then(function(cache) {
@@ -243,20 +234,75 @@ self.addEventListener('install', function(event) {
 });
 \end{lstlisting}
 
-Wie imm Listing \ref{lst:ServiceWorkerCache} zu sehen werden statische HTML, CSS und JS Dateien gecacht bevor der intall event des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
+Wie im Listing \ref{lst:InstallCache}  zu  sehen werden statische HTML, CSS und JS Dateien gecacht bevor der intall event des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
 Um den Event aufzurufen werden Promises für Asynchrone Aufrufe verwendet \cite{Promises}.
 Es gibt wie in \cite{CacheAPI} beschrieben noch andere Möglichkeiten um die Cache API nützlich in ein Projekt einzubauen.
 \newpage
+\subsection{Cache Fetch Requests}
+Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind wird über den fetch Event aufgerufen und überprüft. Die von Google definirte Methode dafür sieht wie folgt aus.
+
+\begin{lstlisting}[language=JavaScript, caption={Service Worker Cache} {\cite{CacheAPI}},label=lst:InstallCache, xleftmargin=40pt]
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
+
+        // IMPORTANT: Clone the request. A request is a stream and
+        // can only be consumed once. Since we are consuming this
+        // once by cache and once by the browser for fetch, we need
+        // to clone the response.
+        var fetchRequest = event.request.clone();
+
+        return fetch(fetchRequest).then(
+          function(response) {
+            // Check if we received a valid response
+            if(!response || response.status !== 200 || response.type !== 'basic') {
+              return response;
+            }
+
+            // IMPORTANT: Clone the response. A response is a stream
+            // and because we want the browser to consume the response
+            // as well as the cache consuming the response, we need
+            // to clone it so we have two streams.
+            var responseToCache = response.clone();
+
+            caches.open(CACHE_NAME)
+              .then(function(cache) {
+                cache.put(event.request, responseToCache);
+              });
+
+            return response;
+          }
+        );
+      })
+    );
+});
+\end{lstlisting}
+
+https://developers.google.com/web/fundamentals/primers/service-workers/
+\subsection{Browser Kompatibilität}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/BrowserSW}\medskip
+	\caption{Kompabilität \acl{SW} \cite{BrowserSupport}}
+	\label{fig:BrowserSW}
+\end{figure}
+
+\newpage
 
 \section{Push Notifikation}
-Um dem User bei einer \acs{PWA} das Gefühl einer \acl{NA} aufkommen zu lassen ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem \acs{SW} gibt den \acl{WA} die persönliche Nähe zum User \cite{PushNotifikation}.
+Um dem User bei einer \acs{PWA} das Gefühl von \acl{NA}en aufkommen zu lassen ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem \acs{SW} gibt den \acl{WA} die persönliche Nähe zum User \cite{PushNotifikation}.
 
 
 
 \subsection{Registrierung Push Notifikation}
 Um die Push Funktion zu integrieren muss die Registerfunktion des \acs{SW} wie folgt erweitert werden:
  
-\begin{lstlisting}[language=JavaScript, caption={Push Notifications},label=lst:PushNotifikation, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={Push Notifications} {\cite{PushNotifikation}},label=lst:PushNotifikation, xleftmargin=50pt]
 if ('serviceWorker' in navigator && 'PushManager' in window) {
   console.log('Service Worker and Push is supported');
 
@@ -275,12 +321,20 @@ if ('serviceWorker' in navigator && 'PushManager' in window) {
 }
 \end{lstlisting}
 
-Hier wird wie in \\ Kapitel \ref{chap:RegistrierungServiceWorker} die Browserunterstützung vom \acs{SW} und den Push Benachrichtigungen überprüft. Bei fehlerlosem Durchlauf wird die \acs{SW}.js Datei registriert \cite{PushNotifikation}.
+Hier wird wie in Kapitel \ref{chap:RegistrierungServiceWorker} die Browserunterstützung vom \acs{SW} und den Push Benachrichtigungen überprüft. Bei fehlerlosem Durchlauf wird die \acs{SW}.js Datei registriert \cite{PushNotifikation}.
+\newpage
+\subsection{Browser Kompatibilität}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/BrowserPushAPI}\medskip
+	\caption{Kompabilität Push Notifikation \cite{BrowserSupport}}
+	\label{fig:BrowserPushAPI}
+\end{figure}
+
+
+
 
 \newpage
-
-
-
 \subsection{Geolocation API}
 %https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
 Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. Diese Funktion kann verwendet werden um  den Benutzer zusätzlichen Nutzen zu bringen, wie z.B.: Optimierung von Benutzeranfragen, bestimmen des Standortes und Backendaufnahmen von Standortdaten für Datensammlung.
@@ -289,7 +343,7 @@ Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. D
 Als erstes wird im Listing \ref{lst:GeolocationSupport}  der Support des Browsers überprüft werden.
 
 
-\begin{lstlisting}[language=JavaScript, caption={Geolocation Support},label=lst:GeolocationSupport, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{UserLocation}},label=lst:GeolocationSupport, xleftmargin=50pt]
 // check for Geolocation support
 if (navigator.geolocation) {
   console.log('Geolocation is supported!');
@@ -299,7 +353,7 @@ else {
 }
 \end{lstlisting}
 
-\begin{lstlisting}[language=JavaScript, caption={Geolocation API},label=lst:GeolocationAPI, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={Geolocation API} {\cite{UserLocation}},label=lst:GeolocationAPI, xleftmargin=50pt]
 window.onload = function() {
   var startPos;
   var geoSuccess = function(position) {
@@ -311,8 +365,15 @@ window.onload = function() {
 };
 \end{lstlisting}
 
-Wenn keine Errormeldung erscheint, wird die genaue Position im Listing \ref{lst:GeolocationAPI} über die Methode \texttt{getCurrentPosition()}  aufgerufen \cite{UserLocation}.  
+Wenn keine Errormeldung erscheint, wird die genaue Position im Listing \ref{lst:GeolocationAPI} über die Methode \texttt{getCurrentPosition()}  aufgerufen \cite{UserLocation}.
 \newpage
+\subsection{Browser Kompatibilität}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/BrowserGL}\medskip
+	\caption{Kompabilität Geolocation \cite{BrowserSupport}}
+	\label{fig:BrowserGL}
+\end{figure}
 
 
 

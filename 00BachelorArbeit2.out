@@ -18,46 +18,49 @@
 \BOOKMARK [1][-]{section.3.3}{Web App Manifest}{chapter.3}% 18
 \BOOKMARK [2][-]{subsection.3.3.1}{Bereitstellung des Web App Manifests}{section.3.3}% 19
 \BOOKMARK [2][-]{subsection.3.3.2}{Zum Startbildschirm hinzuf\374gen}{section.3.3}% 20
-\BOOKMARK [1][-]{section.3.4}{Service Worker}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.4.1}{Basis Architektur}{section.3.4}% 22
-\BOOKMARK [2][-]{subsection.3.4.2}{Registrierung Service Worker}{section.3.4}% 23
-\BOOKMARK [2][-]{subsection.3.4.3}{Cache API}{section.3.4}% 24
-\BOOKMARK [1][-]{section.3.5}{Push Notifikation}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.5.1}{Registrierung Push Notifikation}{section.3.5}% 26
-\BOOKMARK [2][-]{subsection.3.5.2}{Geolocation API}{section.3.5}% 27
-\BOOKMARK [2][-]{subsection.3.5.3}{Registrierung Geolocation API}{section.3.5}% 28
-\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 29
-\BOOKMARK [1][-]{section.4.1}{\334bersicht PWA}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Anforderungsanalyse}{chapter.4}% 31
-\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 35
-\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 37
-\BOOKMARK [1][-]{section.5.4}{Aufbau Service Worker}{chapter.5}% 38
-\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 40
-\BOOKMARK [1][-]{section.5.5}{Zugriff Cache API}{chapter.5}% 41
-\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 42
-\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 43
-\BOOKMARK [1][-]{section.5.6}{Zugriff Geolocation API}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 45
-\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 46
-\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 48
-\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 49
-\BOOKMARK [1][-]{section.5.8}{IndexDB}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.8.1}{Aufbau}{section.5.8}% 51
-\BOOKMARK [2][-]{subsection.5.8.2}{Implementierung}{section.5.8}% 52
-\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 53
-\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 54
-\BOOKMARK [1][-]{section.6.2}{Testen auf Mobilen Ger\344t}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.3}{Lighthouse}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.4}{Komponententest}{chapter.6}% 57
-\BOOKMARK [2][-]{subsection.6.4.1}{Add to Homescreen}{section.6.4}% 58
-\BOOKMARK [2][-]{subsection.6.4.2}{Funktion Service Worker}{section.6.4}% 59
-\BOOKMARK [2][-]{subsection.6.4.3}{Cache}{section.6.4}% 60
-\BOOKMARK [2][-]{subsection.6.4.4}{Geolocation}{section.6.4}% 61
-\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 62
-\BOOKMARK [0][-]{chapter.7}{Literatur}{}% 63
+\BOOKMARK [2][-]{subsection.3.3.3}{Browser Kompatibilit\344t}{section.3.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Service Worker}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.4.1}{Basis Architektur}{section.3.4}% 23
+\BOOKMARK [2][-]{subsection.3.4.2}{Registrierung Service Worker}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.3}{Install Service Worker}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.4}{Cache API}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.5}{Cache Fetch Requests}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.6}{Browser Kompatibilit\344t}{section.3.4}% 28
+\BOOKMARK [1][-]{section.3.5}{Push Notifikation}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.5.1}{Registrierung Push Notifikation}{section.3.5}% 30
+\BOOKMARK [2][-]{subsection.3.5.2}{Browser Kompatibilit\344t}{section.3.5}% 31
+\BOOKMARK [2][-]{subsection.3.5.3}{Geolocation API}{section.3.5}% 32
+\BOOKMARK [2][-]{subsection.3.5.4}{Registrierung Geolocation API}{section.3.5}% 33
+\BOOKMARK [2][-]{subsection.3.5.5}{Browser Kompatibilit\344t}{section.3.5}% 34
+\BOOKMARK [0][-]{chapter.4}{Entwurf}{}% 35
+\BOOKMARK [1][-]{section.4.1}{\334bersicht PWA}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.2}{Anforderungsanalyse}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Implementierung}{}% 38
+\BOOKMARK [1][-]{section.5.1}{Umsetzung der Anforderungen}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.2}{Ausgew\344hlte Programmiersprache und IDE}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.3}{Manifest}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.3.1}{Aufbau}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.2}{Implementierung}{section.5.3}% 43
+\BOOKMARK [1][-]{section.5.4}{Service Worker und Cache API}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.4.1}{Aufbau}{section.5.4}% 45
+\BOOKMARK [2][-]{subsection.5.4.2}{Implementierung}{section.5.4}% 46
+\BOOKMARK [1][-]{section.5.5}{IndexedDB}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.5.1}{Aufbau}{section.5.5}% 48
+\BOOKMARK [2][-]{subsection.5.5.2}{Implementierung}{section.5.5}% 49
+\BOOKMARK [1][-]{section.5.6}{Geolocation API}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.6.1}{Aufbau}{section.5.6}% 51
+\BOOKMARK [2][-]{subsection.5.6.2}{Implementierung}{section.5.6}% 52
+\BOOKMARK [1][-]{section.5.7}{Fetch API}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.7.1}{Aufbau}{section.5.7}% 54
+\BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 55
+\BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 56
+\BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.2}{Testen auf Mobilen Ger\344t}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.3}{Lighthouse}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.4}{Komponententest}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.4.1}{Add to Homescreen}{section.6.4}% 61
+\BOOKMARK [2][-]{subsection.6.4.2}{Service Worker}{section.6.4}% 62
+\BOOKMARK [2][-]{subsection.6.4.3}{Cache}{section.6.4}% 63
+\BOOKMARK [2][-]{subsection.6.4.4}{Geolocation}{section.6.4}% 64
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 65
+\BOOKMARK [0][-]{chapter.7}{Literatur}{}% 66
