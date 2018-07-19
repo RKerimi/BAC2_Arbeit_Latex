@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.6.27)  18 JUL 2018 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.6.27)  19 JUL 2018 17:56
 entering extended mode
 **./00BachelorArbeit2.tex
 (00BachelorArbeit2.tex
@@ -1250,13 +1250,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<BilderAllgemein/Internetnutzung.jpg, id=502, 625.73775pt x 490.83376pt>
+<BilderAllgemein/Internetnutzung.jpg, id=506, 625.73775pt x 490.83376pt>
 File: BilderAllgemein/Internetnutzung.jpg Graphic file (type jpg)
 <use BilderAllgemein/Internetnutzung.jpg>
 Package pdftex.def Info: BilderAllgemein/Internetnutzung.jpg  used on input lin
 e 15.
 (pdftex.def)             Requested size: 170.71652pt x 133.90495pt.
-<BilderAllgemein/SmartPhoneNutzung.jpg, id=505, 866.0355pt x 312.56775pt>
+<BilderAllgemein/SmartPhoneNutzung.jpg, id=509, 866.0355pt x 312.56775pt>
 File: BilderAllgemein/SmartPhoneNutzung.jpg Graphic file (type jpg)
 <use BilderAllgemein/SmartPhoneNutzung.jpg>
 Package pdftex.def Info: BilderAllgemein/SmartPhoneNutzung.jpg  used on input l
@@ -1366,7 +1366,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 7.
-<BilderAllgemein/PWA_Features.jpg, id=567, 1135.8435pt x 317.988pt>
+<BilderAllgemein/PWA_Features.jpg, id=571, 1135.8435pt x 317.988pt>
 File: BilderAllgemein/PWA_Features.jpg Graphic file (type jpg)
 <use BilderAllgemein/PWA_Features.jpg>
 Package pdftex.def Info: BilderAllgemein/PWA_Features.jpg  used on input line 1
@@ -1545,7 +1545,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 144.
-<BilderAllgemein/BrowserManifest.jpg, id=628, 744.53156pt x 475.02469pt>
+<BilderAllgemein/BrowserManifest.jpg, id=632, 744.53156pt x 475.02469pt>
 File: BilderAllgemein/BrowserManifest.jpg Graphic file (type jpg)
 <use BilderAllgemein/BrowserManifest.jpg>
 Package pdftex.def Info: BilderAllgemein/BrowserManifest.jpg  used on input lin
@@ -1568,7 +1568,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 158.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 158.
-<BilderAllgemein/swLifecycle.png, id=655, 581.17125pt x 870.25125pt>
+<BilderAllgemein/swLifecycle.png, id=659, 581.17125pt x 870.25125pt>
 File: BilderAllgemein/swLifecycle.png Graphic file (type png)
 <use BilderAllgemein/swLifecycle.png>
 Package pdftex.def Info: BilderAllgemein/swLifecycle.png  used on input line 17
@@ -1596,7 +1596,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 181.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 181.
-<BilderAllgemein/InstallSW.jpg, id=677, 613.29124pt x 539.51563pt>
+<BilderAllgemein/InstallSW.jpg, id=681, 613.29124pt x 539.51563pt>
 File: BilderAllgemein/InstallSW.jpg Graphic file (type jpg)
 <use BilderAllgemein/InstallSW.jpg>
 Package pdftex.def Info: BilderAllgemein/InstallSW.jpg  used on input line 203.
@@ -1646,7 +1646,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 287.
-<BilderAllgemein/BrowserSW.jpg, id=769, 744.53156pt x 418.56375pt>
+<BilderAllgemein/BrowserSW.jpg, id=773, 744.53156pt x 418.56375pt>
 File: BilderAllgemein/BrowserSW.jpg Graphic file (type jpg)
 <use BilderAllgemein/BrowserSW.jpg>
 Package pdftex.def Info: BilderAllgemein/BrowserSW.jpg  used on input line 290.
@@ -1682,7 +1682,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 326.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 326.
-<BilderAllgemein/BrowserPushAPI.jpg, id=813, 958.3303pt x 440.39531pt>
+<BilderAllgemein/BrowserPushAPI.jpg, id=817, 958.3303pt x 440.39531pt>
 File: BilderAllgemein/BrowserPushAPI.jpg Graphic file (type jpg)
 <use BilderAllgemein/BrowserPushAPI.jpg>
 Package pdftex.def Info: BilderAllgemein/BrowserPushAPI.jpg  used on input line
@@ -1718,7 +1718,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 370.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 370.
-<BilderAllgemein/BrowserGL.jpg, id=847, 956.07187pt x 380.17032pt>
+<BilderAllgemein/BrowserGL.jpg, id=851, 956.07187pt x 380.17032pt>
 File: BilderAllgemein/BrowserGL.jpg Graphic file (type jpg)
 <use BilderAllgemein/BrowserGL.jpg>
 Package pdftex.def Info: BilderAllgemein/BrowserGL.jpg  used on input line 373.
@@ -1747,7 +1747,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 10.
-<BilderAllgemein/HTTP_HTTPS.jpg, id=859, 387.69844pt x 368.1253pt>
+<BilderAllgemein/HTTP_HTTPS.jpg, id=863, 387.69844pt x 368.1253pt>
 File: BilderAllgemein/HTTP_HTTPS.jpg Graphic file (type jpg)
 <use BilderAllgemein/HTTP_HTTPS.jpg>
 Package pdftex.def Info: BilderAllgemein/HTTP_HTTPS.jpg  used on input line 17.
@@ -1898,33 +1898,61 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 10.
+<BilderAllgemein/DevToolsAndroid.jpg, id=899, 1084.05pt x 1927.2pt>
+File: BilderAllgemein/DevToolsAndroid.jpg Graphic file (type jpg)
+<use BilderAllgemein/DevToolsAndroid.jpg>
+Package pdftex.def Info: BilderAllgemein/DevToolsAndroid.jpg  used on input lin
+e 15.
+(pdftex.def)             Requested size: 170.71652pt x 303.47679pt.
+<BilderAllgemein/DevToolsChrome.jpg, id=900, 580.41844pt x 274.77657pt>
+File: BilderAllgemein/DevToolsChrome.jpg Graphic file (type jpg)
+<use BilderAllgemein/DevToolsChrome.jpg>
+Package pdftex.def Info: BilderAllgemein/DevToolsChrome.jpg  used on input line
+ 22.
+(pdftex.def)             Requested size: 398.33858pt x 188.58138pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 13.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 17.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 17.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 28.
+[27
+
+
+
+ <./BilderAllgemein/DevToolsAndroid.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 29.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 54.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 76.
@@ -1934,11 +1962,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 76.
- [27
-
-
-
-]
+ [28 <./BilderAllgemein/DevToolsChrome.jpg>]
 \openout2 = `11Fazit.aux'.
 
  (11Fazit.tex
@@ -1956,7 +1980,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 77.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 77.
- [28
+ [29
 
 
 
@@ -1967,14 +1991,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 88.
  (00BachelorArbeit2.bbl
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
- [29
+(babel)             in language  on input line 88.
+ [30
 
 
 
@@ -1988,7 +2012,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 105.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 105.
- [30]
+ [31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (00BachelorArbeit2.aux
 (01Titelblatt.aux) (02EidesstattlicheErklaerung.aux) (03InfosAbstract.aux)
@@ -1998,17 +2022,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `00BachelorArbeit2.out' has not changed.
-(rerunfilecheck)             Checksum: A87F6854A2602BE9DF65DA61BB2CF608;4433.
+(rerunfilecheck)             Checksum: 527B036CA81B67A714DF457268FD13CC;4461.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16422 strings out of 492973
- 259878 string characters out of 3125806
+ 16446 strings out of 492973
+ 260495 string characters out of 3125806
  467250 words of memory out of 3000000
- 19534 multiletter control sequences out of 15000+200000
+ 19551 multiletter control sequences out of 15000+200000
  86679 words of font info for 82 fonts, out of 3000000 for 9000
  1157 hyphenation exceptions out of 8191
  49i,14n,53p,882b,2042s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2025,9 +2049,9 @@ TeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/lbhker1/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/lbhker1/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/lbhker1/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on 00BachelorArbeit2.pdf (42 pages, 1269367 bytes).
+Output written on 00BachelorArbeit2.pdf (43 pages, 2000477 bytes).
 PDF statistics:
- 1039 PDF objects out of 1200 (max. 8388607)
- 294 named destinations out of 1000 (max. 500000)
- 589 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1062 PDF objects out of 1200 (max. 8388607)
+ 299 named destinations out of 1000 (max. 500000)
+ 599 words of extra memory for PDF output out of 10000 (max. 10000000)
 

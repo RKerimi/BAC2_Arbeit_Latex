@@ -55,7 +55,7 @@
 \BOOKMARK [2][-]{subsection.5.7.2}{Implementierung}{section.5.7}% 55
 \BOOKMARK [0][-]{chapter.6}{Funktionstest/Validierung}{}% 56
 \BOOKMARK [1][-]{section.6.1}{Ausgangsbedingung und Ausgrenzung}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.2}{Testen auf Mobilen Ger\344t}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.2}{Testen auf Mobilen Ger\344t und Android Studio Emulator}{chapter.6}% 58
 \BOOKMARK [1][-]{section.6.3}{Lighthouse}{chapter.6}% 59
 \BOOKMARK [1][-]{section.6.4}{Komponententest}{chapter.6}% 60
 \BOOKMARK [2][-]{subsection.6.4.1}{Add to Homescreen}{section.6.4}% 61

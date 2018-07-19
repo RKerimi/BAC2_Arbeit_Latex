@@ -56,12 +56,12 @@
 \contentsline {subsection}{\numberline {5.7.2}Implementierung}{26}{subsection.5.7.2}
 \contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{27}{chapter.6}
 \contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{27}{section.6.1}
-\contentsline {section}{\numberline {6.2}Testen auf Mobilen Ger\IeC {\"a}t}{27}{section.6.2}
-\contentsline {section}{\numberline {6.3}Lighthouse}{27}{section.6.3}
-\contentsline {section}{\numberline {6.4}Komponententest}{27}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Add to Homescreen}{27}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Service Worker}{27}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Cache}{27}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Geolocation}{27}{subsection.6.4.4}
-\contentsline {chapter}{\numberline {7}Fazit}{28}{chapter.7}
-\contentsline {chapter}{Literatur}{29}{chapter.7}
+\contentsline {section}{\numberline {6.2}Testen auf Mobilen Ger\IeC {\"a}t und Android Studio Emulator}{27}{section.6.2}
+\contentsline {section}{\numberline {6.3}Lighthouse}{28}{section.6.3}
+\contentsline {section}{\numberline {6.4}Komponententest}{28}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Add to Homescreen}{28}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Service Worker}{28}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Cache}{28}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Geolocation}{28}{subsection.6.4.4}
+\contentsline {chapter}{\numberline {7}Fazit}{29}{chapter.7}
+\contentsline {chapter}{Literatur}{30}{chapter.7}
