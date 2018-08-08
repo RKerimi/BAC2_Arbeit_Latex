@@ -7,7 +7,7 @@
 In diesem Kapitel wird die Umsetzung der Applikation beschrieben. Die Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse}
 Zur Erstellung des User Interfaces wird ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet, Sematic-UI soll sicherstellen das die Applikation responives verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
 Als Browser wurde der Google Chrome Version 67 verwendet.
-Die nicht fertigen Funktionen wurden mit Mockups dargestellt um einen Eindruck zu vermitteln wie das ganze in Zukunft aussehen wird.
+Die nicht fertigen Funktionen wurden mit Mockups dargestellt um einen Eindruck zu vermitteln wie das ganze in Zukunft aussehen soll.
 
 \section{Ausgewählte Programmiersprache und IDE}
 Als Programmiersprache wurde \acl{JS} (\acs{JS}) ausgewählt. 
@@ -16,9 +16,37 @@ Weitere verwendete Tools und Frameworks wurden im Kapitel \ref{sub:Umsetzung der
 
 
 \section{Manifest}
-\subsection{Aufbau}
-\subsection{Implementierung}
+Das Manifest wird im Root Folder eingafügt und ist mit der Endung JSON deklariert. Der genau Pfad ist \textit{/app/manifest.json}. Wie im Kapitel \ref{sub:Manifest} schon beschrieben definiert das manifest File das Aussehen des Startbildschirm Icons, den Einstiegspunkt der App und weiter Attribute, die im Listening \ref{lst:Manifest.json} zu sehen sind:
 
+\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
+{
+  {
+  "name":"PWA Smart Home",
+  "short_name":"PWA_SHL_RMJ",
+  "start_url":"./",
+  "scope":".",
+  "display":"standalone",
+  "background_color":"#003399",
+  "theme_color":"#3F51C5",
+  "description":"Keep running with PWA",
+  "dir":"ltr",
+  "lang":"de-DE",
+  "orientation":"portrait-primary",
+  "icons":[
+    {
+      "src":"./static/img/light48.png",
+      "type":"image/png",
+      "sizes":"48x48"
+    },
+    {
+      "src":"./static/img/light512.png",
+      "type":"image/png",
+      "sizes":"512x512"
+    }
+  ]
+}
+}
+\end{lstlisting}
 
 
 \section{Service Worker und Cache API}
@@ -35,7 +63,7 @@ Weitere verwendete Tools und Frameworks wurden im Kapitel \ref{sub:Umsetzung der
 %}
 %\end{lstlisting}
 
-caching Files --> we´lche Files sollen gachaed werden
+caching Files --> welche Files sollen gachaed werden
 	1. Appshell --> statisch
 		2.Style, Icons, Bilder
 		3. nicht zu Viel chachen

@@ -2,19 +2,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Internetnutzung \cite {Geraetenutzung}\relax }}{3}{figure.caption.9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Smartphonenutzung \cite {Geraetenutzung}\relax }}{3}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Smartphonenutzung \cite {Geraetenutzung}\relax }}{4}{figure.caption.10}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces PWA Komponenten\relax }}{7}{figure.caption.11}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Kompabilit\IeC {\"a}t Manifest.json \cite {BrowserSupport}\relax }}{12}{figure.caption.14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Basis Architektur \acl {SW} \cite {ServiceWorkerArchitecture}\relax }}{13}{figure.caption.15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Erstinstallation Service Worker \cite {ServiceWorkerRegistration}\relax }}{15}{figure.caption.16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Kompabilit\IeC {\"a}t \acl {SW} \cite {BrowserSupport}\relax }}{18}{figure.caption.17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Kompabilit\IeC {\"a}t Push Notifikation \cite {BrowserSupport}\relax }}{20}{figure.caption.18}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Kompabilit\IeC {\"a}t Geolocation \cite {BrowserSupport}\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Kompabilit\IeC {\"a}t Manifest.json \cite {BrowserSupport}\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Erstinstallation Service Worker \cite {ServiceWorkerRegistration}\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Kompabilit\IeC {\"a}t \acl {SW} \cite {BrowserSupport}\relax }}{15}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Kompabilit\IeC {\"a}t Push Notifikation \cite {BrowserSupport}\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Kompabilit\IeC {\"a}t Geolocation \cite {BrowserSupport}\relax }}{19}{figure.caption.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Unterschied HTTP/HTTPS \cite {HTTPS}\relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Unterschied HTTP/HTTPS \cite {HTTPS}\relax }}{20}{figure.caption.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Aktivieren der Entwicklertools auf Android 8.1.0\relax }}{27}{figure.caption.21}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Anzeige der Verbindung auf Google Chrome 67\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Aktivieren der Entwicklertools auf Android 8.1.0\relax }}{25}{figure.caption.20}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Anzeige der Verbindung auf Google Chrome 67\relax }}{26}{figure.caption.21}
 \addvspace {10\p@ }

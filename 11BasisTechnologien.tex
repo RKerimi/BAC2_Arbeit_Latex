@@ -4,7 +4,7 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \lfoot{\small Refik Kerimi}
 
-\section{Aufbau PWA}
+\section{Aufbau Progressive Web Apps (PWA)}
 In diesem Kapitel werden die Komponenten der \acl{PWA} (\acs{PWA}) allgemein erklärt. Weiter werden durch die Tabelle \ref{tab:PwaNvaWa} die wichtigsten Punkte gegenübergestellt.  
 \begin{figure}[h]
 	\centering
@@ -71,7 +71,7 @@ Kommentar: Tabelle für Funktionen fehlt noch!
 \clearpage
 
 
-\section{Web App Manifest}
+\section{Web App Manifest}\label{sub:Manifest}
 Das App Manifest ist eine JSON Datei die dem Browser verrät wie sich die \acs{WA} bei der Installation auf dem Startbildschirm verhält. Im Manifest wird der Name, der Kurzname, die Größe, das Aussehen der Icons und weitere Eigenschaften definiert.
 
 
@@ -82,33 +82,12 @@ Die App Manifest.json Datei wird in die gleiche Ebene wie die Index.html Datei i
 <link rel="manifest" href="/<Dateinname>">
 \end{lstlisting}
 
-\newpage
-Das Manifest ist wie in Listing \ref{lst:Manifest.json} gezeigt aufgebaut:
-\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
-{
-  "short_name": "Maps",
-  "name": "Google Maps",
-  "icons": [
-    {
-      "src": "/images/icons-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/images/icons-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/maps/?source=pwa",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "scope": "/maps/",
-  "theme_color": "#3367D6"
-}
-\end{lstlisting}
+https://developer.mozilla.org/de/docs/Web/Manifest
 
-\subsection{Zum Startbildschirm hinzufügen}
+Tags beschreiben!!
+
+
+\subsection{Funktion zum Startbildschirm hinzufügen}
 Um den Banner am mobilen Gerät anzuzeigen müssen folgende Kriterien wie unter \cite{AddToHomescreen} beschrieben erfüllt werden:
 
 
@@ -166,12 +145,12 @@ navigator.serviceWorker.register
 Danach folgt die Aktivierungsphase. In dieser Phase werden alte Cache-Inhalte verwaltet und aktualisiert.
 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=6cm]{BilderAllgemein/swLifecycle}\medskip
-	\caption{Basis Architektur \acl{SW} \cite{ServiceWorkerArchitecture}}
-	\label{fig:Erstinstallation}
-\end{figure}
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=12cm]{BilderAllgemein/swLifecycle}\medskip
+%	\caption{Basis Architektur \acl{SW} \cite{ServiceWorkerArchitecture}}
+%	\label{fig:Erstinstallation}
+%\end{figure}
 
 
 Um die neuen Seiten zu steuern muss der \acs{SW} erneut geladen werden.

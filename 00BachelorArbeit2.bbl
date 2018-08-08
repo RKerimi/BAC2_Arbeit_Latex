@@ -27,60 +27,6 @@
   \url{https://de-statista-com.ezproxy.fh-salzburg.ac.at/statistik/daten/studie/742449/umfrage/umfrage-zur-internetnutzung-nach-geraetetyp-in-oesterreich-nach-alter/}
   (2018).
 
-\bibitem{BrowserSupport}
-{Fyrd, Lensco}, \emph{{Can I Use}}, \url{https://caniuse.com/#home}
-  (25.06.2018).
-
-\bibitem{ServiceWorkerArchitecture}
-{David Guan}, \emph{{Using Service Workers}},
-  \url{https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers}
-  (03.07.2018).
-
-\bibitem{ServiceWorkerRegistration}
-{Google Developers}, \emph{{Your First Progressive Web App}},
-  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
-  (2018).
-
-\bibitem{HTTPS}
-{James Lloyd}, \emph{{What is the difference between HTTP and HTTPS?}},
-  \url{https://www.quora.com/What-is-the-difference-between-HTTP-and-HTTPS}
-  (20.09.2016).
-
-\bibitem{PwaNvaWa}
-{Robert}, \emph{{Progressive Web Apps (PWA) – Was ist das überhaupt und wie
-  nutzt man sie?}}, \url{https://apptooltester.com/de/progressive-web-apps/}
-  (12.03.2018).
-
-\bibitem{Manifest}
-{Matt Gaunt, Paul Kinlan}, \emph{{The Web App Manifest}},
-  \url{https://developers.google.com/web/fundamentals/web-app-manifest/}
-  (02.07.2018).
-
-\bibitem{AddToHomescreen}
-{Pete LePage}, \emph{{Add to Home Screen}},
-  \url{https://developers.google.com/web/fundamentals/app-install-banners/}
-  (17.07.2018).
-
-\bibitem{ServiceWorkerRegistrationGoogle}
-{Jeff Posnick}, \emph{{Service Worker Registration}},
-  \url{https://developers.google.com/web/fundamentals/primers/service-workers/registration}
-  (02.07.2018).
-
-\bibitem{CacheAPI}
-{Google Developers}, \emph{{Caching Files with Service Worker}},
-  \url{https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker}
-  (09.04.2018).
-
-\bibitem{PushNotifikation}
-{Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
-  und Benachrichtigungen}},
-  \url{https://support.google.com/partners/answer/7336533?hl=de&ref_topic=7327985}
-  (2018).
-
-\bibitem{UserLocation}
-{Paul Kinlan}, \emph{{User Location}},
-  \url{https://apptooltester.com/de/progressive-web-apps/} (02.07.2018).
-
 \bibitem{PWA}
 {Google Developers}, \emph{{Progressive Web Apps}},
   \url{https://developers.google.com/web/progressive-web-apps/} (28.06.2018).
@@ -131,6 +77,30 @@ H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
   \url{https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#0}
   (2018).
 
+\bibitem{PwaNvaWa}
+{Robert}, \emph{{Progressive Web Apps (PWA) – Was ist das überhaupt und wie
+  nutzt man sie?}}, \url{https://apptooltester.com/de/progressive-web-apps/}
+  (12.03.2018).
+
+\bibitem{Manifest}
+{Matt Gaunt, Paul Kinlan}, \emph{{The Web App Manifest}},
+  \url{https://developers.google.com/web/fundamentals/web-app-manifest/}
+  (02.07.2018).
+
+\bibitem{AddToHomescreen}
+{Pete LePage}, \emph{{Add to Home Screen}},
+  \url{https://developers.google.com/web/fundamentals/app-install-banners/}
+  (17.07.2018).
+
+\bibitem{BrowserSupport}
+{Fyrd, Lensco}, \emph{{Can I Use}}, \url{https://caniuse.com/#home}
+  (25.06.2018).
+
+\bibitem{ServiceWorkerRegistration}
+{Google Developers}, \emph{{Your First Progressive Web App}},
+  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
+  (2018).
+
 \bibitem{Worker}
 {Dennis Sterzenbach}, \emph{{Worker}},
   \url{https://developer.mozilla.org/de/docs/Web/API/Worker} (21.12.2017).
@@ -140,14 +110,39 @@ H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
   \url{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
   (30.01.2018).
 
+\bibitem{ServiceWorkerRegistrationGoogle}
+{Jeff Posnick}, \emph{{Service Worker Registration}},
+  \url{https://developers.google.com/web/fundamentals/primers/service-workers/registration}
+  (02.07.2018).
+
 \bibitem{IndexDB}
 {J Doose}, \emph{{IndexedDB}},
   \url{https://developer.mozilla.org/de/docs/IndexedDB} (26.01.2018).
+
+\bibitem{CacheAPI}
+{Google Developers}, \emph{{Caching Files with Service Worker}},
+  \url{https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker}
+  (09.04.2018).
 
 \bibitem{Promises}
 {J Nnkm}, \emph{{Promise}},
   \url{https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise}
   (09.05.2018).
+
+\bibitem{PushNotifikation}
+{Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
+  und Benachrichtigungen}},
+  \url{https://support.google.com/partners/answer/7336533?hl=de&ref_topic=7327985}
+  (o.D).
+
+\bibitem{UserLocation}
+{Paul Kinlan}, \emph{{User Location}},
+  \url{https://apptooltester.com/de/progressive-web-apps/} (02.07.2018).
+
+\bibitem{HTTPS}
+{James Lloyd}, \emph{{What is the difference between HTTP and HTTPS?}},
+  \url{https://www.quora.com/What-is-the-difference-between-HTTP-and-HTTPS}
+  (20.09.2016).
 
 \bibitem{Lighthouse}
 {Google Developers}, \emph{{Lighthouse}},
