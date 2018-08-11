@@ -31,6 +31,12 @@
 {Fyrd, Lensco}, \emph{{Can I Use}}, \url{https://caniuse.com/#home}
   (25.06.2018).
 
+\bibitem{SWProxy}
+A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
+  development,'' in \emph{2018 14th International Conference on Advanced Trends
+  in Radioelecrtronics, Telecommunications and Computer Engineering (TCSET)},
+  Feb 2018, S. 113--118.
+
 \bibitem{ServiceWorkerRegistration}
 {Google Developers}, \emph{{Your First Progressive Web App}},
   \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
@@ -139,10 +145,6 @@ D.~Fortunato und J.~Bernardino, ,,Progressive web apps: An alternative to the
 {Bitbruder, TobiDo, Heniz}, \emph{{Service Worker API}},
   \url{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
   (30.01.2018).
-
-\bibitem{IndexDB}
-{J Doose}, \emph{{IndexedDB}},
-  \url{https://developer.mozilla.org/de/docs/IndexedDB} (26.01.2018).
 
 \bibitem{Promises}
 {J Nnkm}, \emph{{Promise}},

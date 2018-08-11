@@ -3,20 +3,24 @@
 \pagestyle{standard}
 \lfoot{\small Refik Kerimi}
 
+In diesem Kapitel wird die Umsetzung der Applikation beschrieben.
+
+\section{Anforderungsanalyse}\label{sub:Anforderungsanalyse}
+Die zu entwickelnde Smart Home Applikation muss das Verhalten einer \acs{PWA} aufweisen. Das heißt es müssen die Attribute aus Kapitel \ref{chap:ProgressiveWebapplikationen} eingebaut werden und danach getestet werden siehe Kapitel \ref{chap:Funktionstest}. Außerdem sollen auch APIs entwickelt werden die es möglich machen mit Services von Drittanbietern die Temperatur zu regeln, mit Hilfe von Geolocation API den Standort zu ermitteln um das Garagentor über GPS automatisch öffnen zu können. Ebenso soll das Steuern der Beleuchtung möglich sein. Diese Applikation soll Offline so weit es geht verwendbar sein. Die Anwendung muss Plattformunabhängig und responsive sein.
+
 \section{Umsetzung der Anforderungen}\label{sub:Umsetzung der Anforderungen}
-In diesem Kapitel wird die Umsetzung der Applikation beschrieben. Die Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse}
-Zur Erstellung des User Interfaces wird ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet, Sematic-UI soll sicherstellen das die Applikation responives verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
-Als Browser wurde der Google Chrome Version 67 verwendet.
-Die nicht fertigen Funktionen wurden mit Mockups dargestellt um einen Eindruck zu vermitteln wie das ganze in Zukunft aussehen soll.
+Zur Umsetzung der Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse} wurden für  User Interfac ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet. Sematic-UI soll sicherstellen das die Applikation responsives Verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
+Als Browser diente der Google Chrome Version 67.
+Die nicht fertigen Funktionen wurden mit Mockups dargestellt, um einen Eindruck zu vermitteln wie die App in Zukunft aussehen soll.
 
 \section{Ausgewählte Programmiersprache und IDE}
 Als Programmiersprache wurde \acl{JS} (\acs{JS}) ausgewählt. 
 Als Entwicklungsumgebung wurde Webstorm (Version 2018.2) von Jetbrains verwendet. 
-Weitere verwendete Tools und Frameworks wurden im Kapitel \ref{sub:Umsetzung der Anforderungen} beschrieben.
+Weitere verwendete Tools und Frameworks wurden in Kapitel \ref{sub:Umsetzung der Anforderungen} beschrieben.
 \newpage
 \section{Ordnerstruktur}
-Die zwei wichtigsten Dateien befinden sich wie der Abbildung \ref{fig:OrderStrucktur} zu sehen im App Verzeichnis.
-Weiters wichtig ist das app.js File dieses ist unter \textit{/app/src/js/app.js} zu finden.
+Die zwei wichtigsten Dateien befinden sich wie in Abbildung \ref{fig:OrdnerStrucktur} zu sehen ist, im app Verzeichnis.
+Ebenfalls wichtig ist das app.js File das unter \textit{/app/src/js/app.js} zu finden ist.
 
 \begin{figure}[h]
 	\centering
@@ -27,7 +31,8 @@ Weiters wichtig ist das app.js File dieses ist unter \textit{/app/src/js/app.js}
 
 
 \section{Manifest}
-Das Manifest wird im Root Folder eingafügt und ist mit der Endung JSON deklariert. Der genau Pfad ist \textit{/app/manifest.json}. Wie im Kapitel \ref{sub:Manifest} schon beschrieben definiert das manifest File das Aussehen des Startbildschirm Icons, den Einstiegspunkt der App und weiter Attribute, die im Listening \ref{lst:Manifest.json} zu sehen sind:
+Das Manifest wird im Root Folder eingefügt und ist mit der Endung \acs{JSON} deklariert. Der genau Pfad ist \textit{/app/manifest.json}. Wie in Kapitel \ref{sub:Manifest} schon beschrieben wurde, definiert das Manifest File das Aussehen des Icons am Startbildschirm, z.B. den Einstiegspunkt der App und den Namen. 
+Die Listing \ref{lst:Manifest.json} zeigt weitere wichtige Eigenschaften:
 \newpage
 \begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
 {
@@ -60,8 +65,10 @@ Das Manifest wird im Root Folder eingafügt und ist mit der Endung JSON deklarie
 \end{lstlisting}
 
 \section{Add to Homescreen}
-Wie in Kapitel \ref{sub:AddtoHomescreen} muss damit der Add to Homescreen Banner erscheint die Bedingungen erfüllen.
-Nach erfüllung dieser Forderungen wird der beforeinstallprompt Event wie in Listening \ref{lst:AddtoHomescreen} aufgerufen und in die deferredPrompt variable gespeichert.
+Damit der Add to Homescreen Banner erscheint müssen die Bedingungen aus dem Kapitel \ref{sub:AddtoHomescreen}erfüllt werden.
+Nach Erfüllung dieser Forderungen wird der beforeinstallprompt Event wie in Listing \ref{lst:AddtoHomescreen} aufgerufen und in die deferredPrompt variable gespeichert.
+
+Verzeichnis: \textit{/app/src/js/app.js}
 
 \begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Add to Homescreen Funktion} ,label=lst:AddtoHomescreen, xleftmargin=50pt]
 var deferredPrompt;
@@ -73,11 +80,11 @@ window.addEventListener('beforeinstallprompt', event => {
 });
 %\end{lstlisting}
 
-Diese Standardfunktion wird in die app.js Datei implementiert. 
+Diese Callbackfunktion wird in die \textit{app.js} Datei implementiert. 
 
 \section{Service Worker und Cache API}
-Das Herzstück der Applikation ist der im Kapitel Basistechnologien beschriebene Service Worker. Als erstes muss Validiert werden ob der Service Worker vom Browser unterstützt wird und danach wird dieser registriert, installiert und aktiviert.
-In den folgenden Listings \ref{lst:Registrierung}, \ref{lst:Installation} und \ref{lst:Aktivierung}, sind die Funktionen angegeben die für den \acs{SW} von Bedeutung sind aufgeführt und die wichtigsten Teile beschrieben.
+Das Herzstück der Applikation ist der im Kapitel \ref{chap:Basistechnologien} beschriebene Service Worker. Als erstes muss validiert werden ob der Service Worker vom Browser unterstützt wird und danach kann dieser registriert, installiert und aktiviert werden.
+In den folgenden Listings \ref{lst:Registrierung}, \ref{lst:Installation} und \ref{lst:Aktivierung} sind die Funktionen, die für den \acs{SW} von Bedeutung sind aufgeführt und die wichtigsten Teile beschrieben.
 
 Verzeichnis: \textit{/app/src/js/app.js}
 
@@ -111,26 +118,10 @@ self.addEventListener('install', event => {
 }
 \end{lstlisting}
 
-Nach dem erneuten Laden der Anwenung wird der Installation Eventlistener aufgerufen. Dieser Installiert den Service Worker und cached die Angegebenen Dateien um die App offline verwenden zu können. 
+Nach dem erneuten Laden der Anwendung wird im Listing \ref{lst:Installation} der Installations Eventlistener aufgerufen. Dieser installiert den Service Worker und cached die angegebenen Dateien um die App offline verwenden zu können. 
 
-Verzeichnis: \textit{/app/sw.js}
-
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Installation} ,label=lst:Installation, xleftmargin=50pt]
-self.addEventListener('install', event => {
-    console.log('[Service Worker] Installing Service Worker ....', event);
-    event.waitUntil(
-        caches.open(cacheName)
-            .then(cache => {
-                console.log('[Service Worker] Precaching App Frame');
-                cache.addAll(filesToCache);
-            })
-    )
-});
-}
-\end{lstlisting}
-
-Durch die Funktion \textit{waitUntil()} wird mit der Installation gewartet bis die Datei die dieser Funktion als Parameter mitgegeben wurden gecachte wurden. Durch die Cachemethode \textit{cache.All()} werden alle angegeben Dateien aufgerufen und man muss nicht alle Dateien einzeln eingeben.
-Nach der Installation wird der Service Worker aktiviert und kann dan vom Browser verwendet werden.
+Durch die Funktion \textit{waitUntil()} wird mit der Installation gewartet, bis die Dateien die dieser Funktion als Parameter mitgegeben wurden, gecacht wurden. Durch die Cachemethode \textit{cache.All()} werden alle angegeben Dateien aufgerufen und es müssen nicht alle Dateien einzeln eingeben werden.
+Nach der Installation wird der Service Worker aktiviert und kann dann vom Browser verwendet werden.
 
 Verzeichnis: \textit{/app/sw.js}
 
@@ -141,13 +132,13 @@ self.addEventListener('activate', event => {
 })
 \end{lstlisting}
 
-Durch die \textit{self.clients.claim()} Methode in Zeile 3 wird sichergestellt das der Service Worker nur installiert wird wenn alle Bedingungen erfüllt worden sind.
+Durch die \textit{self.clients.claim()} Methode in Zeile 3 wird sichergestellt, dass der Service Worker nur installiert wird wenn alle Bedingungen erfüllt wurden.
 
-Weiters wichtig ist die fetch-Methode. Diese Methode ruft Daten im Key:Value Format entweder vom Cache oder falls die Daten nicht im Cache vorhanden sind vom Webserver.
+Ebenso wichtig ist die fetch-Methode. Diese Methode ruft Daten im Key:Value Format, entweder vom Cache oder falls die Daten nicht im Cache vorhanden sind vom Webserver, auf.
 
 Verzeichnis: \textit{/app/sw.js}
 
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Aktivierung} ,label=lst:Aktivierung, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Aktivierung} ,label=lst:fetch, xleftmargin=50pt]
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
@@ -162,7 +153,7 @@ self.addEventListener('fetch', event => {
 });
 \end{lstlisting}
 
-Der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen die match-Methode überprüft ob die Daten sich im Cache befinden.
+In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen die match-Methode überprüft ob die Daten sich im Cache befinden.
 
 		
 Notizen Video
@@ -170,7 +161,7 @@ Notizen Video
 	 
 
 \section{Offline Modus}
-Eine der Aufgaben des Caches vom Service Worker ist der Offlinemodus oder das Arbeiten bei schlechter Internetverbindung. Der Cache  beinhaltet im Grunde das Index.html File CSS und Bilder oder Icons. Bei der Entwicklung der Anwendung wurden statische Dateien wie im Listening \ref{lst:Cache} verwendet.
+Eine der wichtigsten Aufgaben des Caches vom Service Worker ist der Offlinemodus oder das Arbeiten bei schlechter Internetverbindung. Der Cache beinhaltet im Grunde das Index.html File CSS und Bilder oder Icons. Bei der Entwicklung der Anwendung wurden statische Dateien wie im Listing \ref{lst:Cache} verwendet.
 
 
 \begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Cache} ,label=lst:Cache, xleftmargin=50pt]
@@ -202,7 +193,7 @@ let filesToCache = [
 	\label{fig:aufrufSWBrowser}
 \end{figure}  
 
-In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} kann man die gecachten Files vom Service Worker im Netzwerk und im Browsercache erkennen.
+In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} sind die gecachten Files vom Service Worker im Netzwerk und im Browsercache zu erkennen.
 
 \section{Push Notifications}
 
