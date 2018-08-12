@@ -4,7 +4,7 @@
 \lfoot{\small Refik Kerimi}
 
 \section{Ausgangsbedingung und Ausgrenzung}
-Getestet wurden die in Kapitel \ref{chab:Basistechnologien} und \ref{chab:Implementierung} beschriebenen PWA-Features. Dies wurde zum einen über die DevTools vom Chrome Browser sowie über das Chrome PlugIN Lighthouse getestet. 
+Getestet wurden die in Kapitel \ref{chab:Basistechnologien} und \ref{chap:Implementierung} beschriebenen PWA-Features. Dies wurde zum einen über die DevTools vom Chrome Browser sowie über das Chrome PlugIN Lighthouse getestet. 
 Als mobiles Testgerät wurde das Nexus X5 mit der Android 8.1.0 Software verwendet.  
 Weiters kann der Emulator von Android Studio verwendet werden um den Test ohne Androidgerät darzustellen. Die Applikation selbst wurde hier nicht behandelt.
  
@@ -26,41 +26,123 @@ Um auf auf dem Mobilen Smartphone testen zu können muss der Developer Modus auf
 \end{figure}
 \newpage
 Falls kein Android Gerät zur Verfügung steht ist der von Android Studio\footnote{https://developer.android.com/studio/} angebotene Emulator eine große Hilfe. Durch den integrierten Emulator lassen sich verschiedene Softwareversionen von Android darstellen. Sie helfen bei der Entwicklung und beim Testen der \acs{PWA}.
-
+\newpage
 \section{Lighthouse}
-Lighthouse ist ein open-source Tool von Google und unterstützt den Entwickler bei der Verbesserung und Transformation der Applikation zu einer vollwärtigen \acs{PWA}. Man kann Lighthouse über 3 Wege verwenden:
+Lighthouse ist ein open-source Tool von Google und unterstützt den Entwickler bei der Verbesserung und Transformation der Applikation zu einer vollwertigen \acs{PWA}. Man kann Lighthouse über 3 Wege verwenden:
 \begin{itemize}
     \item  in Chrome DevTools
 	\item  über die Kommandozeile
 	\item  oder im Continues Integration Prozess als Node Module
 \end{itemize}
 Jeder dieser Workflows benötigt den Google Chrome Browser \cite{Lighthouse}.
+Der Einsatz von Lighthouse über den Browser ist einfach. Nach eingabe der URL kann das Tool über das Chrome PlugIn, wie in Abbildung \ref{fig:LighthousePlugIN} zu sehen ist, gestartet werden. Lighthouse führt einen Debuggingtest (Abbildung \ref{fig:LighthouseDebugging}) aus und erstellt einen Bericht. In Abbildung \ref{fig:LightH_beforHTTPS_Overview} ist der Überblick der Applikation zu sehen und in Abbildung \ref{fig:PWA_Test_Lighthouse_noHTTPS} werden die fehlenden PWA-Features angezeigt.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=6cm]{BilderAllgemein/Test/LighthousePlugIN}\medskip
+	\caption{Lighthouse Plugin Chrome 67 }
+	\label{fig:LighthousePlugIN}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=6cm]{BilderAllgemein/Test/debuggingLighthouse}\medskip
+	\caption{Debugging}
+	\label{fig:LighthouseDebugging}
+\end{figure}
+ 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8cm]{BilderAllgemein/Test/LightH_beforHTTPS_Overview}\medskip
+	\caption{Lighthouse Überblick}
+	\label{fig:LightH_beforHTTPS_Overview}
+\end{figure}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{BilderAllgemein/Test/PWA_Test_Lighthouse_noHTTPS}\medskip
+	\caption{Lighthouse fehlende PWA-Features}
+	\label{fig:PWA_Test_Lighthouse_noHTTPS}
+\end{figure}
+
+In beiden Bericht Abbildungen erkennt man, dass die Applikation nur zur Hälfte die PWA Features enthält.
+Dies kommt daher, weil die \acs{PWA} bei diesem Test auf auf dem Localhost läuft und nicht wie von Google gefordert über das HTTPS-Protokoll.
+Das Projekt wurde für diese Arbeit nicht Live gestellt.
+
+\newpage
 \section{Add to Homescreen}
 %https://developers.google.com/web/fundamentals/app-install-banners/#test
+Durch dieses Feature sollte die \acs{PWA} dem Benutzer das Gefühl einer Nativen App geben. Doch leider funktioniert diese Funktion nicht immer wie sie sollte.
+Das Feature ist zurzeit nur auf Android und Chrome Browsern verfügbar und ist damit weit entfernt von den Native Apps. Startet oft nicht automatisch, ist aber durch das Menu aufrufbar wie in Abbildung \ref{fig:} zu sehen ist.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{BilderAllgemein/Test/ADDHome}\medskip
+	\caption{Add to Homescreen}
+	\label{fig:ADDHome}
+\end{figure}
+\newpage
 
 \section{Service Worker}
+Die Status des Service Workers wird durch die DevTools geprüft.
+Wie in Abbildung \ref{fig:SWTest} gezeigt ist pro \acs{PWA} nur ein Service Worker aktiv bei drei offenen Tabs. 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{BilderAllgemein/Test/SW}\medskip
+	\caption{Service Worker Status}
+	\label{fig:SWTest}
+\end{figure}
+Weiters wurde die Offline Funktion der App getestet.
+Abbildung \ref{fig:Offline} zeigt, dass die Applikation offline funktioniert.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/Offline}\medskip
+	\caption{Offline}
+	\label{fig:Offline}
+\end{figure}
+
+\newpage
 
 \section{Push Notifikation}
+Um die Nachrichten erhalten zu können wird die Berechtigung (Abbildung \ref{fig:Registrierung}) als Erstes abgefragt und dann werden die Benachrichtigungen an den User erst verschickt siehe Abbildung \ref{fig:PushNotification}.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{BilderAllgemein/PushNotification/Registrierung}\medskip
+	\caption{Registrierung Push Notification}
+	\label{fig:Registrierung}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/PushNotification/Nachricht}\medskip
+	\caption{Push Notification}
+	\label{fig:Nachricht}
+\end{figure}
 
 
 \section{Geolocation}
+Die Geolocation Funktion muss den Nutzer immer fragen ob dieser seinen Standort bestimmt haben will. Wie in Abbildung \ref{fig:Registrierung} zu sehen ist, wird das in dem Prototypen umgesetzt. In der Abbildung \ref{fig:Maps} sieht man wie der Standort über die Geolocation-API ermittelt worden ist.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{BilderAllgemein/Geolocation/Registrierung}\medskip
+	\caption{Registrierung Geolocation}
+	\label{fig:Registrierung}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=14cm]{BilderAllgemein/Geolocation/Maps}\medskip
+	\caption{Standortermittlung}
+	\label{fig:Maps}
+\end{figure}
 
 
 \section{Vergleich mit native App}
-Verglichen wurden die Punkte wie Kapitel \ref{chap:UnterschiedePWA,NativeApplikationundWeb-Apps} verwendet:
-\begin{itemize}
-   \item   Installation
-	\item  Zugriff
-	\item  Funktionen
-\end{itemize}. 
-
+Im Vergleich zur Nativen App bietet die \acs{PWA} einige Vorteile 
 
 
 

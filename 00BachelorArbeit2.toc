@@ -9,7 +9,7 @@
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Geschichte Softwareentwicklung}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Mobile Applikationen}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Native Apps}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Native Apps}{4}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Web Applikationen}{5}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Hybrid Applikationen}{5}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Progressive Webapplikationen}{5}{subsection.2.2.4}
@@ -38,11 +38,11 @@
 \contentsline {chapter}{\numberline {6}Funktionstest/Validierung}{28}{chapter.6}
 \contentsline {section}{\numberline {6.1}Ausgangsbedingung und Ausgrenzung}{28}{section.6.1}
 \contentsline {section}{\numberline {6.2}Testen auf Mobilen Ger\IeC {\"a}ten und Android Studio Emulator}{28}{section.6.2}
-\contentsline {section}{\numberline {6.3}Lighthouse}{29}{section.6.3}
-\contentsline {section}{\numberline {6.4}Add to Homescreen}{30}{section.6.4}
-\contentsline {section}{\numberline {6.5}Service Worker}{30}{section.6.5}
-\contentsline {section}{\numberline {6.6}Push Notifikation}{30}{section.6.6}
-\contentsline {section}{\numberline {6.7}Geolocation}{30}{section.6.7}
-\contentsline {section}{\numberline {6.8}Vergleich mit native App}{30}{section.6.8}
-\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{31}{chapter.7}
-\contentsline {chapter}{Literatur}{32}{chapter.7}
+\contentsline {section}{\numberline {6.3}Lighthouse}{30}{section.6.3}
+\contentsline {section}{\numberline {6.4}Add to Homescreen}{32}{section.6.4}
+\contentsline {section}{\numberline {6.5}Service Worker}{33}{section.6.5}
+\contentsline {section}{\numberline {6.6}Push Notifikation}{34}{section.6.6}
+\contentsline {section}{\numberline {6.7}Geolocation}{34}{section.6.7}
+\contentsline {section}{\numberline {6.8}Vergleich mit native App}{34}{section.6.8}
+\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{36}{chapter.7}
+\contentsline {chapter}{Literatur}{37}{chapter.7}
