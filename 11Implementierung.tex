@@ -63,7 +63,7 @@ Die Listing \ref{lst:Manifest.json} zeigt weitere wichtige Eigenschaften:
 }
 }
 \end{lstlisting}
-
+\clearpage
 \section{Add to Homescreen}
 Damit der Add to Homescreen Banner erscheint müssen die Bedingungen aus dem Kapitel \ref{sub:AddtoHomescreen}erfüllt werden.
 Nach Erfüllung dieser Forderungen wird der beforeinstallprompt Event wie in Listing \ref{lst:AddtoHomescreen} aufgerufen und in die deferredPrompt variable gespeichert.
@@ -90,7 +90,7 @@ Verzeichnis: \textit{/app/src/js/app.js}
 
 \begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Registrierung} ,label=lst:Registrierung, xleftmargin=50pt]
 //Registrierung und Validierung vom Service Worker
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && 'Notification' in window) {
     console.log('Service Worker and Notification is supported')
     navigator.serviceWorker.register('/sw.js')
         .then(reg => {
@@ -100,6 +100,8 @@ if ('serviceWorker' in navigator) {
         .catch(err => console.log(err));
 }
 \end{lstlisting}
+
+\clearpage
 Die Registriermethode \textit{register()} bekommt als Parameter die Service Worker Datei mitgegeben.
 
 Verzeichnis: \textit{/app/sw.js}
@@ -159,7 +161,7 @@ In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen die 
 Notizen Video
 	Asynchronus Code Abschitt 6 Lektion 62 4:34 
 	 
-
+\clearpage
 \section{Offline Modus}
 Eine der wichtigsten Aufgaben des Caches vom Service Worker ist der Offlinemodus oder das Arbeiten bei schlechter Internetverbindung. Der Cache beinhaltet im Grunde das Index.html File CSS und Bilder oder Icons. Bei der Entwicklung der Anwendung wurden statische Dateien wie im Listing \ref{lst:Cache} verwendet.
 
@@ -195,21 +197,53 @@ let filesToCache = [
 
 In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} sind die gecachten Files vom Service Worker im Netzwerk und im Cache zu erkennen.
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=8cm]{BilderAllgemein/Implementierung/aufruf_SW_Browser.jpg}\medskip
-	\caption{Datenaufruf Service Worker}
-	\label{fig:aufrufSWBrowser}
-\end{figure}
 
+
+\clearpage
 \section{Push Notifications}
+Die Push Benachrichtugungen dienen dem Nutzer dazu, bei Änderungen im Haushalt benachrichtigt zu werden. Z.B.: wenn das Licht durchgebrennt ist oder die Verbindung zur Heizung ausfällt.
 
+Die Benachrichtigungen wurden in diesem Projekt nicht von Server aus aufgerufen sondern sind über folgendes Listing im Pfad: \textit{/app/src/app.js} eingetragen. 
+Nach der Überprüfung im Listing \ref{lst:Registrierung} ob die Pushfunktion im Browserscobe vorhanden ist, wird im Listing \ref{lst:notificationsListener} sieht man die Eventlistener über eine Callbackfuntion aufruft. Bei diesem Prototypen sind die Benachrichtigungen im JSON-File (Pfad: \textit{/app/src/data/notification.json}) und werden über eine fetch-API aufgerufen. Durch die \textit{openWindow()}-Funktion in Zeile wird die Seite mit den Benachrichtigungstext geöffnet.  
+\\
+\begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{PushNotifikationServer}},label=lst:notificationsListener, xleftmargin=50pt]
+self.addEventListener('notificationclick', e => {
+    let notification = e.notification;
+    let action = e.action;
+
+    if (action === 'close') {
+        notification.close();
+    } else {
+        clients.openWindow('http://localhost:8080/benachrichtigungen');
+        e.notification.close()
+
+    }
+});
+\end{lstlisting}
+\clearpage
 
 \section{Geolocation API}
+Um zu zeigen, dass der Zugriff auf die Geräte-APIs möglich ist wurde in der Applikation eine Funktion hinzugefügt, die den genauen Standpunkt über die Geolocation-API ermittelt. Diese Funktion könnte als garagenöffner oder zum einschalten der heizung nützlich sein. Wenn sich der Nutzer dem Haus oder nähert könnte über die GPS Daten das Tor geöffnet werden ohne, dass der Benutzer über eine HCI eingreifen muss. 
+Als erstes wird im Listing \ref{lst:GeolocationSupport} der Support des Browsers überprüft werden.
+Verzeichnis: \textit{/app/sw.js}
 
+\begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{UserLocation}},label=lst:GeolocationSupport, xleftmargin=50pt]
+if (navigator.geolocation) {
+  console.log('Geolocation is supported!');
+}
+else {
+  console.log('Geolocation is not supported for this Browser/OS.');
+}
+\end{lstlisting}
 
+In der Abbildung \ref{fig:GeoSupport} sieht man das der Chrome Browser diese Geolocation Funktion unterstützt und man sieht auch die genauen Koordinaten.
 
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=8cm]{BilderAllgemein/Geolocation/GeoSupport.jpg}\medskip
+	\caption{Konsolenmeldung Geolocation}
+	\label{fig:GeoSupport}
+\end{figure}
 
 
 

@@ -1,4 +1,4 @@
-\chapter{Basistechnologien}\label{chab:Basistechnologien}
+\chapter{Features und Merkmale}\label{chab:FeaturesundMerkmale}
 \thispagestyle{standard}
 \pagestyle{standard}
 \renewcommand{\footrulewidth}{0.4pt}
@@ -97,7 +97,7 @@ Telefon: SMS oder Anrufe &  Verfügbar & nicht Verfügbar & nicht Verfügbar\\ \
 \newpage
 \clearpage
 
-Wie in den Tabellen ersichtlich bietet die \acs{PWA} eine Reihe von Vorteilen, z.B. Push Notifikations und Offline-Zugriff, die bei der Benutzung behilflich sein können. Aufgrund dessen bietet sie eine gute Alternative zu den \acs{NA}. Probleme machen die Betriebssysteme, da nicht alle Funktionen auf den verschiedenen Systemen zur Verfügung stehen \cite{PwaNvaWa}.
+Wie in den Tabellen ersichtlich bietet die \acs{PWA} eine Reihe von Vorteilen, z.B. Push Notifikations und Offline-Zugriff, die bei der Benutzung behilflich sein können. Aufgrund dessen bietet sie eine gute Alternative zu den Native App. Probleme machen die Betriebssysteme, da nicht alle Funktionen auf den verschiedenen Systemen zur Verfügung stehen \cite{PwaNvaWa}.
 In den nächsten Kapiteln werden die Methoden und APIs in der Theorie und im Kapitel \ref{chap:Implementierung} die praktische Anwendung an einer selbst erstellten App erklärt. 
 
 \section{Web App Manifest}\label{sub:Manifest}
@@ -111,7 +111,6 @@ Das App Manifest.json Datei wird in die gleiche Ebene wie die Index.html Datei i
 Bei Anwendungen mit mehreren \acs{HTML}-Seiten muss der Link-Tag auf jeder Seite eingefügt werden. 
 Im Listening \ref{lst:Manifest.jsonBsp} ist ein Auszug vom Aufbau dargestellt:
 	\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.jsonBsp, xleftmargin=50pt]
-  {
   "name":"PWA Smart Home RMJ",
   "short_name":"PWA_SHL_RMJ",
   "start_url":"./",
@@ -126,7 +125,6 @@ Im Listening \ref{lst:Manifest.jsonBsp} ist ein Auszug vom Aufbau dargestellt:
       "sizes":"48x48"
     }
   ]
-}
 
 \end{lstlisting}
 
@@ -148,10 +146,10 @@ Um den Banner auf dem mobilen Gerät anzuzeigen, müssen folgende Kriterien erf�
          \item Anzeige muss eines der folgenden sein: fullscreen, standalone oder \\ minimal-ui
       	\end{itemize}
     \item 	darf nur über HTTPS aufrufbar sein
-    \item beinhaltet einen \acl{SW} mit einem Fetch-Event-Handler  
+    \item beinhaltet einen Service Worker mit einem Fetch-Event-Handler  
 \end{itemize}
 
-\newpage
+
 Nachdem die oben genannten Bedingungen erfüllt wurden, wird ein Eventlistener gestartet siehe Listing \ref{lst:beforinstallpromptEvent}
 
 
@@ -177,9 +175,9 @@ In der Abbildung \ref{fig:BrowserManifest} sieht man die Browserkompabilität de
  
 
 \newpage
-\section{Service Worker}
+\section{Service Worker}\label{sub:ServiceWorker}
 %\label{sec:Service Worker} zuweisung zu anderen Sektor
-Der \acl{SW} (\acs{SW}) ist ein Script, das vom Browser im Hintergrund ausführt \cite{ServiceWorkerRegistration}. Mit Hilfe des \acs{SW} ist es möglich die \acs{Web-App} offline zu betreiben, Push Notifikationen zu erhalten und gecachte Daten abzurufen. \acs{SW} verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und dem Netzwerk sitzen, wie in der Abbildung \ref{fig:SWProxy} zu sehen ist.
+Der Server Worker ist ein Script, das vom Browser im Hintergrund ausführt \cite{ServiceWorkerRegistration}. Mit Hilfe des Server Worker ist es möglich die \acs{Web-App} offline zu betreiben, Push Notifikationen zu erhalten und gecachte Daten abzurufen. Server Worker verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und dem Netzwerk sitzen, wie in der Abbildung \ref{fig:SWProxy} zu sehen ist.
 
 \begin{figure}[h]
 	\centering
@@ -188,8 +186,8 @@ Der \acl{SW} (\acs{SW}) ist ein Script, das vom Browser im Hintergrund ausführt
 	\label{fig:SWProxy}
 \end{figure}
 
-Ein \acs{SW} wird von einem Worker-Kontext ausgeführt, hat keinen DOM Zugriff und wird als Haupt-Java Script Thread verwendet \cite{Worker} \cite{ServiceWorker}.
-Der komplizierteste Teil des \acs{SW} ist sein Lebenszyklus. 
+Ein Server Worker wird von einem Worker-Kontext ausgeführt, hat keinen DOM Zugriff und wird als Haupt-Java Script Thread verwendet \cite{Worker} \cite{ServiceWorker}.
+Der komplizierteste Teil des Server Worker ist sein Lebenszyklus. 
 Die Aufgabe der Lebenszyklen sind wie folgt definiert:
 
 \begin{itemize}
@@ -200,8 +198,8 @@ Die Aufgabe der Lebenszyklen sind wie folgt definiert:
 \end{itemize}
 
 
-Der Lebenszyklus eines \acs{SW}s ist von der Webseite getrennt.
-In der Installationsphase werden die benötigten statischen Dateien zwischengespeichert und erst nach diesem Vorgang ist der \acs{SW} installiert. Die Installation erfolgt über die JavaScript-Funktion wie in Listing \ref{lst:ServiceWorkerNavigator}:
+Der Lebenszyklus eines Server Workers ist von der Webseite getrennt.
+In der Installationsphase werden die benötigten statischen Dateien zwischengespeichert und erst nach diesem Vorgang ist der Server Worker installiert. Die Installation erfolgt über die JavaScript-Funktion wie in Listing \ref{lst:ServiceWorkerNavigator}:
 
 \begin{lstlisting}[language=JavaScript, caption={Service Worker Navigator} {\cite{ServiceWorkerRegistrationGoogle}},label=lst:ServiceWorkerNavigator, xleftmargin=50pt]
 navigator.serviceWorker.register
@@ -218,7 +216,7 @@ Danach folgt die Aktivierungsphase. In dieser Phase werden alte Cache-Inhalte ve
 %\end{figure}
 
 
-Um die neuen Seiten zu steuern muss der \acs{SW} erneut geladen werden.
+Um die neuen Seiten zu steuern muss der Server Worker erneut geladen werden.
 In der Abbildung \ref{fig:Erstinstallation} ist eine vereinfachte Erstinstallation zu sehen.
 
 
@@ -235,7 +233,7 @@ if ('serviceWorker' in navigator) {
 }
 \end{lstlisting}
 
-In Zeile eins wird im Listing \ref{lst:ServiceWorkerRegister} die Unterstützung durch den Browser geprüft, bevor in der dritten Zeile der \acs{SW} über die\\ \textit{navigator.serviceWorker.register('<ServiceWorker Name>')}-Funktion, wie in Abbildung \ref{fig:RegistrierungSW} zu sehen ist, aufgerufen wird.
+In Zeile eins wird im Listing \ref{lst:ServiceWorkerRegister} die Unterstützung durch den Browser geprüft, bevor in der dritten Zeile der Server Worker über die\\ \textit{navigator.serviceWorker.register('<ServiceWorker Name>')}-Funktion, wie in Abbildung \ref{fig:RegistrierungSW} zu sehen ist, aufgerufen wird.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{BilderAllgemein/SW_Registred}\medskip
@@ -251,12 +249,12 @@ In Zeile eins wird im Listing \ref{lst:ServiceWorkerRegister} die Unterstützung
 \end{figure}
 
 
-In der Abbildung \ref{fig:Aktivierung} ist zu sehen wie die Installation erst bei erneutem Laden der App startet. Dabei cached der \acs{SW} die zum Cache hinzufügten Files, bevor die Installation fertig ist.
-Nach der Installation wird der \acs{SW} aktiviert und steht damit der Applikation zur Verfügung.
+In der Abbildung \ref{fig:Aktivierung} ist zu sehen wie die Installation erst bei erneutem Laden der App startet. Dabei cached der Server Worker die zum Cache hinzufügten Files, bevor die Installation fertig ist.
+Nach der Installation wird der Server Worker aktiviert und steht damit der Applikation zur Verfügung.
 
 
-Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist kann der \acs{SW} nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder dieser wird beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
-Die \acs{SW} API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, im Browsercache, zur Verfügung. Die API wurde ursprünglich für den \acs{SW} entwickelt, diese kann aber von jedem anderen Script verwendet werden. 
+Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist kann der Server Worker nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder dieser wird beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
+Die Server Worker API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, im Browsercache, zur Verfügung. Die API wurde ursprünglich für den Server Worker entwickelt, diese kann aber von jedem anderen Script verwendet werden. 
 Wie die API gestaltet wird, hängt von den Anforderungen der Applikation ab.
 Der Einstiegspunkt ist 'cache' wie man im folgenden Codebeispiel (Listing \ref{lst:InstallCache}) sehr gut erkennen kann.
 
@@ -287,7 +285,7 @@ self.addEventListener('install', function(event) {
 \end{lstlisting}
 
 //notiz
-Wie im Listing \ref{lst:InstallCache}  zu  sehen ist werden statische HTML, CSS und JS Dateien gecacht bevor der Intallevent des \acs{SW} aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
+Wie im Listing \ref{lst:InstallCache}  zu  sehen ist werden statische HTML, CSS und JS Dateien gecacht bevor der Intallevent des Server Worker aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
 Um den Event aufzurufen werden Promises für asynchrone Aufrufe verwendet .
 Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind wird über den fetch Event aufgerufen und überprüft \cite{Promises}.
 \\
@@ -306,31 +304,13 @@ In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Serv
 
 
 \section{Push Notifikation}
-Um dem User bei einer \acs{PWA} das Gefühl von \acl{NA}en aufkommen zu lassen ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem \acs{SW} gibt den \acl{Web-App} ein individuelles Verhalten, dass bis jetzt den Native Apps vorbehalten war.
+Um dem User bei einer Server Worker das Gefühl von Nativen Applikationen aufkommen zu lassen ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem Server Worker gibt den \acl{Web-App} ein individuelles Verhalten, dass bis jetzt den Native Apps vorbehalten war.
 Unternehmen bekommen, durch Push APIs und Notification APIs, neue Möglichkeiten mit dem Nutzer in Kontakt zu treten und ihn mit personalisierten, relevanten Inhalten zu versorgen.
 Zur Benachrichtigung oder für Push werden zwei Technologien eingesetzt. Mit Hilfe von Push werden vom Server Informationen an den Service Worker gesendet, um Informationen vom Service Worker zum Nutzer zu senden werden Benachrichtigungen verwendet. Die Technologien nutzen für diese Datenübertragung sich ergänzende APIs \cite{PushNotifikation}. \\
 Im Kapitel \ref{chap:Implementierung} wird die praktische Verwendung der Benachrichtigungen genauer beschrieben.  
  
-\begin{lstlisting}[language=JavaScript, caption={Push Notifications} {\cite{PushNotifikation}},label=lst:PushNotifikation, xleftmargin=50pt]
-if ('serviceWorker' in navigator && 'PushManager' in window) {
-  console.log('Service Worker and Push is supported');
 
-  navigator.serviceWorker.register('sw.js')
-  .then(function(swReg) {
-    console.log('Service Worker is registered', swReg);
-
-    swRegistration = swReg;
-  })
-  .catch(function(error) {
-    console.error('Service Worker Error', error);
-  });
-} else {
-  console.warn('Push messaging is not supported');
-  pushButton.textContent = 'Push Not Supported';
-}
-\end{lstlisting}
-
-Hier wird wie in Kapitel \ref{chap:RegistrierungServiceWorker} die Browserunterstützung vom \acs{SW} und den Push Benachrichtigungen überprüft. Bei fehlerlosem Durchlauf wird die \acs{SW}.js Datei registriert \cite{PushNotifikation}.
+Hier wird wie in Kapitel \ref{sub:ServiceWorker} die Browserunterstützung vom Service Worker und den Push Benachrichtigungen überprüft \cite{PushNotifikation}.
 \newpage
 
 In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der Push API zum Stand Juli 2018.
@@ -356,34 +336,7 @@ Allerdings sind bei der Verwendung der Geolocation-API zwei wichtige Punkte zu b
 \end{itemize}
 
 
-\subsection{Registrierung Geolocation API}
-Als erstes wird im Listing \ref{lst:GeolocationSupport}  der Support des Browsers überprüft werden.
 
-
-\begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{UserLocation}},label=lst:GeolocationSupport, xleftmargin=50pt]
-// check for Geolocation support
-if (navigator.geolocation) {
-  console.log('Geolocation is supported!');
-}
-else {
-  console.log('Geolocation is not supported for this Browser/OS.');
-}
-\end{lstlisting}
-
-\begin{lstlisting}[language=JavaScript, caption={Geolocation API} {\cite{UserLocation}},label=lst:GeolocationAPI, xleftmargin=50pt]
-window.onload = function() {
-  var startPos;
-  var geoSuccess = function(position) {
-    startPos = position;
-    document.getElementById('startLat').innerHTML = startPos.coords.latitude;
-    document.getElementById('startLon').innerHTML = startPos.coords.longitude;
-  };
-  navigator.geolocation.getCurrentPosition(geoSuccess);
-};
-\end{lstlisting}
-
-Wenn keine Errormeldung erscheint, wird die genaue Position im Listing \ref{lst:GeolocationAPI} über die Methode \texttt{getCurrentPosition()}  aufgerufen \cite{UserLocation}.
-\newpage
 
 In der Abbildung \ref{fig:BrowserGL} sieht man die Browserkompabilität der Geolocation zum Stand Juli 2018.
 \begin{figure}[h]

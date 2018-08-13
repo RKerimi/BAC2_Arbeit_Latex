@@ -42,11 +42,6 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
   \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
   (2018).
 
-\bibitem{HTTPS}
-{James Lloyd}, \emph{{What is the difference between HTTP and HTTPS?}},
-  \url{https://www.quora.com/What-is-the-difference-between-HTTP-and-HTTPS}
-  (20.09.2016).
-
 \bibitem{PwaNvaWa}
 {Robert}, \emph{{Progressive Web Apps (PWA) – Was ist das überhaupt und wie
   nutzt man sie?}}, \url{https://apptooltester.com/de/progressive-web-apps/}
@@ -72,24 +67,19 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
   \url{https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker}
   (09.04.2018).
 
-\bibitem{PushNotifikation}
-{Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
-  und Benachrichtigungen}},
-  \url{https://support.google.com/partners/answer/7336533?hl=de&ref_topic=7327985}
-  (o.D).
+\bibitem{PushNotifikationServer}
+{Google Developers}, \emph{{Introduction to Push Notifications}},
+  \url{https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications}
+  (2018).
 
 \bibitem{UserLocation}
 {Paul Kinlan}, \emph{{User Location}},
-  \url{https://apptooltester.com/de/progressive-web-apps/} (02.07.2018).
+  \url{https://developers.google.com/web/fundamentals/native-hardware/user-location/}
+  (02.07.2018).
 
 \bibitem{PWA}
 {Google Developers}, \emph{{Progressive Web Apps}},
   \url{https://developers.google.com/web/progressive-web-apps/} (28.06.2018).
-
-\bibitem{WasistSoftware}
-H.~Balzert, \emph{Lehrbuch der Softwaretechnik: Softwaremanagement},
-  2.~Aufl.\hskip 1em plus 0.5em minus 0.4em\relax Heidelberg, Neckar: Springer
-  Spektrum, 2008.
 
 \bibitem{Microsoft}
 {Microsoft Corporation}, \emph{{Microsoft Fast Facts}},
@@ -150,6 +140,12 @@ D.~Fortunato und J.~Bernardino, ,,Progressive web apps: An alternative to the
 {J Nnkm}, \emph{{Promise}},
   \url{https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise}
   (09.05.2018).
+
+\bibitem{PushNotifikation}
+{Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
+  und Benachrichtigungen}},
+  \url{https://support.google.com/partners/answer/7336533?hl=de&ref_topic=7327985}
+  (o.D).
 
 \bibitem{Lighthouse}
 {Google Developers}, \emph{{Lighthouse}},
