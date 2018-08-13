@@ -136,11 +136,13 @@ self.addEventListener('activate', event => {
 
 Durch die \textit{self.clients.claim()} Methode in Zeile 3 wird sichergestellt, dass der Service Worker nur installiert wird wenn alle Bedingungen erfüllt wurden.
 
-Ebenso wichtig ist die fetch-Methode. Diese Methode ruft Daten im Key:Value Format, entweder vom Cache oder falls die Daten nicht im Cache vorhanden sind vom Webserver, auf.
+In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen die match-Methode überprüft ob die Daten sich im Cache befinden.
+Um den Event aufzurufen werden Promises für asynchrone Aufrufe verwendet .
+Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind wird über den fetch Event aufgerufen und überprüft wie in Abbildung \ref{lst:fetch} zu sehen.
 
 Verzeichnis: \textit{/app/sw.js}
 
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Aktivierung} ,label=lst:fetch, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={fetch Calbackfunktion} ,label=lst:fetch, xleftmargin=50pt]
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
@@ -155,18 +157,15 @@ self.addEventListener('fetch', event => {
 });
 \end{lstlisting}
 
-In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen die match-Methode überprüft ob die Daten sich im Cache befinden.
 
-		
-Notizen Video
-	Asynchronus Code Abschitt 6 Lektion 62 4:34 
 	 
 \clearpage
 \section{Offline Modus}
-Eine der wichtigsten Aufgaben des Caches vom Service Worker ist der Offlinemodus oder das Arbeiten bei schlechter Internetverbindung. Der Cache beinhaltet im Grunde das Index.html File CSS und Bilder oder Icons. Bei der Entwicklung der Anwendung wurden statische Dateien wie im Listing \ref{lst:Cache} verwendet.
+Eine der wichtigsten Aufgaben des Caches vom Service Worker ist der Offlinemodus oder das Arbeiten bei schlechter Internetverbindung. Der Cache beinhaltet im Grunde das Index.html File CSS und Bilder oder Icons. Bei der Entwicklung der Anwendung wurden statische Dateien wie im Listing \ref{lst:Cache} verwendet. Die benötigten Dateien wurden in die \textit{let fileToCache} Variable gespeichert und im Listing \ref{lst:Installation} und der \textit{caches.addAll()}-Methode als Parameter mitgegeben.
 
 
 \begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Cache} ,label=lst:Cache, xleftmargin=50pt]
+let cacheName = 'precache';
 let filesToCache = [
     '/',
     '/index.html',
@@ -181,14 +180,14 @@ let filesToCache = [
 \end{lstlisting}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=16cm]{BilderAllgemein/Implementierung/Cache.jpg}\medskip
 	\caption{Cache}
 	\label{fig:Cache}
 \end{figure}  
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=8cm]{BilderAllgemein/Implementierung/aufruf_SW_Browser.jpg}\medskip
 	\caption{Datenaufruf Service Worker}
@@ -201,10 +200,10 @@ In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} sind die gecachte
 
 \clearpage
 \section{Push Notifications}
-Die Push Benachrichtugungen dienen dem Nutzer dazu, bei Änderungen im Haushalt benachrichtigt zu werden. Z.B.: wenn das Licht durchgebrennt ist oder die Verbindung zur Heizung ausfällt.
+Die Push Benachrichtigungen dienen dem Nutzer dazu, bei Änderungen im Haushalt benachrichtigt zu werden, z.B.: wenn das Licht defekt ist oder die Verbindung zur Heizung ausfällt.
 
-Die Benachrichtigungen wurden in diesem Projekt nicht von Server aus aufgerufen sondern sind über folgendes Listing im Pfad: \textit{/app/src/app.js} eingetragen. 
-Nach der Überprüfung im Listing \ref{lst:Registrierung} ob die Pushfunktion im Browserscobe vorhanden ist, wird im Listing \ref{lst:notificationsListener} sieht man die Eventlistener über eine Callbackfuntion aufruft. Bei diesem Prototypen sind die Benachrichtigungen im JSON-File (Pfad: \textit{/app/src/data/notification.json}) und werden über eine fetch-API aufgerufen. Durch die \textit{openWindow()}-Funktion in Zeile wird die Seite mit den Benachrichtigungstext geöffnet.  
+Die Benachrichtigungen wurden in diesem Projekt nicht vom Server aus aufgerufen sondern sind über folgendes Listing im Pfad: \textit{/app/src/app.js} eingetragen. 
+Nach der Überprüfung im Listing \ref{lst:Registrierung} ob die Pushfunktion im Browserscope vorhanden ist, wird in Listing \ref{lst:notificationsListener} der  Eventlistener über eine Callbackfunktion aufgerufen. Bei diesem Prototypen sind die Benachrichtigungen im JSON-File\\ (Verzeichnis: \textit{/app/src/data/notification.json}) und werden über eine fetch-API aufgerufen. Durch die \textit{openWindow()}-Funktion in Zeile 8 wird die Seite mit dem Benachrichtigungstext geöffnet.  
 \\
 \begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{PushNotifikationServer}},label=lst:notificationsListener, xleftmargin=50pt]
 self.addEventListener('notificationclick', e => {
@@ -223,8 +222,8 @@ self.addEventListener('notificationclick', e => {
 \clearpage
 
 \section{Geolocation API}
-Um zu zeigen, dass der Zugriff auf die Geräte-APIs möglich ist wurde in der Applikation eine Funktion hinzugefügt, die den genauen Standpunkt über die Geolocation-API ermittelt. Diese Funktion könnte als garagenöffner oder zum einschalten der heizung nützlich sein. Wenn sich der Nutzer dem Haus oder nähert könnte über die GPS Daten das Tor geöffnet werden ohne, dass der Benutzer über eine HCI eingreifen muss. 
-Als erstes wird im Listing \ref{lst:GeolocationSupport} der Support des Browsers überprüft werden.
+Um zu zeigen, dass der Zugriff auf die Geräte-APIs möglich ist wurde in der Applikation eine Funktion hinzugefügt, die den genauen Standpunkt über die Geolocation-API ermittelt. Diese Funktion könnte als Garagenöffner oder zum Einschalten der Heizung nützlich sein. Wenn sich der Nutzer dem Haus nähert könnte über die GPS Daten das Tor geöffnet werden ohne, dass der Benutzer über eine HCI eingreifen muss. 
+Als erstes wird im Listing \ref{lst:GeolocationSupport} der Support des Browsers überprüft.\\
 Verzeichnis: \textit{/app/sw.js}
 
 \begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{UserLocation}},label=lst:GeolocationSupport, xleftmargin=50pt]
@@ -236,11 +235,11 @@ else {
 }
 \end{lstlisting}
 
-In der Abbildung \ref{fig:GeoSupport} sieht man das der Chrome Browser diese Geolocation Funktion unterstützt und man sieht auch die genauen Koordinaten.
+In der Abbildung \ref{fig:GeoSupport} sieht man, dass der Chrome Browser diese Geolocation Funktion unterstützt und man sieht auch die genauen Koordinaten.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=8cm]{BilderAllgemein/Geolocation/GeoSupport.jpg}\medskip
+	\includegraphics[width=14cm]{BilderAllgemein/Geolocation/GeoSupport.jpg}\medskip
 	\caption{Konsolenmeldung Geolocation}
 	\label{fig:GeoSupport}
 \end{figure}

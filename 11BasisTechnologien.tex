@@ -220,7 +220,7 @@ Um die neuen Seiten zu steuern muss der Server Worker erneut geladen werden.
 In der Abbildung \ref{fig:Erstinstallation} ist eine vereinfachte Erstinstallation zu sehen.
 
 
-Um den \acs{SW} zu registrieren muss folgender \acs{JS}-Code in das Projekt unter \\ \textit{/app/src/js/app.js} integriert werden.
+Um den Service Worker zu registrieren muss folgender \acs{JS}-Code in das Projekt unter \\ \textit{/app/src/js/app.js} integriert werden.
 \begin{lstlisting}[language=JavaScript, caption={Service Worker Register} {\cite{ServiceWorkerRegistration}},label=lst:ServiceWorkerRegister, xleftmargin=50pt]
 if ('serviceWorker' in navigator) {
  console.log('Service Worker and Notification is supported')
@@ -258,7 +258,7 @@ Die Server Worker API stellt eine Cache-Schnittstelle zum Speichern von Daten au
 Wie die API gestaltet wird, hängt von den Anforderungen der Applikation ab.
 Der Einstiegspunkt ist 'cache' wie man im folgenden Codebeispiel (Listing \ref{lst:InstallCache}) sehr gut erkennen kann.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=14cm]{BilderAllgemein/InstallSW}\medskip
 	\caption{Erstinstallation Service Worker \cite{ServiceWorkerRegistration}}
@@ -266,29 +266,6 @@ Der Einstiegspunkt ist 'cache' wie man im folgenden Codebeispiel (Listing \ref{l
 \end{figure}
 
 \newpage
-\begin{lstlisting}[language=JavaScript, caption={Service Worker Cache} {\cite{CacheAPI}},label=lst:InstallCache, xleftmargin=50pt]
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(cacheName).then(function(cache) {
-      return cache.addAll(
-        [
-          '/css/bootstrap.css',
-          '/css/main.css',
-          '/js/bootstrap.min.js',
-          '/js/jquery.min.js',
-          '/offline.html'
-        ]
-      );
-    })
-  );
-});
-\end{lstlisting}
-
-//notiz
-Wie im Listing \ref{lst:InstallCache}  zu  sehen ist werden statische HTML, CSS und JS Dateien gecacht bevor der Intallevent des Server Worker aufgerufen wird. Die Callbackfunktion ruft die Cache-API auf \cite{CacheAPI}.
-Um den Event aufzurufen werden Promises für asynchrone Aufrufe verwendet .
-Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind wird über den fetch Event aufgerufen und überprüft \cite{Promises}.
-\\
 In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Service Workers zum Stand Juli 2018.
 
 
@@ -298,7 +275,7 @@ In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Serv
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderAllgemein/BrowserSW}\medskip
-	\caption{Kompabilität \acl{SW} \cite{BrowserSupport}}
+	\caption{Kompabilität Service Worker \cite{BrowserSupport}}
 	\label{fig:BrowserSW}
 \end{figure}
 

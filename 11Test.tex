@@ -66,7 +66,7 @@ Der Einsatz von Lighthouse über den Browser ist einfach. Nach eingabe der URL k
 	\label{fig:PWA_Test_Lighthouse_noHTTPS}
 \end{figure}
 
-In beiden Bericht Abbildungen \ref{fig:LightH_beforHTTPS_Overview} und \ref{fig:PWA_Test_Lighthouse_noHTTPS} erkennt man, dass die Applikation nur zur Hälfte die PWA Features enthält.
+In beiden Abbildungen \ref{fig:LightH_beforHTTPS_Overview} und \ref{fig:PWA_Test_Lighthouse_noHTTPS} erkennt man, dass die Applikation nur zur Hälfte die PWA Features enthält.
 Dies kommt daher, weil die \acs{PWA} bei diesem Test auf auf dem Localhost läuft und nicht wie von Google gefordert über das HTTPS-Protokoll.
 Das Projekt wurde für diese Arbeit nicht Live gestellt.
 
@@ -107,7 +107,7 @@ Abbildung \ref{fig:Offline} zeigt, dass die Applikation offline funktioniert.
 \newpage
 
 \section{Push Notifikation}
-Um die Nachrichten erhalten zu können wird die Berechtigung (Abbildung \ref{fig:Registrierung}) als Erstes abgefragt und dann werden die Benachrichtigungen an den User erst verschickt siehe Abbildung \ref{fig:PushNotification}.
+Um die Nachrichten erhalten zu können wird die Berechtigung (Abbildung \ref{fig:Registrierung}) als Erstes abgefragt und dann werden die Benachrichtigungen an den User erst verschickt siehe Abbildung \ref{fig:Nachricht}.
 
 \begin{figure}[h]
 	\centering
@@ -142,13 +142,15 @@ Die Geolocation Funktion muss den Nutzer immer fragen ob dieser seinen Standort 
 \end{figure}
 
 \newpage
-\section{Vergleich mit native App}
-Im Vergleich zur Nativen App bietet die \acs{PWA} einige Vorteile aber auch Nachteile. Sie sind responsive, müssen nicht runtergeladen oder installiert werden und können zudem auf Geräte-API zugreifen und durch die Möglichkeit benachrichtigt zu werden wenn sich was ändert auch ein gute Alternative zu den native Apps.
-Dank des Serviceworkers findet sich auch die Möglichkeit auch Applikation Offline zu betreiben oder bei niedriger Datenrate. Der Home Screen Banner verkürzt den Zugriff wesentlich .  
-Durch die Entwicklung der \acs{PWA} pushed Google die verschlüsselte versenden der Nachrichten über das HTTPS-Protokoll.
-Es sind aber auch noch einige Nachteile vorhanden, z.B.: funktionieren die oben genannten Features derzeit mehrheitlich nur am Androidgerät und dadurch ist diese Technologie nicht komplett Programmunabhängig.
-Die Browser unterstützen auch noch nicht alles, insbesondere hinkt der Internet Explorer von Microsoft hinterher, dass ist deshalb ein Problem da Unternehmen noch auf diesen Browser setzten. 
-Durch diese Tatsache ist die Native App für eine Angepasste Anwendung die bessere Wahl, aber was sicherlich vorstellbar ist, das die Technologie sich bei temporären Benötigten Webseiten oder Nachrichtendienstseiten durchsetzten kann.
+\section{Vergleich mit Native App}
+Im Vergleich zur Nativen App bietet die \acl{PWA} einige Vorteile, aber auch Nachteile. Die \acs{PWA}s sind responsive, müssen nicht heruntergeladen oder\\ installiert werden und können zudem auf Geräte-APIs zugreifen. Durch die Möglichkeit benachrichtigt zu werden, wenn sich was ändert ist sie auch ein gute Alternative zu den Native Apps.
+Dank des Service Workers findet sich auch die Möglichkeit Applikationen offline oder bei niedriger Datenrate zu betreiben. 
+Der Home Screen Banner verkürzt den Zugriff auf die App wesentlich, wodurch eine höhere Kundenbindung erreicht wird.  
+Durch die Entwicklung der \acs{PWA} pushed Google das verschlüsselte Versenden der Nachrichten über das HTTPS-Protokoll.
+Es sind aber auch noch einige Nachteile vorhanden, z.B.: funktionieren die oben genannten Features derzeit mehrheitlich nur auf Androidgeräten und dadurch ist diese Technologie nicht komplett Betriebssystemunabhängig.
+Die Browser unterstützen noch nicht alle Features, insbesondere hinkt der Internet Explorer von Microsoft hinterher, das ist deshalb ein Problem da Unternehmen noch auf diesen Browser setzen. 
+Durch diese Tatsachen ist die Native App für eine angepasste Anwendung die bessere Wahl. 
+Vorstellbar ist, dass die Technologie sich bei temporär benötigten Webseiten oder Nachrichtendienstseiten durchsetzen kann.
 Die \acs{PWA} wird die Native Apps wahrscheinlich nie ersetzten, aber sie haben sicher das Potenzial eine feste Strategie bei der Entwicklung von \acs{Web-App}s zu werden.
 
 
