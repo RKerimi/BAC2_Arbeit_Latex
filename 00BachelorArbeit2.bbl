@@ -24,12 +24,10 @@
 \bibitem{Geraetenutzung}
 {Mindshare}, \emph{{Über welche der folgenden Geräte nutzen Sie das
   Internet?}},
-  \url{https://de-statista-com.ezproxy.fh-salzburg.ac.at/statistik/daten/studie/742449/umfrage/umfrage-zur-internetnutzung-nach-geraetetyp-in-oesterreich-nach-alter/}
-  (2018).
+  \href{https://de.statista.com/statistik/daten/studie/742449/umfrage/umfrage-zur-internetnutzung-nach-geraetetyp-in-oesterreich-nach-alter}{Gerätenutzung}(2018).
 
 \bibitem{BrowserSupport}
-{Fyrd, Lensco}, \emph{{Can I Use}}, \url{https://caniuse.com/#home}
-  (25.06.2018).
+{Fyrd, Lensco}, \emph{{Can I Use}}, \url{https://caniuse.com} (25.06.2018).
 
 \bibitem{SWProxy}
 A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
@@ -39,33 +37,28 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
 
 \bibitem{ServiceWorkerRegistration}
 {Google Developers}, \emph{{Your First Progressive Web App}},
-  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}
+  \url{https://developers.google.com/web/fundamentals/primers/service-workers}
   (2018).
 
 \bibitem{PwaNvaWa}
-{Robert}, \emph{{Progressive Web Apps (PWA) – Was ist das überhaupt und wie
-  nutzt man sie?}}, \url{https://apptooltester.com/de/progressive-web-apps/}
+{Robert}, \emph{{Progressive Web Apps (PWA)\\Was ist das überhaupt und wie
+  nutzt man sie?}}, \url{https://apptooltester.com/de/progressive-web-apps}
   (12.03.2018).
 
 \bibitem{Manifest}
 {Matt Gaunt, Paul Kinlan}, \emph{{The Web App Manifest}},
-  \url{https://developers.google.com/web/fundamentals/web-app-manifest/}
+  \url{https://developers.google.com/web/fundamentals/web-app-manifest}
   (02.07.2018).
 
 \bibitem{AddToHomescreen}
 {Pete LePage}, \emph{{Add to Home Screen}},
-  \url{https://developers.google.com/web/fundamentals/app-install-banners/}
+  \url{https://developers.google.com/web/fundamentals/app-install-banners}
   (17.07.2018).
 
 \bibitem{ServiceWorkerRegistrationGoogle}
 {Jeff Posnick}, \emph{{Service Worker Registration}},
   \url{https://developers.google.com/web/fundamentals/primers/service-workers/registration}
   (02.07.2018).
-
-\bibitem{CacheAPI}
-{Google Developers}, \emph{{Caching Files with Service Worker}},
-  \url{https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker}
-  (09.04.2018).
 
 \bibitem{PushNotifikationServer}
 {Google Developers}, \emph{{Introduction to Push Notifications}},
@@ -74,16 +67,16 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
 
 \bibitem{UserLocation}
 {Paul Kinlan}, \emph{{User Location}},
-  \url{https://developers.google.com/web/fundamentals/native-hardware/user-location/}
+  \url{https://developers.google.com/web/fundamentals/native-hardware/user-location}
   (02.07.2018).
 
 \bibitem{PWA}
 {Google Developers}, \emph{{Progressive Web Apps}},
-  \url{https://developers.google.com/web/progressive-web-apps/} (28.06.2018).
+  \url{https://developers.google.com/web/progressive-web-apps} (28.06.2018).
 
 \bibitem{Microsoft}
 {Microsoft Corporation}, \emph{{Microsoft Fast Facts}},
-  \url{https://news.microsoft.com/de-de/fast-facts/} (2018).
+  \url{https://news.microsoft.com/de-de/fast-facts} (2018).
 
 \bibitem{SAP}
 {SAP SE}, \emph{{SAP: 46 Jahre Innovation}},
@@ -97,13 +90,12 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
 
 \bibitem{Hochsprachen}
 {Margaret Rouse, Alexander Gillis}, \emph{{DEFINITION native App}},
-  \url{https://searchsoftwarequality.techtarget.com/definition/native-application-native-app}
+  {\\}\url{https://searchsoftwarequality.techtarget.com/definition/native-application-native-app}
   (2013).
 
 \bibitem{WebApps}
-{ Stephan Augsten}, \emph{{Defintion „Webanwendung“ Was ist eine Web
-  App?}}, \url{https://www.dev-insider.de/was-ist-eine-web-app-a-596814/}
-  (20.04.2017).
+{Stephan Augsten}, \emph{{Defintion „Webanwendung“ Was ist eine Web App?}},
+  \url{https://www.dev-insider.de/was-ist-eine-web-app-a-596814} (20.04.2017).
 
 \bibitem{CSS}
 {Anton Shaleynikov}, \emph{{Top 5 Most Popular CSS Frameworks that You Should
@@ -112,14 +104,14 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
   (2018).
 
 \bibitem{HybridApps}
-{Beratung FLYACTS}, \emph{{Hybrid-Apps – Definition, Eigenschaften,
+{Beratung FLYACTS}, \emph{{\\}{Hybrid-Apps – Definition, Eigenschaften,
   Einsatzorte, Vorteile und Beispiele}},
-  {https://www.flyacts.com/hybrid-apps-definition-eigenschaften-einsatzorte-vorteile-und-beispiele}
+  \url{https://www.flyacts.com/hybrid-apps-definition-eigenschaften-einsatzorte-vorteile-und-beispiele}
   (03.12.2013).
 
 \bibitem{PWAAdjectives}
 {Google Developers}, \emph{{Your First Progressive Web App}},
-  \url{https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#0}
+  {\\}\url{https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html}
   (2018).
 
 \bibitem{AlternativePWA}
@@ -136,19 +128,13 @@ D.~Fortunato und J.~Bernardino, ,,Progressive web apps: An alternative to the
   \url{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
   (30.01.2018).
 
-\bibitem{Promises}
-{J Nnkm}, \emph{{Promise}},
-  \url{https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise}
-  (09.05.2018).
-
 \bibitem{PushNotifikation}
 {Google Developers}, \emph{{4.3.1 Einführung in Push-Benachrichtigungen im Web
   und Benachrichtigungen}},
-  \url{https://support.google.com/partners/answer/7336533?hl=de&ref_topic=7327985}
-  (o.D).
+  \url{https://support.google.com/partners/answer/7336533} (2018).
 
 \bibitem{Lighthouse}
 {Google Developers}, \emph{{Lighthouse}},
-  \url{https://developers.google.com/web/tools/lighthouse/} (09.04.2018).
+  \url{https://developers.google.com/web/tools/lighthouse} (09.04.2018).
 
 \end{thebibliography}
