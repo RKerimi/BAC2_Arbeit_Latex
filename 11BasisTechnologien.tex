@@ -166,15 +166,15 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 In der Abbildung \ref{fig:BrowserManifest} sieht man die Browserkompabilität des Manifest Files zum Stand Juli 2018.
  
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=16cm]{BilderAllgemein/BrowserManifest}\medskip
+	\includegraphics[width=10cm]{BilderAllgemein/BrowserManifest}\medskip
 	\caption{Kompabilität Manifest.json \cite{BrowserSupport}}
 	\label{fig:BrowserManifest}
 \end{figure}
  
 
-\newpage
+
 \section{Service Worker}\label{sub:ServiceWorker}
 %\label{sec:Service Worker} zuweisung zu anderen Sektor
 Der Server Worker ist ein Script, das vom Browser im Hintergrund ausführt \cite{ServiceWorkerRegistration}. Mit Hilfe des Server Worker ist es möglich die \acs{Web-App} offline zu betreiben, Push Notifikationen zu erhalten und gecachte Daten abzurufen. Server Worker verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und dem Netzwerk sitzen, wie in der Abbildung \ref{fig:SWProxy} zu sehen ist.
@@ -256,16 +256,16 @@ Nach der Installation wird der Server Worker aktiviert und steht damit der Appli
 Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist kann der Server Worker nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder dieser wird beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
 Die Server Worker API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, im Browsercache, zur Verfügung. Die API wurde ursprünglich für den Server Worker entwickelt, diese kann aber von jedem anderen Script verwendet werden. 
 Wie die API gestaltet wird, hängt von den Anforderungen der Applikation ab.
-Der Einstiegspunkt ist 'cache' wie man im folgenden Codebeispiel (Listing \ref{lst:InstallCache}) sehr gut erkennen kann.
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=14cm]{BilderAllgemein/InstallSW}\medskip
+	\includegraphics[width=12cm]{BilderAllgemein/InstallSW}\medskip
 	\caption{Erstinstallation Service Worker \cite{ServiceWorkerRegistration}}
 	\label{fig:Erstinstallation}
 \end{figure}
 
-\newpage
+
 In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Service Workers zum Stand Juli 2018.
 
 
@@ -274,7 +274,7 @@ In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Serv
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=14cm]{BilderAllgemein/BrowserSW}\medskip
+	\includegraphics[width=10cm]{BilderAllgemein/BrowserSW}\medskip
 	\caption{Kompabilität Service Worker \cite{BrowserSupport}}
 	\label{fig:BrowserSW}
 \end{figure}
@@ -288,12 +288,12 @@ Im Kapitel \ref{chap:Implementierung} wird die praktische Verwendung der Benachr
  
 
 Hier wird wie in Kapitel \ref{sub:ServiceWorker} die Browserunterstützung vom Service Worker und den Push Benachrichtigungen überprüft \cite{PushNotifikation}.
-\newpage
+
 
 In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der Push API zum Stand Juli 2018.
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=14cm]{BilderAllgemein/BrowserPushAPI}\medskip
+	\includegraphics[width=10cm]{BilderAllgemein/BrowserPushAPI}\medskip
 	\caption{Kompabilität Push Notifikation \cite{BrowserSupport}}
 	\label{fig:BrowserPushAPI}
 \end{figure}
@@ -301,7 +301,6 @@ In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der
 
 
 
-\newpage
 \section{Geolocation API}
 %https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
 Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. Diese Funktion wird verwendet  um den Benutzern zusätzlichen Nutzen zu bringen, wie z.B.: Optimierung von Benutzeranfragen, bestimmen des Standortes und Backendaufnahmen von Standortdaten für Datensammlung. 
@@ -316,9 +315,9 @@ Allerdings sind bei der Verwendung der Geolocation-API zwei wichtige Punkte zu b
 
 
 In der Abbildung \ref{fig:BrowserGL} sieht man die Browserkompabilität der Geolocation zum Stand Juli 2018.
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=14cm]{BilderAllgemein/BrowserGL}\medskip
+	\includegraphics[width=10cm]{BilderAllgemein/BrowserGL}\medskip
 	\caption{Kompabilität Geolocation \cite{BrowserSupport}}
 	\label{fig:BrowserGL}
 \end{figure}
