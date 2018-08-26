@@ -8,9 +8,9 @@
 \BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Geschichte Softwareentwicklung}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{Native Apps}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Web Applikationen}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.4}{Hybrid Applikationen}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.5}{Progressive Webapplikationen}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Web App}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Hybrid App}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{Progressive Web App}{chapter.2}% 13
 \BOOKMARK [0][-]{chapter.3}{Features und Merkmale}{}% 14
 \BOOKMARK [1][-]{section.3.1}{Aufbau Progressive Web Apps \(PWA\)}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.2}{Unterschiede PWA, Native Applikation und Web-Apps}{chapter.3}% 16
@@ -28,7 +28,7 @@
 \BOOKMARK [1][-]{section.4.6}{Add to Homescreen}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.7}{Service Worker und Cache API}{chapter.4}% 29
 \BOOKMARK [1][-]{section.4.8}{Offline Modus}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.9}{Push Notifications}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.9}{Push Notifikation}{chapter.4}% 31
 \BOOKMARK [1][-]{section.4.10}{Geolocation API}{chapter.4}% 32
 \BOOKMARK [0][-]{chapter.5}{Funktionstest/Validierung}{}% 33
 \BOOKMARK [1][-]{section.5.1}{Ausgangsbedingung und Ausgrenzung}{chapter.5}% 34

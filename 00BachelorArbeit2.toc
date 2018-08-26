@@ -9,9 +9,9 @@
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Geschichte Softwareentwicklung}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Native Apps}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Web Applikationen}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Hybrid Applikationen}{4}{section.2.4}
-\contentsline {section}{\numberline {2.5}Progressive Webapplikationen}{5}{section.2.5}
+\contentsline {section}{\numberline {2.3}Web App}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Hybrid App}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Progressive Web App}{5}{section.2.5}
 \contentsline {chapter}{\numberline {3}Features und Merkmale}{6}{chapter.3}
 \contentsline {section}{\numberline {3.1}Aufbau Progressive Web Apps (PWA)}{6}{section.3.1}
 \contentsline {section}{\numberline {3.2}Unterschiede PWA, Native Applikation und Web-Apps}{6}{section.3.2}
@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {4.6}Add to Homescreen}{19}{section.4.6}
 \contentsline {section}{\numberline {4.7}Service Worker und Cache API}{19}{section.4.7}
 \contentsline {section}{\numberline {4.8}Offline Modus}{22}{section.4.8}
-\contentsline {section}{\numberline {4.9}Push Notifications}{24}{section.4.9}
+\contentsline {section}{\numberline {4.9}Push Notifikation}{24}{section.4.9}
 \contentsline {section}{\numberline {4.10}Geolocation API}{25}{section.4.10}
 \contentsline {chapter}{\numberline {5}Funktionstest/Validierung}{26}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ausgangsbedingung und Ausgrenzung}{26}{section.5.1}

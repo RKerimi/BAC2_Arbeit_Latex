@@ -9,9 +9,8 @@ In diesem Kapitel wird die Umsetzung der Applikation beschrieben.
 Die zu entwickelnde Smart Home Applikation muss das Verhalten einer \acs{PWA} aufweisen. Das heißt es müssen die Attribute aus Kapitel \ref{chap:ProgressiveWebapplikationen} eingebaut werden und danach getestet werden siehe Kapitel \ref{chap:Funktionstest}. Außerdem sollen auch APIs entwickelt werden die es möglich machen mit Services von Drittanbietern die Temperatur zu regeln, mit Hilfe von Geolocation API den Standort zu ermitteln um das Garagentor über GPS automatisch öffnen zu können. Ebenso soll das Steuern der Beleuchtung möglich sein. Diese Applikation soll Offline so weit es geht verwendbar sein. Die Anwendung muss Plattformunabhängig und responsive sein.
 
 \section{Umsetzung der Anforderungen}\label{sub:Umsetzung der Anforderungen}
-Zur Umsetzung der Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse} wurden für  User Interfac ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet. Sematic-UI soll sicherstellen das die Applikation responsives Verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
-Als Browser diente der Google Chrome Version 67.
-Die nicht fertigen Funktionen wurden mit Mockups dargestellt, um einen Eindruck zu vermitteln wie die App in Zukunft aussehen soll.
+Zur Umsetzung der Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse} wurden für User Interface ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet. Sematic-UI soll sicherstellen das die Applikation responsives Verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
+Als Browser diente der Google Chrome Browser Version 67.
 
 \section{Ausgewählte Programmiersprache und IDE}
 Als Programmiersprache wurde \acl{JS} (\acs{JS}) ausgewählt. 
@@ -19,22 +18,22 @@ Als Entwicklungsumgebung wurde Webstorm (Version 2018.2) von Jetbrains verwendet
 Weitere verwendete Tools und Frameworks wurden in Kapitel \ref{sub:Umsetzung der Anforderungen} beschrieben.
 \newpage
 \section{Ordnerstruktur}
-Die zwei wichtigsten Dateien befinden sich wie in Abbildung \ref{fig:OrdnerStrucktur} zu sehen ist, im app Verzeichnis.
+Die zwei wichtigsten Dateien befinden sich wie in Abbildung \ref{fig:OrdnerStrucktur} zu sehen ist, im App Verzeichnis.
 Ebenfalls wichtig ist das app.js File das unter \textit{/app/src/js/app.js} zu finden ist.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/Implementierung/OrdnerStrucktur.jpg}\medskip
-	\caption{Ordner Strucktur}
+	\caption{Ordner Struktur}
 	\label{fig:OrdnerStrucktur}
 \end{figure} 
 
 
 \section{Manifest}
-Das Manifest wird im Root Folder eingefügt und ist mit der Endung \acs{JSON} deklariert. Der genau Pfad ist \textit{/app/manifest.json}. Wie in Kapitel \ref{sub:Manifest} schon beschrieben wurde, definiert das Manifest File das Aussehen des Icons am Startbildschirm, z.B. den Einstiegspunkt der App und den Namen. 
+Das Manifest wird im Root Folder eingefügt und ist mit der Endung \acs{JSON} deklariert. Der genaue Pfad ist \textit{/app/manifest.json}. Wie in Kapitel \ref{sub:Manifest} schon beschrieben wurde, definiert das Manifest File das Aussehen des Icon am Startbildschirm, z.B. den Einstiegspunkt der App und den Namen. 
 Die Listing \ref{lst:Manifest.json} zeigt weitere wichtige Eigenschaften:
 \newpage
-\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
+\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren},label=lst:Manifest.json, xleftmargin=50pt]
 {
   {
   "name":"PWA Smart Home",
@@ -83,12 +82,12 @@ window.addEventListener('beforeinstallprompt', event => {
 Diese Callbackfunktion wird in die \textit{app.js} Datei implementiert. 
 
 \section{Service Worker und Cache API}
-Das Herzstück der Applikation ist der im Kapitel \ref{chap:Basistechnologien} beschriebene Service Worker. Als erstes muss validiert werden ob der Service Worker vom Browser unterstützt wird und danach kann dieser registriert, installiert und aktiviert werden.
-In den folgenden Listings \ref{lst:Registrierung}, \ref{lst:Installation} und \ref{lst:Aktivierung} sind die Funktionen, die für den \acs{SW} von Bedeutung sind aufgeführt und die wichtigsten Teile beschrieben.
+Das Herzstück der Applikation ist der im Kapitel \ref{chab:FeaturesundMerkmale} beschriebene Service Worker. Als erstes muss validiert werden, ob der Service Worker vom Browser unterstützt wird und danach kann dieser registriert, installiert und aktiviert werden.
+In den folgenden Listings \ref{lst:Registrierung}, \ref{lst:Installation} und \ref{lst:Aktivierung} sind die Funktionen, die für den Service Worker von Bedeutung sind aufgeführt und die wichtigsten Teile beschrieben.
 
 Verzeichnis: \textit{/app/src/js/app.js}
 
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Registrierung} ,label=lst:Registrierung, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Registrierung Service Worker} ,label=lst:Registrierung , xleftmargin=50pt]
 //Registrierung und Validierung vom Service Worker
 if ('serviceWorker' in navigator && 'Notification' in window) {
     console.log('Service Worker and Notification is supported')
@@ -106,7 +105,7 @@ Die Registriermethode \textit{register()} bekommt als Parameter die Service Work
 
 Verzeichnis: \textit{/app/sw.js}
 
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Installation} ,label=lst:Installation, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Installation Service Worker} ,label=lst:Installation, xleftmargin=50pt]
 self.addEventListener('install', event => {
     console.log('[Service Worker] Installing Service Worker ....', event);
     event.waitUntil(
@@ -127,22 +126,22 @@ Nach der Installation wird der Service Worker aktiviert und kann dann vom Browse
 
 Verzeichnis: \textit{/app/sw.js}
 
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Aktivierung} ,label=lst:Aktivierung, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={Aktivierung Service Worker} ,label=lst:Aktivierung, xleftmargin=50pt]
 self.addEventListener('activate', event => {
     console.log('[Service Worker] Activating Service Worker ....', event);
     return self.clients.claim();
 })
 \end{lstlisting}
 
-Durch die \textit{self.clients.claim()} Methode in Zeile 3 wird sichergestellt, dass der Service Worker nur installiert wird wenn alle Bedingungen erfüllt wurden.
+Durch die \textit{self.clients.claim()} Methode in Zeile 3 wird sichergestellt, dass der Service Worker nur installiert wird, wenn alle Bedingungen erfüllt wurden.
 
-In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen die match-Methode überprüft ob die Daten sich im Cache befinden.
+In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen und die \\match-Methode überprüft ob die Daten sich im Cache befinden.
 Um den Event aufzurufen werden Promises für asynchrone Aufrufe verwendet .
-Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind wird über den fetch Event aufgerufen und überprüft wie in Abbildung \ref{lst:fetch} zu sehen.
+Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind, wird über den fetch Event aufgerufen und überprüft wie in Abbildung \ref{lst:fetch} zu sehen.
 
 Verzeichnis: \textit{/app/sw.js}
 
-\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={fetch Calbackfunktion} ,label=lst:fetch, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, firstnumber=1, caption={fetch Callbackfunktion} ,label=lst:fetch, xleftmargin=50pt]
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
@@ -194,18 +193,18 @@ let filesToCache = [
 	\label{fig:aufrufSWBrowser}
 \end{figure}  
 
-In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} sind die gecachten Files vom Service Worker im Netzwerk und im Cache zu erkennen.
+In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} sind die gecachten Files des Service Workers im Netzwerk und im Cache zu erkennen.
 
 
 
 \clearpage
-\section{Push Notifications}
-Die Push Benachrichtigungen dienen dem Nutzer dazu, bei Änderungen im Haushalt benachrichtigt zu werden, z.B.: wenn das Licht defekt ist oder die Verbindung zur Heizung ausfällt.
+\section{Push Notifikation}
+Die Push Benachrichtigungen dienen dem Nutzer dazu bei Änderungen im Haushalt benachrichtigt zu werden, z.B.: wenn das Licht defekt ist oder die Verbindung zur Heizung ausfällt.
 
 Die Benachrichtigungen wurden in diesem Projekt nicht vom Server aus aufgerufen sondern sind über folgendes Listing im Pfad: \textit{/app/src/app.js} eingetragen. 
 Nach der Überprüfung im Listing \ref{lst:Registrierung} ob die Pushfunktion im Browserscope vorhanden ist, wird in Listing \ref{lst:notificationsListener} der  Eventlistener über eine Callbackfunktion aufgerufen. Bei diesem Prototypen sind die Benachrichtigungen im JSON-File\\ (Verzeichnis: \textit{/app/src/data/notification.json}) und werden über eine fetch-API aufgerufen. Durch die \textit{openWindow()}-Funktion in Zeile 8 wird die Seite mit dem Benachrichtigungstext geöffnet.  
 \\
-\begin{lstlisting}[language=JavaScript, caption={Geolocation  Support} {\cite{PushNotifikationServer}},label=lst:notificationsListener, xleftmargin=50pt]
+\begin{lstlisting}[language=JavaScript, caption={Geolocation  Eventlistener} {\cite{PushNotifikationServer}},label=lst:notificationsListener, xleftmargin=50pt]
 self.addEventListener('notificationclick', e => {
     let notification = e.notification;
     let action = e.action;
@@ -222,7 +221,7 @@ self.addEventListener('notificationclick', e => {
 \clearpage
 
 \section{Geolocation API}
-Um zu zeigen, dass der Zugriff auf die Geräte-APIs möglich ist wurde in der Applikation eine Funktion hinzugefügt, die den genauen Standpunkt über die Geolocation-API ermittelt. Diese Funktion könnte als Garagenöffner oder zum Einschalten der Heizung nützlich sein. Wenn sich der Nutzer dem Haus nähert könnte über die GPS Daten das Tor geöffnet werden ohne, dass der Benutzer über eine HCI eingreifen muss. 
+Um zu zeigen, dass der Zugriff auf die Geräte-APIs möglich ist, wurde in der Applikation eine Funktion hinzugefügt, die den genauen Standpunkt über die Geolocation-API ermittelt. Diese Funktion könnte als Garagenöffner oder zum Einschalten der Heizung nützlich sein. Wenn sich der Anwender dem Haus nähert, könnte über die GPS Daten das Tor geöffnet werden ohne, dass der Benutzer über eine HCI eingreifen muss. 
 Als erstes wird im Listing \ref{lst:GeolocationSupport} der Support des Browsers überprüft.\\
 Verzeichnis: \textit{/app/sw.js}
 

@@ -32,11 +32,11 @@ In den folgenden Tabellen \ref{tab:PwaNvaWaInstallation}, \ref{tab:PwaNvaWaZugri
 \begin{tabular} {|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
 \hline\multirow{3}{*}
  										&PWA  & Native & Web App	\\ \hline
-Veröffentlichung & Es werden verschiedene Entwicklerkonten benötigt Play Store und Apple Store & keine Entwicklerkonten benötigt & keine Entwicklerkonten benötigt\\ \hline
+Veröffentlichung & es werden verschiedene Entwicklerkonten benötigt Play Store und Apple Store & keine Entwicklerkonten benötigt & keine Entwicklerkonten benötigt\\ \hline
 
-Installation & App muss aus einem der App-Stores downgeloaded werden  & Wird mit einem Klick auf dem Startbildschirm hinzugefügt & keine Funktion\\ \hline
+Installation & App muss aus einem der App-Stores downgeloaded werden  & wird mit einem Klick auf dem Startbildschirm hinzugefügt & keine Funktion\\ \hline
 
-Updates &  über App-Store & Serverseitig & Serverseitig\\ \hline
+Updates &  über App-Store & serverseitig & serverseitig\\ \hline
    				  						 
 				
 \end{tabular}    
@@ -51,9 +51,9 @@ Updates &  über App-Store & Serverseitig & Serverseitig\\ \hline
 \begin{tabular} {|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
 \hline\multirow{3}{*}
  										&PWA  & Native & Web App	\\ \hline
-Offline-Zugriff & Verfügbar & Man muss die App einmal online nutzen, dann sollten die Inhalte im Cache offline verfügbar sein. & nicht möglich\\ \hline
+Offline-Zugriff & verfügbar & man muss die App einmal online nutzen, dann sollten die Inhalte im Cache offline verfügbar sein. & nicht möglich\\ \hline
 
-Starten im Vollbildmodus & Verfügbar  & Verfügbar & nicht möglich\\ \hline
+Starten im Vollbildmodus & verfügbar  & verfügbar & nicht möglich\\ \hline
 
 Kundenbindung &  sehr hoch, Kunden verbringen viel Zeit & App ist wie ein Tap, das macht es für den Kunden leichter zu wechseln & wie \acs{PWA}\\ \hline
 
@@ -75,21 +75,21 @@ Kundenbindung &  sehr hoch, Kunden verbringen viel Zeit & App ist wie ein Tap, d
 \begin{tabular} {|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
 \hline\multirow{3}{*}
  										&PWA  & Native & Web App	\\ \hline
-Push-Nachrichten & Verfügbar & Verfügbar (nur für Android) & Verfügbar (mit zusätzliche Tools)\\ \hline
+Push-Nachrichten & verfügbar & verfügbar (nur für Android) & verfügbar (mit zusätzlichen Tools)\\ \hline
 
-Geolocation & Verfügbar  & Verfügbar & Verfügbar\\ \hline
+Geolocation & verfügbar  & verfügbar & verfügbar\\ \hline
 
-Kamera-/Mikrofonzugriff &  Verfügbar & Verfügbar & Verfügbar\\ \hline
+Kamera-/Mikrofonzugriff &  verfügbar & verfügbar & verfügbar\\ \hline
 
-Gerätevibration &  Verfügbar & Verfügbar & nicht Verfügbar\\ \hline
+Gerätevibration &  verfügbar & verfügbar & nicht verfügbar\\ \hline
 
-Responsive &  Verfügbar & Verfügbar & Verfügbar\\ \hline
+Responsive &  verfügbar & verfügbar & verfügbar\\ \hline
 
-Akkuladestatus &  Verfügbar & Verfügbar & nicht Verfügbar\\ \hline
+Akkuladestatus &  verfügbar & verfügbar & nicht verfügbar\\ \hline
 
-Zugriff auf Kontakte und Kalender &  Verfügbar & nicht Verfügbar & nicht Verfügbar\\ \hline
+Zugriff auf Kontakte und Kalender &  verfügbar & nicht verfügbar & nicht verfügbar\\ \hline
 
-Telefon: SMS oder Anrufe &  Verfügbar & nicht Verfügbar & nicht Verfügbar\\ \hline				  						 			
+Telefon: SMS oder Anrufe &  verfügbar & nicht verfügbar & nicht verfügbar\\ \hline				  						 			
 \end{tabular}    
 \caption{Funktionen \cite{PwaNvaWa}}
 \label{tab:PwaNvaWaFunktionen}
@@ -97,7 +97,7 @@ Telefon: SMS oder Anrufe &  Verfügbar & nicht Verfügbar & nicht Verfügbar\\ \
 \newpage
 \clearpage
 
-Wie in den Tabellen ersichtlich bietet die \acs{PWA} eine Reihe von Vorteilen, z.B. Push Notifikations und Offline-Zugriff, die bei der Benutzung behilflich sein können. Aufgrund dessen bietet sie eine gute Alternative zu den Native App. Probleme machen die Betriebssysteme, da nicht alle Funktionen auf den verschiedenen Systemen zur Verfügung stehen \cite{PwaNvaWa}.
+Wie in den Tabellen ersichtlich, bietet die \acs{PWA} eine Reihe von Vorteilen, z.B. Push Notifikations und Offline-Zugriff, die bei der Benutzung behilflich sein können. Aufgrund dessen stellt sie eine gute Alternative zu den Native Apps dar. Probleme machen die Betriebssysteme, da nicht alle Funktionen auf den verschiedenen Systemen zur Verfügung stehen \cite{PwaNvaWa}.
 In den nächsten Kapiteln werden die Methoden und APIs in der Theorie und im Kapitel \ref{chap:Implementierung} die praktische Anwendung an einer selbst erstellten App erklärt. 
 
 \section{Web App Manifest}\label{sub:Manifest}
@@ -110,7 +110,7 @@ Das App Manifest.json Datei wird in die gleiche Ebene wie die Index.html Datei i
 
 Bei Anwendungen mit mehreren \acs{HTML}-Seiten muss der Link-Tag auf jeder Seite eingefügt werden. 
 Im Listening \ref{lst:Manifest.jsonBsp} ist ein Auszug vom Aufbau dargestellt:
-	\begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren} {\cite{Manifest}},label=lst:Manifest.jsonBsp, xleftmargin=50pt]
+	\begin{lstlisting}[language=json, firstnumber=1, caption={Auszug Manifest.json } ,label=lst:Manifest.jsonBsp, xleftmargin=50pt]
   "name":"PWA Smart Home RMJ",
   "short_name":"PWA_SHL_RMJ",
   "start_url":"./",
@@ -137,13 +137,13 @@ Um den Banner auf dem mobilen Gerät anzuzeigen, müssen folgende Kriterien erf�
 
 \begin{itemize}
     \item  die App ist noch nicht installiert
-	\item  muss min 30 Sekunden lang mit der Domäne interagieren
+	\item  muss mindestens 30 Sekunden lang mit der Domäne interagieren
 	\item  beinhaltet ein Web App Manifest mit folgenden Werten:
 		 \begin{itemize}
          \item Kurzname oder Name
-         \item icons - muss ein 192px und ein 512px großes Icon enthalten
+         \item Icons - muss ein 192px und ein 512px großes Icon enthalten
          \item Startadresse
-         \item Anzeige muss eines der folgenden sein: fullscreen, standalone oder \\ minimal-ui
+         \item Anzeige muss eine der folgenden sein: fullscreen, standalone oder \\ minimal-ui
       	\end{itemize}
     \item 	darf nur über HTTPS aufrufbar sein
     \item beinhaltet einen Service Worker mit einem Fetch-Event-Handler  
@@ -169,7 +169,7 @@ In der Abbildung \ref{fig:BrowserManifest} sieht man die Browserkompabilität de
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/BrowserManifest}\medskip
-	\caption{Kompabilität Manifest.json \cite{BrowserSupport}}
+	\caption{Kompatibilität Manifest.json \cite{BrowserSupport}}
 	\label{fig:BrowserManifest}
 \end{figure}
  
@@ -177,7 +177,7 @@ In der Abbildung \ref{fig:BrowserManifest} sieht man die Browserkompabilität de
 
 \section{Service Worker}\label{sub:ServiceWorker}
 %\label{sec:Service Worker} zuweisung zu anderen Sektor
-Der Server Worker ist ein Script, das vom Browser im Hintergrund ausführt \cite{ServiceWorkerRegistration}. Mit Hilfe des Server Worker ist es möglich die \acs{Web-App} offline zu betreiben, Push Notifikationen zu erhalten und gecachte Daten abzurufen. Server Worker verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und dem Netzwerk sitzen, wie in der Abbildung \ref{fig:SWProxy} zu sehen ist.
+Der Service Worker ist ein Script, das vom Browser im Hintergrund ausgeführt wird \cite{ServiceWorkerRegistration}. Mit Hilfe des Service Worker ist es möglich die \acs{Web-App} offline zu betreiben, Push Notifikationen zu erhalten und gecachte Daten abzurufen. Service Worker verhalten sich wie Proxy-Server, welche in einer Zwischenschicht vom Browser und dem Netzwerk sitzen, wie in der Abbildung \ref{fig:SWProxy} zu sehen ist.
 
 \begin{figure}[h]
 	\centering
@@ -186,20 +186,21 @@ Der Server Worker ist ein Script, das vom Browser im Hintergrund ausführt \cite
 	\label{fig:SWProxy}
 \end{figure}
 
-Ein Server Worker wird von einem Worker-Kontext ausgeführt, hat keinen DOM Zugriff und wird als Haupt-Java Script Thread verwendet \cite{Worker} \cite{ServiceWorker}.
-Der komplizierteste Teil des Server Worker ist sein Lebenszyklus. 
-Die Aufgabe der Lebenszyklen sind wie folgt definiert:
+Ein Service Worker wird von einem Worker-Kontext ausgeführt, hat keinen DOM Zugriff und wird als Haupt-Java Script Thread verwendet \cite{Worker} \cite{ServiceWorker}.
+Der komplizierteste Teil des Service Worker ist sein Lebenszyklus. 
+\newpage
+Die Aufgaben der Lebenszyklen sind wie folgt definiert:
 
 \begin{itemize}
-    \item  Offlinverwendung
-	\item  Störung eines anderen Service Workers verhindern
-	\item  Stellt sicher, dass nur ein Service Worker für eine Seite zuständig ist
-	\item  Stellt sicher dass nur eine Version der Webseite gleichzeitig ausgeführt wird
+    \item  Offlineverwendung
+	\item  störung eines anderen Service Workers verhindern
+	\item  stellt sicher, dass nur ein Service Worker für eine Seite zuständig ist
+	\item  stellt sicher dass nur eine Version der Webseite gleichzeitig ausgeführt wird
 \end{itemize}
 
 
-Der Lebenszyklus eines Server Workers ist von der Webseite getrennt.
-In der Installationsphase werden die benötigten statischen Dateien zwischengespeichert und erst nach diesem Vorgang ist der Server Worker installiert. Die Installation erfolgt über die JavaScript-Funktion wie in Listing \ref{lst:ServiceWorkerNavigator}:
+Der Lebenszyklus eines Service Workers ist von der Webseite getrennt.
+In der Installationsphase werden die benötigten statischen Dateien zwischengespeichert und erst nach diesem Vorgang ist der Service Worker installiert. Die Installation erfolgt über die JavaScript-Funktion wie in Listing \ref{lst:ServiceWorkerNavigator}:
 
 \begin{lstlisting}[language=JavaScript, caption={Service Worker Navigator} {\cite{ServiceWorkerRegistrationGoogle}},label=lst:ServiceWorkerNavigator, xleftmargin=50pt]
 navigator.serviceWorker.register
@@ -216,7 +217,7 @@ Danach folgt die Aktivierungsphase. In dieser Phase werden alte Cache-Inhalte ve
 %\end{figure}
 
 
-Um die neuen Seiten zu steuern muss der Server Worker erneut geladen werden.
+Um die neuen Seiten zu steuern muss der Service Worker erneut geladen werden.
 In der Abbildung \ref{fig:Erstinstallation} ist eine vereinfachte Erstinstallation zu sehen.
 
 
@@ -233,7 +234,7 @@ if ('serviceWorker' in navigator) {
 }
 \end{lstlisting}
 
-In Zeile eins wird im Listing \ref{lst:ServiceWorkerRegister} die Unterstützung durch den Browser geprüft, bevor in der dritten Zeile der Server Worker über die\\ \textit{navigator.serviceWorker.register('<ServiceWorker Name>')}-Funktion, wie in Abbildung \ref{fig:RegistrierungSW} zu sehen ist, aufgerufen wird.
+In Zeile eins wird im Listing \ref{lst:ServiceWorkerRegister} die Unterstützung durch den Browser geprüft, bevor in der dritten Zeile der Service Worker über die\\ \textit{navigator.serviceWorker.register('<ServiceWorker Name>')}-Funktion, wie in Abbildung \ref{fig:RegistrierungSW} zu sehen ist, aufgerufen wird.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{BilderAllgemein/SW_Registred}\medskip
@@ -249,12 +250,12 @@ In Zeile eins wird im Listing \ref{lst:ServiceWorkerRegister} die Unterstützung
 \end{figure}
 
 
-In der Abbildung \ref{fig:Aktivierung} ist zu sehen wie die Installation erst bei erneutem Laden der App startet. Dabei cached der Server Worker die zum Cache hinzufügten Files, bevor die Installation fertig ist.
-Nach der Installation wird der Server Worker aktiviert und steht damit der Applikation zur Verfügung.
+In der Abbildung \ref{fig:Aktivierung} ist zu sehen wie die Installation erst bei erneutem Laden der App startet. Dabei cached der Service Worker die zum Cache hinzufügten Files, bevor die Installation fertig ist.
+Nach der Installation wird der Service Worker aktiviert und steht damit der Applikation zur Verfügung.
 
 
-Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist kann der Server Worker nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder dieser wird beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
-Die Server Worker API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, im Browsercache, zur Verfügung. Die API wurde ursprünglich für den Server Worker entwickelt, diese kann aber von jedem anderen Script verwendet werden. 
+Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist, kann der Service Worker nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder wird dieser beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
+Die Service Worker API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, im Browsercache, zur Verfügung. Die API wurde ursprünglich für den Service Worker entwickelt, diese kann aber von jedem anderen Script verwendet werden. 
 Wie die API gestaltet wird, hängt von den Anforderungen der Applikation ab.
 
 
@@ -275,15 +276,15 @@ In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Serv
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/BrowserSW}\medskip
-	\caption{Kompabilität Service Worker \cite{BrowserSupport}}
+	\caption{Kompatibilität Service Worker \cite{BrowserSupport}}
 	\label{fig:BrowserSW}
 \end{figure}
 
 
 \section{Push Notifikation}
-Um dem User bei einer Server Worker das Gefühl von Nativen Applikationen aufkommen zu lassen ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem Server Worker gibt den \acl{Web-App} ein individuelles Verhalten, dass bis jetzt den Native Apps vorbehalten war.
+Um dem User das Gefühl von Nativen Applikationen zu vermitteln, ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem Service Worker gibt den \acl{Web-App} ein individuelles Verhalten, dass bis jetzt den Native Apps vorbehalten war.
 Unternehmen bekommen, durch Push APIs und Notification APIs, neue Möglichkeiten mit dem Nutzer in Kontakt zu treten und ihn mit personalisierten, relevanten Inhalten zu versorgen.
-Zur Benachrichtigung oder für Push werden zwei Technologien eingesetzt. Mit Hilfe von Push werden vom Server Informationen an den Service Worker gesendet, um Informationen vom Service Worker zum Nutzer zu senden werden Benachrichtigungen verwendet. Die Technologien nutzen für diese Datenübertragung sich ergänzende APIs \cite{PushNotifikation}. \\
+Zur Benachrichtigung oder für Push werden zwei Technologien eingesetzt. Mit Hilfe von Push werden vom Service Informationen an den Service Worker gesendet. Um Informationen vom Service Worker zum Nutzer zu senden, werden Benachrichtigungen verwendet. Die Technologien verwenden für diese Datenübertragung sich ergänzende APIs \cite{PushNotifikation}. \\
 Im Kapitel \ref{chap:Implementierung} wird die praktische Verwendung der Benachrichtigungen genauer beschrieben.  
  
 
@@ -294,7 +295,7 @@ In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/BrowserPushAPI}\medskip
-	\caption{Kompabilität Push Notifikation \cite{BrowserSupport}}
+	\caption{Kompatibilität Push Notifikation \cite{BrowserSupport}}
 	\label{fig:BrowserPushAPI}
 \end{figure}
 
@@ -303,12 +304,12 @@ In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der
 
 \section{Geolocation API}
 %https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
-Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. Diese Funktion wird verwendet  um den Benutzern zusätzlichen Nutzen zu bringen, wie z.B.: Optimierung von Benutzeranfragen, bestimmen des Standortes und Backendaufnahmen von Standortdaten für Datensammlung. 
+Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. Diese Funktion wird verwendet  um den Anwendern zusätzliche Vorteile zu bringen, wie z.B.: Optimierung von Benutzeranfragen, Bestimmen des Standortes und Backendaufnahmen von Standortdaten für Datensammlung. 
 Allerdings sind bei der Verwendung der Geolocation-API zwei wichtige Punkte zu beachten:
 
 \begin{itemize}
-    \item  sollte nur verwendet werden, wenn es für den Benutzer Vorteile bringt 
-	\item  Fordern einer Erlaubnis durch den Benutzer  
+    \item  sollte nur angewendet werden, wenn es für den Benutzer Vorteile bringt 
+	\item  fordern einer Erlaubnis durch den Benutzer  
 \end{itemize}
 
 
@@ -318,7 +319,7 @@ In der Abbildung \ref{fig:BrowserGL} sieht man die Browserkompabilität der Geol
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/BrowserGL}\medskip
-	\caption{Kompabilität Geolocation \cite{BrowserSupport}}
+	\caption{Kompatibilität Geolocation \cite{BrowserSupport}}
 	\label{fig:BrowserGL}
 \end{figure}
 

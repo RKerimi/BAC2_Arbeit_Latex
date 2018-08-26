@@ -6,43 +6,43 @@
 
 Wie in Kapitel \ref{chap:Einleitung} beschrieben, hat der stetige Zuwachs von Smart Phones \acs{SP}s \cite{Geraetenutzung} zum Umdenken bei der Planung und beim Entwickeln von Webapplikationen geführt.
 Zu Beginn jedes Projektes steht die Entscheidung an, welche Technologien und Tools zur Entwicklung verwendet werden sollen um die bestmöglichen Ergebnisse zu erhalten.
-Wenn die falschen Methoden gewählt werden, kann das zu gravierenden Fehlern in der Applikation führen, die sich erst mit Fortdauer der produktiven Verwendung ersichtlich machen. 
-Die Frage ist, ob man sich für eine Anwendung die auf das Betriebssystem zugeschnitten ist oder doch für eine plattformübergreifende Webanwendung entscheidet. Beide Methoden haben Vorteile und Nachteile und werden im Zuge dieser Arbeit betrachtet. Den Kern der Arbeit aber stellten, die von Google entwickelten \acs{PWA} \cite{PWA} da. \\Die \acs{PWA}s sollen den Spagat zwischen diesen beiden Anwendungen schaffen. Eventuell könnte diese neue Form der Appentwicklung die traditionelle Technologien gar zur Gänze ablösen?
+Wenn die falschen Methoden gewählt werden, kann das zu gravierenden Fehlern in der Applikation führen, die erst mit Fortdauer der produktiven Verwendung ersichtlich werden. 
+Die Frage ist, ob man sich für eine Anwendung, die auf das Betriebssystem zugeschnitten ist, oder doch für eine plattformübergreifende Webanwendung entscheidet. Beide Methoden haben Vorteile und Nachteile und werden im Zuge dieser Arbeit betrachtet. Den Kern der Arbeit aber stellen die von Google entwickelten \acs{PWA} \cite{PWA} da. \\Die \acs{PWA}s sollen den Spagat zwischen diesen beiden Anwendungen schaffen. Eventuell könnte diese neue Form der Appentwicklung die traditionellen Technologien gar zur Gänze ablösen?
 Der Trend der letzten Jahren geht in Richtung der mobilen Nutzung und da ist das Smart Phone klar wie, in Abbildung \ref{fig:Smartphonenutzung} dargestellt, voran.  
 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=11cm]{BilderAllgemein/SmartPhoneNutzung}\medskip
-	\caption{Smartphonenutzung \cite{Geraetenutzung}}
+	\caption{Smartphonenutzung Österreich 2016 \cite{Geraetenutzung}}
 	\label{fig:Smartphonenutzung}
 \end{figure}
 
 \section{Geschichte Softwareentwicklung}
-Im Laufe der Jahre wurden verschiedenste Softwaren entwickelt, die mehr oder weniger nützlich für unseren Alltag waren.
+Im Laufe der Jahre wurde verschiedenste Software entwickelt, die mehr oder weniger nützlich für unseren Alltag war.
 Der Begriff Software wurde 1958 vom US-amerikanischen Statistiker John W. Turkey eingeführt.
 Zu Beginn bildeten Software und Hardware eine Einheit. Erst nach der Entscheidung durch die US Regierung, dass IBM die Hardware und die Software separat verrechnen sollte, wurden sie getrennt. \\
 Die Software bildet das Gehirn eines Computers.
-Nach der Entscheidung der US-Regierung entstanden erstmals rein softwareorienttiere Unternehmen wie Microsoft oder SAP \cite{Microsoft} \cite{SAP}. 
+Es folgte in den 1970er Jahren die Gründung von rein softwareorientierten Firmen wie Microsoft oder SAP \cite{Microsoft} \cite{SAP}. 
 
 \section{Native Apps}\label{chap:Native Apps}
 Native Apps sind speziell für eine Plattform angepasste Anwendungen. 
 Diese werden speziell für ein bestimmtes Betriebssystem konzipiert und haben in der Regel Zugriff auf alle Ressourcen eines Gerätes \cite{NativeApp}.
-Hauptsächlich werden zur Programmierung für Mobile Geräte die Hochsprachen Java (Android) und Swift(IOS) verwendet. Native Apps können in App Stores heruntergeladen  werden. \\Die bekanntesten sind Apple Store und Google Play \cite{Hochsprachen}.
+Hauptsächlich werden zur Programmierung für mobile Geräte die Hochsprachen Java (Android) und Swift(IOS) verwendet. Native Apps können in App Stores heruntergeladen  werden. \\Die bekanntesten sind Apple Store und Google Play \cite{Hochsprachen}.
 
-\section{Web Applikationen}\label{chap:Webapplikationen}
-Im Gegensatz zu den Native Apps sind \acl{Web-App} (\acs{Web-App}) speziell Programmierte Webseiten \cite{Hochsprachen}.
+\section{Web App}\label{chap:Webapplikationen}
+Im Gegensatz zu den Native Apps sind \acl{Web-App}s (\acs{Web-App}) speziell programmierte Webseiten \cite{Hochsprachen}.
 \acs{Web-App} funktionieren nach dem Server-Client Prinzip und werden vom Browser aufgerufen. In der Regel werden \acs{Web-App}s auf der Basis von \acs{JS}, \acs{CSS} und \acs{HTML}5 entwickelt. Die Verarbeitung erfolgt auf dem Webserver oder auf der Cloud. 
 Der größte Vorteil ist sicherlich der unkomplizierte Zugang im Gegensatz zu den Native App \cite{WebApps}.
 Durch die Einführung von Responsive Frameworks wie z.B.: Bootstrap, SemantikUI oder Foundation um nur die bekanntesten zu nennen, wurde die Webentwicklung vielseitiger in der Verwendung. Durch diese Technologien können viele Bildschirmgrößen mit wenig Aufwand abgedeckt werden \cite{CSS}. 
 
-\section{Hybrid Applikationen}
-Hybrid Apps verbinden die Eigenschaften den in Kapitel \ref{chap:Native Apps} und \ref{chap:Webapplikationen} genannten Technologien. Zum einen verwenden sie die webbasierende Client-Server Technologie zum anderen kann man mit einer Hybrid App auf Gerätefunktionen wie Kamera und Kalender zugreifen \cite{HybridApps}. 
+\section{Hybrid App}
+Hybrid Apps verbinden die Eigenschaften der in Kapitel \ref{chap:Native Apps} und \ref{chap:Webapplikationen} genannten Technologien. Zum einen verwenden sie die webbasierende Client-Server Technologie, zum anderen kann man mit einer Hybrid App auf Gerätefunktionen wie Kamera und Kalender zugreifen \cite{HybridApps}. 
 
-\section{Progressive Webapplikationen}\label{chap:ProgressiveWebapplikationen}
-\acl{PWA}en sind im Grunde eine Weiterentwicklung von einer \acs{Web-App}. Diese Technologie der Webentwicklung wird durch die immer schneller wachsende Welt der Webanwendungen immer wichtiger. 
-Dem User wird das Gefühl gegeben er arbeitet mit einer Native App. Das Herausragende dabei ist, im Gegensatz zu einer Hybrid App, dass jede bestehende \acs{Web-App} in eine \acs{PWA} umgebaut werden kann.
-Durch Hinzufügen einer Manifest Datei und eines Service Worker werden Features hinzugefügt, die es ermöglichen offline zu arbeiten oder das Icon der App auf den Desktop oder Home-Bildschirm zu speichern \cite{PWA}.
+\section{Progressive Web App}\label{chap:ProgressiveWebapplikationen}
+\acl{PWA}en sind im Grunde eine Weiterentwicklung einer \acs{Web-App}. Diese Technologie der Webentwicklung wird durch die schneller wachsende Welt der Webanwendungen immer wichtiger. 
+Dem User wird das Gefühl gegeben, mit einer Nativen App zu arbeiten. Das Herausragende dabei ist, im Gegensatz zu einer Hybrid App, dass jede bestehende \acs{Web-App} in eine \acs{PWA} umgebaut werden kann.
+Durch Hinzufügen einer Manifest Datei und eines Service Worker werden Features erweitert, die es ermöglichen offline zu arbeiten oder das Icon der App auf den Desktop oder Home-Bildschirm zu speichern \cite{PWA}.
 Google definiert die \acs{PWA} wie folgt \cite{PWAAdjectives}:
 \begin{itemize}
     \item  \textbf{Progressive} - funktioniert für alle User unabhängig vom Browser

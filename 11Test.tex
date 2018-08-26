@@ -4,12 +4,12 @@
 \lfoot{\small Refik Kerimi}
 
 \section{Ausgangsbedingung und Ausgrenzung}
-Getestet wurden die in Kapitel \ref{chab:FeaturesundMerkmale} und \ref{chap:Implementierung} beschriebenen PWA-Features. Dies wurde zum einen über die DevTools vom Chrome Browser sowie über das Chrome PlugIN Lighthouse getestet. 
+Getestet wurden die in Kapitel \ref{chab:FeaturesundMerkmale} und \ref{chap:Implementierung} beschriebenen PWA-Features. Dies erfolgte zum einen über die DevTools vom Chrome Browser sowie über das Chrome PlugIN Lighthouse. 
 Als mobiles Testgerät wurde das Nexus X5 mit der Android 8.1.0 Software verwendet.  
 Weiters kann der Emulator von Android Studio verwendet werden um den Test ohne Androidgerät darzustellen. Die Applikation selbst wurde hier nicht behandelt.
  
 \section{Testen auf Mobilen Geräten und Android Studio Emulator}
-Um auf auf dem Mobilen Smartphone testen zu können muss der Developer Modus auf dem Gerät eingeschaltet werden. Dies wird durch das Aktivieren der Entwicklertools und das Freischalten der USB-Debugging Funktion wie in Abbildung \ref{fig:DevToolsAndorid} und \ref{fig:DevToolsChrome} zu sehen ist erreicht. 
+Um auf auf dem mobilen Smartphone testen zu können, muss der Developer Modus auf dem Gerät eingeschaltet werden. Dies wird durch das Aktivieren der Entwicklertools und das Freischalten der USB-Debugging Funktion wie in Abbildung \ref{fig:DevToolsAndorid} und \ref{fig:DevToolsChrome} zu sehen ist, erreicht. 
 
 \begin{figure}[h]
 	\centering
@@ -21,11 +21,11 @@ Um auf auf dem Mobilen Smartphone testen zu können muss der Developer Modus auf
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderAllgemein/DevToolsChrome}\medskip
-	\caption{Anzeige der Verbindung auf Google Chrome 67}
+	\caption{Anzeige des Verbindungsaufbaus auf Google Chrome 67}
 	\label{fig:DevToolsChrome}
 \end{figure}
 \newpage
-Falls kein Android Gerät zur Verfügung steht ist der von Android Studio\footnote{https://developer.android.com/studio/} angebotene Emulator eine große Hilfe. Durch den integrierten Emulator lassen sich verschiedene Softwareversionen von Android darstellen. Sie helfen bei der Entwicklung und beim Testen der \acs{PWA}.
+Falls kein Android Gerät zur Verfügung steht, ist der von Android Studio\footnote{https://developer.android.com/studio/} angebotene Emulator eine große Hilfe. Durch den integrierten Emulator lassen sich verschiedene Softwareversionen von Android darstellen. Sie helfen bei der Entwicklung und beim Testen der \acs{PWA}.
 
 \section{Lighthouse}
 Lighthouse ist ein open-source Tool von Google und unterstützt den Entwickler bei der Verbesserung und Transformation der Applikation zu einer vollwertigen \acs{PWA}. Man kann Lighthouse über 3 Wege verwenden:
@@ -35,7 +35,7 @@ Lighthouse ist ein open-source Tool von Google und unterstützt den Entwickler b
 	\item  oder im Continues Integration Prozess als Node Module
 \end{itemize}
 Jeder dieser Workflows benötigt den Google Chrome Browser \cite{Lighthouse}.
-Der Einsatz von Lighthouse über den Browser ist einfach. Nach eingabe der URL kann das Tool über das Chrome PlugIn, wie in Abbildung \ref{fig:LighthousePlugIN} zu sehen ist, gestartet werden. Lighthouse führt einen Debuggingtest (Abbildung \ref{fig:LighthouseDebugging}) aus und erstellt einen Bericht. In Abbildung \ref{fig:LightH_beforHTTPS_Overview} ist der Überblick der Applikation zu sehen und in Abbildung \ref{fig:PWA_Test_Lighthouse_noHTTPS} werden die fehlenden PWA-Features angezeigt.
+Der Einsatz von Lighthouse über den Browser ist einfach. Nach Eingabe der URL kann das Tool über das Chrome PlugIn, wie in Abbildung \ref{fig:LighthousePlugIN} zu sehen ist, gestartet werden. Lighthouse führt einen Debuggingtest (Abbildung \ref{fig:LighthouseDebugging}) aus und erstellt einen Bericht. In Abbildung \ref{fig:LightH_beforHTTPS_Overview} ist der Überblick der Applikation zu sehen und in Abbildung \ref{fig:PWA_Test_Lighthouse_noHTTPS} werden die fehlenden PWA-Features angezeigt.
 
 \begin{figure}[h]
 	\centering
@@ -55,26 +55,26 @@ Der Einsatz von Lighthouse über den Browser ist einfach. Nach eingabe der URL k
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/Test/LightH_beforHTTPS_Overview}\medskip
-	\caption{Lighthouse Überblick}
+	\caption{Lighthousegrafik: Überblick}
 	\label{fig:LightH_beforHTTPS_Overview}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/Test/PWA_Test_Lighthouse_noHTTPS}\medskip
-	\caption{Lighthouse fehlende PWA-Features}
+	\caption{Lighthousegrafik: fehlende PWA-Features}
 	\label{fig:PWA_Test_Lighthouse_noHTTPS}
 \end{figure}
 
 In beiden Abbildungen \ref{fig:LightH_beforHTTPS_Overview} und \ref{fig:PWA_Test_Lighthouse_noHTTPS} erkennt man, dass die Applikation nur zur Hälfte die PWA Features enthält.
 Dies kommt daher, weil die \acs{PWA} bei diesem Test auf auf dem Localhost läuft und nicht wie von Google gefordert über das HTTPS-Protokoll.
-Das Projekt wurde für diese Arbeit nicht Live gestellt.
+Das Projekt wurde für diese Arbeit nicht live gestellt.
 
 
 \section{Add to Homescreen}
 %https://developers.google.com/web/fundamentals/app-install-banners/#test
-Durch dieses Feature sollte die \acs{PWA} dem Benutzer das Gefühl einer Nativen App geben. Doch leider funktioniert diese Funktion nicht immer wie sie sollte.
-Das Feature ist zurzeit nur auf Android und Chrome Browsern verfügbar und ist damit weit entfernt von den Native Apps. Startet oft nicht automatisch, ist aber durch das Menu aufrufbar wie in Abbildung \ref{fig:ADDHome} zu sehen ist.
+Durch dieses Feature sollte die \acs{PWA} dem Benutzer das Gefühl einer Nativen App geben. Doch leider funktioniert diese Funktion nicht immer so wie sie sollte.
+Das Feature ist zurzeit nur auf Android Betriebssystemen und Chrome Browsern verfügbar und ist damit weit entfernt von den Native Apps. Es startet oft nicht automatisch, ist aber durch das Menu aufrufbar wie in Abbildung \ref{fig:ADDHome} zu sehen ist.
 
 \begin{figure}[h]
 	\centering
@@ -100,26 +100,26 @@ Abbildung \ref{fig:Offline} zeigt, dass die Applikation offline funktioniert.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderAllgemein/Offline}\medskip
-	\caption{Offline}
+	\caption{Offline Modus}
 	\label{fig:Offline}
 \end{figure}
 
 \newpage
 
 \section{Push Notifikation}
-Um die Nachrichten erhalten zu können wird die Berechtigung (Abbildung \ref{fig:Registrierung}) als Erstes abgefragt und dann werden die Benachrichtigungen an den User erst verschickt siehe Abbildung \ref{fig:Nachricht}.
+Um die Nachrichten erhalten zu können, wird die Berechtigung (Abbildung \ref{fig:Registrierung}) als erstes abgefragt und dann werden die Benachrichtigungen an den User verschickt siehe Abbildung \ref{fig:Nachricht}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/PushNotification/Registrierung}\medskip
-	\caption{Registrierung Push Notification}
+	\caption{Registrierung Push Notifikation}
 	\label{fig:Registrierung}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=14cm]{BilderAllgemein/PushNotification/Nachricht}\medskip
-	\caption{Push Notification}
+	\caption{Push Notifikation Banner}
 	\label{fig:Nachricht}
 \end{figure}
 \newpage
@@ -143,15 +143,15 @@ Die Geolocation Funktion muss den Nutzer immer fragen ob dieser seinen Standort 
 
 \newpage
 \section{Vergleich mit Native App}
-Im Vergleich zur Nativen App bietet die \acl{PWA} einige Vorteile, aber auch Nachteile. Die \acs{PWA}s sind responsive, müssen nicht heruntergeladen oder\\ installiert werden und können zudem auf Geräte-APIs zugreifen. Durch die Möglichkeit benachrichtigt zu werden, wenn sich was ändert ist sie auch ein gute Alternative zu den Native Apps.
+Im Vergleich zur Nativen App bietet die \acl{PWA} einige Vorteile, aber auch Nachteile. Die \acs{PWA}s sind responsive, müssen nicht heruntergeladen oder\\ installiert werden und können zudem auf Geräte-APIs zugreifen. Durch die Möglichkeit benachrichtigt zu werden, wenn sich etwas ändert, ist sie auch ein gute Alternative zu den Native Apps.
 Dank des Service Workers findet sich auch die Möglichkeit Applikationen offline oder bei niedriger Datenrate zu betreiben. 
 Der Home Screen Banner verkürzt den Zugriff auf die App wesentlich, wodurch eine höhere Kundenbindung erreicht wird.  
 Durch die Entwicklung der \acs{PWA} pushed Google das verschlüsselte Versenden der Nachrichten über das HTTPS-Protokoll.
-Es sind aber auch noch einige Nachteile vorhanden, z.B.: funktionieren die oben genannten Features derzeit mehrheitlich nur auf Androidgeräten und dadurch ist diese Technologie nicht komplett Betriebssystemunabhängig.
-Die Browser unterstützen noch nicht alle Features, insbesondere hinkt der Internet Explorer von Microsoft hinterher, das ist deshalb ein Problem da Unternehmen noch auf diesen Browser setzen. 
+Es sind aber auch noch einige Nachteile vorhanden, z.B.: funktionieren die oben genannten Features derzeit mehrheitlich nur auf Androidgeräten und dadurch ist diese Technologie nicht komplett unabhängig vom Betriebssystem.
+Die Browser unterstützen noch nicht alle Features, insbesondere hinkt der Internet Explorer von Microsoft hinterher, das ist deshalb ein Problem, da Unternehmen noch auf diesen Browser setzen. 
 Durch diese Tatsachen ist die Native App für eine angepasste Anwendung die bessere Wahl. 
 Vorstellbar ist, dass die Technologie sich bei temporär benötigten Webseiten oder Nachrichtendienstseiten durchsetzen kann.
-Die \acs{PWA} wird die Native Apps wahrscheinlich nie ersetzten, aber sie haben sicher das Potenzial eine feste Strategie bei der Entwicklung von \acs{Web-App}s zu werden.
+Die \acs{PWA}s werden die Native Apps wahrscheinlich nie ersetzen, aber sie haben sicher das Potenzial eine dauerhafte Strategie bei der Entwicklung von \acs{Web-App}s zu werden.
 
 
 
