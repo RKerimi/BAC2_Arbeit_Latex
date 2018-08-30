@@ -44,7 +44,7 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
 \bibitem{PwaNvaWa}
 {Robert}, \emph{{Progressive Web Apps-Was ist das überhaupt und wie nutzt man
   sie?}}, \href{https://apptooltester.com/de/progressive-web-apps}
-  {https://apptooltester.com} (12.03.2018).
+  {https://apptooltester.com} {https://apptooltester.com} (12.03.2018).
 
 \bibitem{Manifest}
 {Matt Gaunt, Paul Kinlan}, \emph{{The Web App Manifest}},
@@ -87,8 +87,8 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
   {https://www.sap.com} (2018).
 
 \bibitem{NativeApp}
-{App Entwickler Verzeichnis}, \emph{{Native Apps vs. Web Apps - Unterschiede
-  und Vorteile}},
+{App Entwickler Verzeichnis}, \emph{{Native Apps vs. Web Apps -
+  {\\}Unterschiede und Vorteile}},
   \href{https://app-entwickler-verzeichnis.de/faq-app-entwicklung/11-definitionen/586-unterschiede-und-vergleich-native-apps-vs-web-apps-2}
   {https://app-entwickler-verzeichnis.de} (2018).
 
@@ -106,12 +106,9 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
   Pay Attention to in 2017}},
   \href{https://hackernoon.com/top-5-most-popular-css-frameworks-that-you-should-pay-attention-to-in-2017-344a8b67fba1}
   (2018).
-\newpage
+
 \bibitem{HybridApps}
-{Beratung FLYACTS}, \emph{{\\}{Hybrid-Apps – Definition, Eigenschaften,
-  Einsatzorte, Vorteile und Beispiele}},
-  \href{https://www.flyacts.com/hybrid-apps-definition-eigenschaften-einsatzorte-vorteile-und-beispiele}
-  (03.12.2013).
+
 
 \bibitem{PWAAdjectives}
 {Google Developers}, \emph{{Your First Progressive Web App}},
@@ -130,7 +127,7 @@ D.~Fortunato und J.~Bernardino, ,,Progressive web apps: An alternative to the
 
 \bibitem{ServiceWorker}
 {Bitbruder, TobiDo, Heniz}, \emph{{Service Worker API}},
-  \href{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
+  {\\}\href{https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API}
   {https://developer.mozilla.org} (30.01.2018).
 
 \bibitem{PushNotifikation}

@@ -6,10 +6,10 @@
 In diesem Kapitel wird die Umsetzung der Applikation beschrieben.
 
 \section{Anforderungsanalyse}\label{sub:Anforderungsanalyse}
-Die zu entwickelnde Smart Home Applikation muss das Verhalten einer \acs{PWA} aufweisen. Das heißt es müssen die Attribute aus Kapitel \ref{chap:ProgressiveWebapplikationen} eingebaut werden und danach getestet werden siehe Kapitel \ref{chap:Funktionstest}. Außerdem sollen auch APIs entwickelt werden die es möglich machen mit Services von Drittanbietern die Temperatur zu regeln, mit Hilfe von Geolocation API den Standort zu ermitteln um das Garagentor über GPS automatisch öffnen zu können. Ebenso soll das Steuern der Beleuchtung möglich sein. Diese Applikation soll Offline so weit es geht verwendbar sein. Die Anwendung muss Plattformunabhängig und responsive sein.
+Die zu entwickelnde Smart Home Applikation muss das Verhalten einer \acs{PWA} aufweisen. Das heißt es werden die Attribute aus Kapitel \ref{chap:ProgressiveWebapplikationen} eingebaut und danach getestet werden siehe Kapitel \ref{chap:Funktionstest}. Außerdem sollen auch APIs entwickelt werden die es möglich machen mit Services von Drittanbietern die Temperatur zu regeln und mit Hilfe von Geolocation API den Standort zu ermitteln, um das Garagentor über GPS automatisch öffnen zu können. Weiters soll das Steuern der Beleuchtung möglich sein. Diese Applikation soll Offline arbeiten, responsive und plattformunabhängig sein.
 
 \section{Umsetzung der Anforderungen}\label{sub:Umsetzung der Anforderungen}
-Zur Umsetzung der Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse} wurden für User Interface ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet. Sematic-UI soll sicherstellen das die Applikation responsives Verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
+Zur Umsetzung der Anforderungen aus Kapitel \ref{sub:Anforderungsanalyse} wurden für das User Interface ReactJS\footnote{https://reactjs.org/docs/getting-started.html} und als CSS Framework Semantic-UI\footnote{https://react.semantic-ui.com/introduction} verwendet. Semantic-UI soll sicherstellen das die Applikation responsives Verhalten aufweist und für alle Bildschirmgrößen geeignet ist. Um die Daten zu versenden, aufzurufen und zu speichern wurde das JSON Key/Value Format, die Fetch API und der Browser Cache verwendet.
 Als Browser diente der Google Chrome Browser Version 67.
 
 \section{Ausgewählte Programmiersprache und IDE}
@@ -28,11 +28,11 @@ Ebenfalls wichtig ist das app.js File das unter \textit{/app/src/js/app.js} zu f
 	\label{fig:OrdnerStrucktur}
 \end{figure} 
 
-
-\section{Manifest}
-Das Manifest wird im Root Folder eingefügt und ist mit der Endung \acs{JSON} deklariert. Der genaue Pfad ist \textit{/app/manifest.json}. Wie in Kapitel \ref{sub:Manifest} schon beschrieben wurde, definiert das Manifest File das Aussehen des Icon am Startbildschirm, z.B. den Einstiegspunkt der App und den Namen. 
-Die Listing \ref{lst:Manifest.json} zeigt weitere wichtige Eigenschaften:
 \newpage
+\section{Manifest}
+Das Manifest wird im Root Folder eingefügt und ist mit der Endung \acs{JSON} deklariert. Der genaue Pfad ist \textit{/app/manifest.json}. Wie in Kapitel \ref{sub:Manifest} schon beschrieben wurde, definiert das Manifest File das Aussehen des Icons am Startbildschirm, z.B. den Einstiegspunkt der App und den Namen.
+Im Listing \ref{lst:Manifest.json} sind weitere Eigenschaften zu sehen:
+
 \begin{lstlisting}[language=json, firstnumber=1, caption={Manifest in das Projekt implementieren},label=lst:Manifest.json, xleftmargin=50pt]
 {
   {
@@ -64,7 +64,7 @@ Die Listing \ref{lst:Manifest.json} zeigt weitere wichtige Eigenschaften:
 \end{lstlisting}
 \clearpage
 \section{Add to Homescreen}
-Damit der Add to Homescreen Banner erscheint müssen die Bedingungen aus dem Kapitel \ref{sub:AddtoHomescreen}erfüllt werden.
+Damit der Add to Homescreen Banner erscheint müssen die Bedingungen aus dem Kapitel \ref{sub:AddtoHomescreen} erfüllt werden.
 Nach Erfüllung dieser Forderungen wird der beforeinstallprompt Event wie in Listing \ref{lst:AddtoHomescreen} aufgerufen und in die deferredPrompt variable gespeichert.
 
 Verzeichnis: \textit{/app/src/js/app.js}
@@ -137,7 +137,7 @@ Durch die \textit{self.clients.claim()} Methode in Zeile 3 wird sichergestellt, 
 
 In der Callback-Funktion \textit{respondWith()} werden die Daten aufgerufen und die \\match-Methode überprüft ob die Daten sich im Cache befinden.
 Um den Event aufzurufen werden Promises für asynchrone Aufrufe verwendet .
-Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind, wird über den fetch Event aufgerufen und überprüft wie in Abbildung \ref{lst:fetch} zu sehen.
+Um Daten aus dem Netzwerk aufzurufen die nicht im Cachespeicher vorhanden sind, wird über den fetch Event aufgerufen und überprüft wie in Listing \ref{lst:fetch} zu sehen.
 
 Verzeichnis: \textit{/app/sw.js}
 
@@ -182,7 +182,7 @@ let filesToCache = [
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=16cm]{BilderAllgemein/Implementierung/Cache.jpg}\medskip
-	\caption{Cache}
+	\caption{Cache Initialisierung}
 	\label{fig:Cache}
 \end{figure}  
 
@@ -193,13 +193,13 @@ let filesToCache = [
 	\label{fig:aufrufSWBrowser}
 \end{figure}  
 
-In der Abbildung \ref{fig:aufrufSWBrowser} und \ref{fig:Cache} sind die gecachten Files des Service Workers im Netzwerk und im Cache zu erkennen.
+In der Abbildung \ref{fig:Cache} und \ref{fig:aufrufSWBrowser} sind die gecachten Files des Service Workers im Netzwerk und im Cache zu erkennen.
 
 
 
 \clearpage
 \section{Push Notifikation}
-Die Push Benachrichtigungen dienen dem Nutzer dazu bei Änderungen im Haushalt benachrichtigt zu werden, z.B.: wenn das Licht defekt ist oder die Verbindung zur Heizung ausfällt.
+Die Push Benachrichtigungen dienen dem Nutzer dazu bei Änderungen im Smart Home System benachrichtigt zu werden, z.B.: wenn das Licht defekt ist oder die Verbindung zur Heizung ausfällt.
 
 Die Benachrichtigungen wurden in diesem Projekt nicht vom Server aus aufgerufen sondern sind über folgendes Listing im Pfad: \textit{/app/src/app.js} eingetragen. 
 Nach der Überprüfung im Listing \ref{lst:Registrierung} ob die Pushfunktion im Browserscope vorhanden ist, wird in Listing \ref{lst:notificationsListener} der  Eventlistener über eine Callbackfunktion aufgerufen. Bei diesem Prototypen sind die Benachrichtigungen im JSON-File\\ (Verzeichnis: \textit{/app/src/data/notification.json}) und werden über eine fetch-API aufgerufen. Durch die \textit{openWindow()}-Funktion in Zeile 8 wird die Seite mit dem Benachrichtigungstext geöffnet.  
@@ -234,7 +234,7 @@ else {
 }
 \end{lstlisting}
 
-In der Abbildung \ref{fig:GeoSupport} sieht man, dass der Chrome Browser diese Geolocation Funktion unterstützt und man sieht auch die genauen Koordinaten.
+In der Abbildung \ref{fig:GeoSupport} sieht man, dass der Chrome Browser diese Geolocation Funktion unterstützt.
 
 \begin{figure}[h]
 	\centering

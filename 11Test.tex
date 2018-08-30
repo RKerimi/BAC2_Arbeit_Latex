@@ -9,7 +9,7 @@ Als mobiles Testgerät wurde das Nexus X5 mit der Android 8.1.0 Software verwend
 Weiters kann der Emulator von Android Studio verwendet werden um den Test ohne Androidgerät darzustellen. Die Applikation selbst wurde hier nicht behandelt.
  
 \section{Testen auf Mobilen Geräten und Android Studio Emulator}
-Um auf auf dem mobilen Smartphone testen zu können, muss der Developer Modus auf dem Gerät eingeschaltet werden. Dies wird durch das Aktivieren der Entwicklertools und das Freischalten der USB-Debugging Funktion wie in Abbildung \ref{fig:DevToolsAndorid} und \ref{fig:DevToolsChrome} zu sehen ist, erreicht. 
+Um auf dem mobilen Smartphone testen zu können, muss der Developer Modus auf dem Gerät eingeschaltet werden. Dies wird durch das Aktivieren der Entwicklertools und das Freischalten der USB-Debugging Funktion wie in Abbildung \ref{fig:DevToolsAndorid} und \ref{fig:DevToolsChrome} zu sehen ist, erreicht. 
 
 \begin{figure}[h]
 	\centering
@@ -67,14 +67,14 @@ Der Einsatz von Lighthouse über den Browser ist einfach. Nach Eingabe der URL k
 \end{figure}
 
 In beiden Abbildungen \ref{fig:LightH_beforHTTPS_Overview} und \ref{fig:PWA_Test_Lighthouse_noHTTPS} erkennt man, dass die Applikation nur zur Hälfte die PWA Features enthält.
-Dies kommt daher, weil die \acs{PWA} bei diesem Test auf auf dem Localhost läuft und nicht wie von Google gefordert über das HTTPS-Protokoll.
+Dies kommt daher, weil die \acs{PWA} bei diesem Test auf dem Localhost läuft und nicht wie von Google gefordert über das HTTPS-Protokoll.
 Das Projekt wurde für diese Arbeit nicht live gestellt.
 
 
 \section{Add to Homescreen}
 %https://developers.google.com/web/fundamentals/app-install-banners/#test
-Durch dieses Feature sollte die \acs{PWA} dem Benutzer das Gefühl einer Nativen App geben. Doch leider funktioniert diese Funktion nicht immer so wie sie sollte.
-Das Feature ist zurzeit nur auf Android Betriebssystemen und Chrome Browsern verfügbar und ist damit weit entfernt von den Native Apps. Es startet oft nicht automatisch, ist aber durch das Menu aufrufbar wie in Abbildung \ref{fig:ADDHome} zu sehen ist.
+Durch dieses Feature sollte die \acs{PWA} dem Benutzer das Gefühl einer nativen App geben. Doch leider funktioniert diese Funktion nicht immer so wie sie sollte.
+Das Feature ist zurzeit nur auf Android Betriebssystemen und Chrome Browsern verfügbar und ist damit weit entfernt von den nativen Apps. Es startet oft nicht automatisch, ist aber durch das Menü aufrufbar wie in Abbildung \ref{fig:ADDHome} zu sehen ist.
 
 \begin{figure}[h]
 	\centering
@@ -85,8 +85,8 @@ Das Feature ist zurzeit nur auf Android Betriebssystemen und Chrome Browsern ver
 \newpage
 
 \section{Service Worker}
-Die Status des Service Workers wird durch die DevTools geprüft.
-Wie in Abbildung \ref{fig:SWTest} gezeigt ist pro \acs{PWA} nur ein Service Worker aktiv bei drei offenen Tabs. 
+Der Status des Service Workers wird durch die DevTools geprüft.
+Wie in Abbildung \ref{fig:SWTest} gezeigt, ist pro \acs{PWA} nur ein Service Worker aktiv bei drei offenen Tabs. 
 
 \begin{figure}[h]
 	\centering
@@ -95,7 +95,7 @@ Wie in Abbildung \ref{fig:SWTest} gezeigt ist pro \acs{PWA} nur ein Service Work
 	\label{fig:SWTest}
 \end{figure}
 Weiters wurde die Offline Funktion der App getestet.
-Abbildung \ref{fig:Offline} zeigt, dass die Applikation offline funktioniert.
+Die Abbildung \ref{fig:Offline} zeigt, dass die Applikation offline funktioniert.
 
 \begin{figure}[h]
 	\centering
@@ -125,7 +125,7 @@ Um die Nachrichten erhalten zu können, wird die Berechtigung (Abbildung \ref{fi
 \newpage
 
 \section{Geolocation}
-Die Geolocation Funktion muss den Nutzer immer fragen ob dieser seinen Standort bestimmt haben will. Wie in Abbildung \ref{fig:Registrierung} zu sehen ist, wird das in dem Prototypen umgesetzt. In der Abbildung \ref{fig:Maps} sieht man wie der Standort über die Geolocation-API ermittelt worden ist.
+Die Geolocation-Funktion muss den Nutzer immer fragen ob dieser seinen Standort bestimmt haben will. Wie in Abbildung \ref{fig:Registrierung} zu sehen ist, wird das in dem Prototypen umgesetzt. In der Abbildung \ref{fig:Maps} sieht man wie der Standort über die Geolocation-API ermittelt worden ist.
 
 \begin{figure}[h]
 	\centering
@@ -143,15 +143,15 @@ Die Geolocation Funktion muss den Nutzer immer fragen ob dieser seinen Standort 
 
 \newpage
 \section{Vergleich mit Native App}
-Im Vergleich zur Nativen App bietet die \acl{PWA} einige Vorteile, aber auch Nachteile. Die \acs{PWA}s sind responsive, müssen nicht heruntergeladen oder\\ installiert werden und können zudem auf Geräte-APIs zugreifen. Durch die Möglichkeit benachrichtigt zu werden, wenn sich etwas ändert, ist sie auch ein gute Alternative zu den Native Apps.
+Im Vergleich zur nativen App bietet die \acl{PWA} einige Vorteile, aber auch Nachteile. Die \acs{PWA}s sind responsive, müssen nicht heruntergeladen oder\\ installiert werden und können zudem auf Geräte APIs zugreifen. Durch die Möglichkeit benachrichtigt zu werden, wenn sich etwas ändert, ist sie auch eine gute Alternative zu den nativen Apps.
 Dank des Service Workers findet sich auch die Möglichkeit Applikationen offline oder bei niedriger Datenrate zu betreiben. 
 Der Home Screen Banner verkürzt den Zugriff auf die App wesentlich, wodurch eine höhere Kundenbindung erreicht wird.  
 Durch die Entwicklung der \acs{PWA} pushed Google das verschlüsselte Versenden der Nachrichten über das HTTPS-Protokoll.
-Es sind aber auch noch einige Nachteile vorhanden, z.B.: funktionieren die oben genannten Features derzeit mehrheitlich nur auf Androidgeräten und dadurch ist diese Technologie nicht komplett unabhängig vom Betriebssystem.
-Die Browser unterstützen noch nicht alle Features, insbesondere hinkt der Internet Explorer von Microsoft hinterher, das ist deshalb ein Problem, da Unternehmen noch auf diesen Browser setzen. 
+Es sind aber auch noch einige Nachteile vorhanden, z.B. funktionieren die oben genannten Features derzeit mehrheitlich nur auf Androidgeräten und dadurch ist diese Technologie nicht komplett unabhängig vom Betriebssystem.
+Die Browser unterstützen noch nicht alle Features, insbesondere hinkt der Internet Explorer von Microsoft hinterher. Das ist deshalb ein Problem, da Unternehmen noch auf diesen Browser setzen. 
 Durch diese Tatsachen ist die Native App für eine angepasste Anwendung die bessere Wahl. 
-Vorstellbar ist, dass die Technologie sich bei temporär benötigten Webseiten oder Nachrichtendienstseiten durchsetzen kann.
-Die \acs{PWA}s werden die Native Apps wahrscheinlich nie ersetzen, aber sie haben sicher das Potenzial eine dauerhafte Strategie bei der Entwicklung von \acs{Web-App}s zu werden.
+Vorstellbar ist, dass die neue Technologie sich bei temporär benötigten Webseiten oder Nachrichtendienstseiten durchsetzen kann.
+Die \acs{PWA}s werden die nativen Apps wahrscheinlich nie ersetzen, aber sie haben sicher das Potenzial eine dauerhafte Strategie bei der Entwicklung von \acs{Web-App}s zu werden.
 
 
 

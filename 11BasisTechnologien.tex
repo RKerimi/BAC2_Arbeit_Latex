@@ -6,7 +6,7 @@
 In diesem Kapitel werden die Komponenten der \acl{PWA} (\acs{PWA}) erklärt. Weiters werden durch die folgenden Tabellen die wichtigsten Punkte zwischen den verschiedenen Technologien  gegenübergestellt.
 
 \section{Aufbau Progressive Web Apps (PWA)}
-Die \acs{PWA}s sind keine neuen Technologien, vielmehr sind es verbesserte Stategien, Methoden und APIs wie in Abbildung \ref{fig:Komponenten} zu sehen. 
+Die \acs{PWA}s sind keine neuen Technologien, vielmehr sind es verbesserte Strategien, Methoden und APIs wie in Abbildung \ref{fig:Komponenten} zu sehen. 
 Sie erleichtern dem User die Benutzung und den Zugriff einer \acs{Web-App} \cite{AlternativePWA}. 
 
 \begin{figure}[h]
@@ -51,7 +51,7 @@ Updates &  über App-Store & serverseitig & serverseitig\\ \hline
 \begin{tabular} {|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
 \hline\multirow{3}{*}
  										&PWA  & Native & Web App	\\ \hline
-Offline-Zugriff & verfügbar & man muss die App einmal online nutzen, dann sollten die Inhalte im Cache offline verfügbar sein. & nicht möglich\\ \hline
+Offline-Zugriff & verfügbar & man muss die App einmal online nutzen, dann sollten die Inhalte im Cache offline verfügbar sein & nicht möglich\\ \hline
 
 Starten im Vollbildmodus & verfügbar  & verfügbar & nicht möglich\\ \hline
 
@@ -97,19 +97,19 @@ Telefon: SMS oder Anrufe &  verfügbar & nicht verfügbar & nicht verfügbar\\ \
 \newpage
 \clearpage
 
-Wie in den Tabellen ersichtlich, bietet die \acs{PWA} eine Reihe von Vorteilen, z.B. Push Notifikations und Offline-Zugriff, die bei der Benutzung behilflich sein können. Aufgrund dessen stellt sie eine gute Alternative zu den Native Apps dar. Probleme machen die Betriebssysteme, da nicht alle Funktionen auf den verschiedenen Systemen zur Verfügung stehen \cite{PwaNvaWa}.
+Wie in den Tabellen ersichtlich, bietet die \acs{PWA} eine Reihe von Vorteilen, z.B. Push \\  Notifikationen und Offline-Zugriff, die bei der Benutzung behilflich sein können. Aufgrund dessen stellt sie eine gute Alternative zu den nativen Apps dar. Probleme machen die Betriebssysteme, da nicht alle Funktionen auf den verschiedenen Systemen zur Verfügung stehen \cite{PwaNvaWa}.
 In den nächsten Kapiteln werden die Methoden und APIs in der Theorie und im Kapitel \ref{chap:Implementierung} die praktische Anwendung an einer selbst erstellten App erklärt. 
 
 \section{Web App Manifest}\label{sub:Manifest}
 Das App Manifest ist eine JSON Datei die dem Browser verrät, wie sich die \acs{Web-App} bei der Installation auf dem Startbildschirm verhält. Im Manifest werden der Name, der Kurzname, die Größe, das Aussehen der Icons und weitere Eigenschaften definiert. Dessen Zweck ist es der Anwendung auf dem Startbildschirm ihr Aussehen zu verleihen. 
-Das App Manifest.json Datei wird in die gleiche Ebene wie die Index.html Datei in das Projekt eingepflegt und über den folgenden Link-Tag im Header implementiert: 
+Die App Manifest.json Datei wird in die gleiche Ebene, wie die Index.html Datei, in das Projekt eingepflegt und über den folgenden Link-Tag im Header implementiert: 
 
 \begin{lstlisting}[language=HTML, caption={Manifest.json} {\cite{Manifest}},label=lst:Manifest.json, xleftmargin=50pt]
 <link rel="manifest" href="/<Dateinname>">
 \end{lstlisting}
 
 Bei Anwendungen mit mehreren \acs{HTML}-Seiten muss der Link-Tag auf jeder Seite eingefügt werden. 
-Im Listening \ref{lst:Manifest.jsonBsp} ist ein Auszug vom Aufbau dargestellt:
+Im Listing \ref{lst:Manifest.jsonBsp} ist ein Auszug vom Aufbau dargestellt:
 	\begin{lstlisting}[language=json, firstnumber=1, caption={Auszug Manifest.json } ,label=lst:Manifest.jsonBsp, xleftmargin=50pt]
   "name":"PWA Smart Home RMJ",
   "short_name":"PWA_SHL_RMJ",
@@ -131,7 +131,7 @@ Im Listening \ref{lst:Manifest.jsonBsp} ist ein Auszug vom Aufbau dargestellt:
 Im Grunde sind alle Key Value Paare selbst erklärend und auch auf https://developers.google.com/web/fundamentals/web-app-manifest/ sehr gut beschrieben \cite{Manifest}. 
 
 \section{Add to Homescreen}\label{sub:AddtoHomescreen}
-Diese Funktion erleichtert es den Benutzern die App auf dem Desktop oder Startbildschirms zu installieren. Nach der Installation wird die PWA zum launcher hinzugefügt und wie alle anderen installierten Apps ausgeführt.
+Diese Funktion erleichtert es den Benutzern die App auf dem Desktop oder Startbildschirm zu installieren. Nach der Installation wird die PWA zum Launcher hinzugefügt und wie alle anderen installierten Apps ausgeführt.
 Um den Banner auf dem mobilen Gerät anzuzeigen, müssen folgende Kriterien erfüllt werden \cite{AddToHomescreen}.
 
 
@@ -164,7 +164,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 \end{lstlisting}
 
-In der Abbildung \ref{fig:BrowserManifest} sieht man die Browserkompabilität des Manifest Files zum Stand Juli 2018.
+In der Abbildung \ref{fig:BrowserManifest} sieht man die Browserkompatibilität des Manifest Files zum Stand Juli 2018.
  
 \begin{figure}[H]
 	\centering
@@ -186,14 +186,14 @@ Der Service Worker ist ein Script, das vom Browser im Hintergrund ausgeführt wi
 	\label{fig:SWProxy}
 \end{figure}
 
-Ein Service Worker wird von einem Worker-Kontext ausgeführt, hat keinen DOM Zugriff und wird als Haupt-Java Script Thread verwendet \cite{Worker} \cite{ServiceWorker}.
+Ein Service Worker wird von einem Worker-Kontext ausgeführt, hat keinen DOM Zugriff und wird als Haupt-JavaScript Thread verwendet \cite{Worker} \cite{ServiceWorker}.
 Der komplizierteste Teil des Service Worker ist sein Lebenszyklus. 
 \newpage
 Die Aufgaben der Lebenszyklen sind wie folgt definiert:
 
 \begin{itemize}
     \item  Offlineverwendung
-	\item  störung eines anderen Service Workers verhindern
+	\item  Störung eines anderen Service Workers verhindern
 	\item  stellt sicher, dass nur ein Service Worker für eine Seite zuständig ist
 	\item  stellt sicher dass nur eine Version der Webseite gleichzeitig ausgeführt wird
 \end{itemize}
@@ -254,9 +254,9 @@ In der Abbildung \ref{fig:Aktivierung} ist zu sehen wie die Installation erst be
 Nach der Installation wird der Service Worker aktiviert und steht damit der Applikation zur Verfügung.
 
 
-Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist, kann der Service Worker nach der Übernahme der Steuerung zwei Zustände übernehmen, entweder wird dieser beendet oder er übernimmt die Verwaltung der Netzwerkanfragen und der Nachrichten \cite{ServiceWorkerRegistration}.
+Wie in Abbildung \ref{fig:Erstinstallation} zu sehen ist, kann der Service Worker nach der Übernahme der Steuerung zwei Zustände übernehmen. Entweder wird dieser beendet oder er verwaltet die Netzwerkanfragen und die Nachrichten.
 Die Service Worker API stellt eine Cache-Schnittstelle zum Speichern von Daten auf dem Browser, im Browsercache, zur Verfügung. Die API wurde ursprünglich für den Service Worker entwickelt, diese kann aber von jedem anderen Script verwendet werden. 
-Wie die API gestaltet wird, hängt von den Anforderungen der Applikation ab.
+Wie die API gestaltet wird, hängt von den Anforderungen der Applikation ab \cite{ServiceWorkerRegistration}.
 
 
 \begin{figure}[H]
@@ -282,16 +282,13 @@ In der Abbildung \ref{fig:BrowserSW} sieht man die Browserkompabilität des Serv
 
 
 \section{Push Notifikation}
-Um dem User das Gefühl von Nativen Applikationen zu vermitteln, ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem Service Worker gibt den \acl{Web-App} ein individuelles Verhalten, dass bis jetzt den Native Apps vorbehalten war.
-Unternehmen bekommen, durch Push APIs und Notification APIs, neue Möglichkeiten mit dem Nutzer in Kontakt zu treten und ihn mit personalisierten, relevanten Inhalten zu versorgen.
-Zur Benachrichtigung oder für Push werden zwei Technologien eingesetzt. Mit Hilfe von Push werden vom Service Informationen an den Service Worker gesendet. Um Informationen vom Service Worker zum Nutzer zu senden, werden Benachrichtigungen verwendet. Die Technologien verwenden für diese Datenübertragung sich ergänzende APIs \cite{PushNotifikation}. \\
+Um dem User das Gefühl von nativen Applikationen zu vermitteln, ist die Push Funktion unablässig. Erst diese Funktion in Kombination mit dem Service Worker gibt den \acl{Web-App}s ein individuelles Verhalten, dass bis jetzt den nativen Apps vorbehalten war.
+Unternehmen haben, durch die Push Nachrichten, neue Möglichkeiten mit dem Nutzer in Kontakt zu treten und ihn mit personalisierten, relevanten Inhalten zu versorgen.
+Zur Benachrichtigung oder für Push werden zwei Technologien eingesetzt. Mit Hilfe von Push werden vom Server Informationen an den Service Worker gesendet. Um Informationen vom Service Worker zum Nutzer zu senden, werden Benachrichtigungen verwendet. Die Technologien verwenden für diese Datenübertragung sich ergänzende APIs \cite{PushNotifikation}. \\
 Im Kapitel \ref{chap:Implementierung} wird die praktische Verwendung der Benachrichtigungen genauer beschrieben.  
  
 
-Hier wird wie in Kapitel \ref{sub:ServiceWorker} die Browserunterstützung vom Service Worker und den Push Benachrichtigungen überprüft \cite{PushNotifikation}.
-
-
-In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der Push API zum Stand Juli 2018.
+In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompatibilität der Push API zum Stand Juli 2018.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{BilderAllgemein/BrowserPushAPI}\medskip
@@ -301,7 +298,7 @@ In der Abbildung \ref{fig:BrowserPushAPI} sieht man die Browserkompabilität der
 
 
 
-
+\newpage
 \section{Geolocation API}
 %https://appdevelopermagazine.com/5877/2018/3/1/progressive-web-apps-vs-native-apps:-showdown-in-2018/
 Die Geolocation API kann nach Zustimmung des Benutzers den Standort bestimmen. Diese Funktion wird verwendet  um den Anwendern zusätzliche Vorteile zu bringen, wie z.B.: Optimierung von Benutzeranfragen, Bestimmen des Standortes und Backendaufnahmen von Standortdaten für Datensammlung. 
