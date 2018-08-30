@@ -8,13 +8,13 @@
 \contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Geschichte Softwareentwicklung}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Native Apps}{4}{section.2.2}
+\contentsline {section}{\numberline {2.2}Native App}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Web App}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Hybrid App}{4}{section.2.4}
 \contentsline {section}{\numberline {2.5}Progressive Web App}{5}{section.2.5}
 \contentsline {chapter}{\numberline {3}Features und Merkmale}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}Aufbau Progressive Web Apps (PWA)}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Unterschiede PWA, Native Applikation und Web-Apps}{6}{section.3.2}
+\contentsline {section}{\numberline {3.1}Aufbau Progressive Web App (PWA)}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}Unterschiede PWA, native Applikation und Web-App}{6}{section.3.2}
 \contentsline {section}{\numberline {3.3}Web App Manifest}{8}{section.3.3}
 \contentsline {section}{\numberline {3.4}Add to Homescreen}{9}{section.3.4}
 \contentsline {section}{\numberline {3.5}Service Worker}{10}{section.3.5}
@@ -33,12 +33,12 @@
 \contentsline {section}{\numberline {4.10}Geolocation API}{25}{section.4.10}
 \contentsline {chapter}{\numberline {5}Funktionstest/Validierung}{26}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ausgangsbedingung und Ausgrenzung}{26}{section.5.1}
-\contentsline {section}{\numberline {5.2}Testen auf Mobilen Ger\IeC {\"a}ten und Android Studio Emulator}{26}{section.5.2}
+\contentsline {section}{\numberline {5.2}Testen auf mobilen Ger\IeC {\"a}ten und Android Studio Emulator}{26}{section.5.2}
 \contentsline {section}{\numberline {5.3}Lighthouse}{27}{section.5.3}
 \contentsline {section}{\numberline {5.4}Add to Homescreen}{29}{section.5.4}
 \contentsline {section}{\numberline {5.5}Service Worker}{30}{section.5.5}
 \contentsline {section}{\numberline {5.6}Push Notifikation}{31}{section.5.6}
 \contentsline {section}{\numberline {5.7}Geolocation}{32}{section.5.7}
-\contentsline {section}{\numberline {5.8}Vergleich mit Native App}{33}{section.5.8}
+\contentsline {section}{\numberline {5.8}Vergleich mit nativer App}{33}{section.5.8}
 \contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{34}{chapter.6}
 \contentsline {chapter}{Literatur}{35}{chapter.6}
