@@ -99,7 +99,8 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
 
 \bibitem{WebApps}
 {Stephan Augsten}, \emph{{Defintion „Webanwendung“ Was ist eine Web App?}},
-  \href{https://www.dev-insider.de/was-ist-eine-web-app-a-596814} (20.04.2017).
+  \href{https://www.dev-insider.de/was-ist-eine-web-app-a-596814}
+  {https://www.dev-insider.de}(20.04.2017).
 
 \bibitem{CSS}
 {Anton Shaleynikov}, \emph{{Top 5 Most Popular CSS Frameworks that You Should
@@ -108,7 +109,10 @@ A.~Luntovskyy, ,,Advanced software-technological approaches for mobile apps
   (2018).
 
 \bibitem{HybridApps}
-
+{Beratung FLYACTS}, \emph{{Hybrid-Apps – Definition, Eigenschaften,
+  Einsatzorte, Vorteile und Beispiele}},
+  \href{https://www.flyacts.com/hybrid-apps-definition-eigenschaften-einsatzorte-vorteile-und-beispiele}
+  {https://www.flyacts.com} (03.12.2013).
 
 \bibitem{PWAAdjectives}
 {Google Developers}, \emph{{Your First Progressive Web App}},
